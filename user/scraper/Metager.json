@@ -1,0 +1,10 @@
+{
+    "__comment": "How to use this config file; Search Engine = Name of the Search Engine, SearchString the Search string in browser with all get parameters all are placeholders here which will be processed in the app",
+    "__comment": "Configuration for FakeSearch Scraper all parameter starting with [[ will be replaced or calculated in the app",
+    "search engine": "Metager", 
+    "searchstring": "https://metager.de/meta/meta.ger3?eingabe=[[term]]&focus=web&encoding=utf8&lang=all",
+    "xpath_results": "//div[@class='result row']//a[@class='title']",
+    "next_serp": {"part_before":"", "xpath":"//li//a[text()='Weitersuchen']", "part_after":""},
+    "api-key": "",
+    "max-pages":10
+}

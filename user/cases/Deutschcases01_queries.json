@@ -1,0 +1,36 @@
+{	"__comment":"JSON file for scrapers its important to call the scrapers like their filenames",
+    "Queries": [{"ID":"1", "Queries":["Lebensmittel","Nahrung","Nahrungsergänzungsmittel","Tiefkühlprodukte","Frischeprodukte","Backwaren","Bier","Brot","Butter","Eier","Eis","Fisch","Fleisch","Gemüse","Getränke","Gewürze","Honig","Kaffee","Käse","Konfitüre","Kuchen","Marmelade","Müsli","Obst","Pilze","Salat","Schokolade","Spirituosen","Suppen","Tee","Teigwaren","Torte","Wein","Wurst","Zucker"], "Extension":["liefern lassen", "lieferservice", "bestellen", "online", "online bestellen", "online kaufen", "kaufen", "onlinesupermarkt"]}, {"ID":"2", "Queries":["",""], "Extension":["",""]}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

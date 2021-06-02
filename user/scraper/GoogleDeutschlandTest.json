@@ -1,0 +1,10 @@
+{
+    "__comment": "How to use this config file; Search Engine = Name of the Search Engine, SearchString the Search string in browser with all get parameters all are placeholders here which will be processed in the app",
+    "__comment": "Configuration for Google Scraper all parameter starting with [[ will be replaced or calculated",
+    "search engine":"GoogleDeutschlandTest", 
+    "searchstring":"https://www.google.de/search?hl=de&site=&source=hp&q=[[term]]&lr=lang_de&num=10",
+    "xpath_results":"//h3[@class='r']/a",
+    "next_serp": {"part_before":"https://www.google.de", "xpath":"//a[@id='pnnext']", "part_after":"&num=10"},
+    "api-key": "",
+    "max-pages":1
+}

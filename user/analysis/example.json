@@ -1,0 +1,42 @@
+{
+    "auto": {
+        "1": [{
+                "Unternehmer": "HAW Hamburg"
+            }, {
+                "Strasse": "Finkenau 35"
+            }, {
+                "PLZ": "22081"
+            }, {
+                "Ort": "Hamburg"
+            },
+            {
+                "Bundesland": "Hamburg"
+            }, {
+                "Kreis": "Hamburg"
+            }],
+        "2": 90,
+        "3": 80,
+        "4": 60,
+        "5": [{}]
+    },
+    "manual": {
+        "1": [{
+                "Unternehmer": "HAW Hamburg"
+            }, {
+                "Strasse": "Finkenau 35"
+            }, {
+                "PLZ": "22081"
+            }, {
+                "Ort": "Hamburg"
+            },
+            {
+                "Bundesland": "Hamburg"
+            }, {
+                "Kreis": "Hamburg"
+            }],
+        "2": 100,
+        "3": 100,
+        "4": 0,
+        "5": [{}]
+    }    
+}

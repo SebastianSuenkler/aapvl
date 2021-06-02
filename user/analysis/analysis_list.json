@@ -1,0 +1,3 @@
+{	"__comment":"JSON file for scrapers its important to call the scrapers like their filenames",
+    "Analysemodule": [{"ID":"1", "Name":"Impressumserkennung"}, {"ID":"2", "Name":"Shoperkennung"}, {"ID":"3", "Name":"Lebensmittelshoperkennung"}, {"ID":"4","Name":"Produktseitenerkennung"}, {"ID":"5","Name":"Verdachtsanalyse"}]
+}

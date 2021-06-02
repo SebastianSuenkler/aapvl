@@ -1,0 +1,5 @@
+{	"__comment":"JSON file for scrapers its important to call the scrapers like their filenames",
+    "Config": [{"ID":"3", "Name":"Lebensmittel", "Modules":[1,2,3], "Crawlers":[1], "Screenshots":1}, {"ID":"2", "Name":"Futtermittel", "Modules":[1,2,3], "Crawlers":[1], "Screenshots":1}, {"ID":"1", "Name":"Lebensmittel Kontaktmaterial", "Modules":[1,2,3], "Crawlers":[1], "Screenshots":1}],
+    "Risk Decision":[{"ID":"3", "Name":"Serious"},{"ID":"1", "Name":"Not serious"},{"ID":"2", "Name":"Undecided"}],
+    "Classification":[{"ID":"5", "Name":"Alert"},{"ID":"4", "Name":"Border rejection"},{"ID":"3", "Name":"Information"},{"ID":"2", "Name":"Information for attention"},{"ID":"1", "Name":"Information for follow-up"}]
+}

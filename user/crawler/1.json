@@ -1,0 +1,23 @@
+{
+    "__comment": "How to use this config file", 
+    "__comment": "Config for ImpressenCrawler",
+    "id":1,
+    "crawler": "Impressen",
+    "depth": "",
+    "url_filter": [{
+            "keyword": "impressum",
+            "weight": "5"
+        }, {
+            "keyword": "kontakt",
+            "weight": "3"
+        }, {
+            "keyword": "über",
+            "weight": "2"
+        }, {
+            "keyword": "about",
+            "weight": "1"
+        }, {
+            "keyword": "contact",
+            "weight": "1"
+        }]
+}

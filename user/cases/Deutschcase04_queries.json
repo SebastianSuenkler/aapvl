@@ -1,0 +1,3 @@
+{	"__comment":"JSON file for scrapers its important to call the scrapers like their filenames",
+    "Queries": [{"ID":"0", "Queries":[], "Extension":[]}]
+}
