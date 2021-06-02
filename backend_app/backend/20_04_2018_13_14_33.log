@@ -1,0 +1,426 @@
+DEBUG(2018-04-20 13:14:33,133):worker.py at 89:initializing worker
+DEBUG(2018-04-20 13:14:33,133):db_interface.py at 45:initializing database-interface
+DEBUG(2018-04-20 13:14:33,133):db_interface.py at 66:connecting to database with user config
+DEBUG(2018-04-20 13:14:33,136):db_interface.py at 48:initialized database-interface
+DEBUG(2018-04-20 13:14:33,136):classifier.py at 82:initializing classifier
+DEBUG(2018-04-20 13:14:33,136):classifier.py at 86:loading classifier
+DEBUG(2018-04-20 13:14:38,657):probability.py at 91:initializing probability object
+DEBUG(2018-04-20 13:14:38,657):probability.py at 93:loading the variables
+DEBUG(2018-04-20 13:14:38,657):probability.py at 95:initialized probability object
+DEBUG(2018-04-20 13:14:38,657):classifier.py at 97:initialized classifier
+DEBUG(2018-04-20 13:14:38,657):classifier.py at 82:initializing classifier
+DEBUG(2018-04-20 13:14:38,658):classifier.py at 86:loading classifier
+DEBUG(2018-04-20 13:14:38,693):probability.py at 91:initializing probability object
+DEBUG(2018-04-20 13:14:38,693):probability.py at 93:loading the variables
+DEBUG(2018-04-20 13:14:38,693):probability.py at 95:initialized probability object
+DEBUG(2018-04-20 13:14:38,693):classifier.py at 97:initialized classifier
+DEBUG(2018-04-20 13:14:38,693):classifier.py at 82:initializing classifier
+DEBUG(2018-04-20 13:14:38,693):classifier.py at 86:loading classifier
+DEBUG(2018-04-20 13:14:42,411):probability.py at 91:initializing probability object
+DEBUG(2018-04-20 13:14:42,412):probability.py at 93:loading the variables
+DEBUG(2018-04-20 13:14:42,412):probability.py at 95:initialized probability object
+DEBUG(2018-04-20 13:14:42,412):classifier.py at 97:initialized classifier
+DEBUG(2018-04-20 13:14:43,569):worker.py at 110:initialized worker
+DEBUG(2018-04-20 13:14:43,569):worker.py at 581:started schedule with -1 tries, 3600 delay and 4 checks per day
+DEBUG(2018-04-20 13:14:43,569):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:14:43,569):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:14:43,666):db_interface.py at 96:returning results
+INFO(2018-04-20 13:14:43,667):worker.py at 438:processing job 240676
+DEBUG(2018-04-20 13:14:43,668):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/haw-hamburg.de_2018-04-20_584343.txt, 1,2,6,10
+DEBUG(2018-04-20 13:14:43,668):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/haw-hamburg.de_2018-04-20_584343.txt
+DEBUG(2018-04-20 13:14:43,686):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:14:43,687):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:14:43,687):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:14:43,688):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:14:43,688):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/haw-hamburg.de_2018-04-20_584343.txt
+DEBUG(2018-04-20 13:14:43,703):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:14:43,704):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:14:43,704):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:14:43,704):worker.py at 134:handling impressum
+INFO(2018-04-20 13:14:43,704):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:14:43,704):worker.py at 275:parts: []
+DEBUG(2018-04-20 13:14:43,704):worker.py at 277:clean parts: []
+DEBUG(2018-04-20 13:14:43,704):worker.py at 279:joined parts: []
+DEBUG(2018-04-20 13:14:43,704):worker.py at 281:to_check: []
+DEBUG(2018-04-20 13:14:43,704):bioc.py at 113:get certificate for addresss: []
+DEBUG(2018-04-20 13:14:43,704):bioc.py at 120:got 0 idxs for 0 addresses
+DEBUG(2018-04-20 13:14:43,704):bioc.py at 124:got 0 infos
+DEBUG(2018-04-20 13:14:43,704):bioc.py at 141:returning 0 results
+INFO(2018-04-20 13:14:43,704):worker.py at 145:handling shop
+INFO(2018-04-20 13:14:45,017):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:14:45,087):worker.py at 291:done with job
+DEBUG(2018-04-20 13:14:45,087):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:14:45,091):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:14:45,091):worker.py at 371:update for toplevel domain None with site 584343
+DEBUG(2018-04-20 13:14:45,091):worker.py at 375:fk_resources for parent: 584343
+DEBUG(2018-04-20 13:14:45,091):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:14:45,091):db_interface.py at 134:selecting results for 584343
+DEBUG(2018-04-20 13:14:45,396):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:14:45,396):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:14:45,396):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:14:45,396):db_interface.py at 159:updating the results for pk: 238690
+DEBUG(2018-04-20 13:14:45,398):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:14:45,398):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:14:45,398):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:14:45,398):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:14:45,495):db_interface.py at 96:returning results
+INFO(2018-04-20 13:14:45,495):worker.py at 438:processing job 240677
+DEBUG(2018-04-20 13:14:45,495):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/haw-hamburg.de_2018-04-20_584344.txt, 1,2,6,10
+DEBUG(2018-04-20 13:14:45,495):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/haw-hamburg.de_2018-04-20_584344.txt
+DEBUG(2018-04-20 13:14:45,510):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:14:45,511):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:14:45,511):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:14:45,511):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:14:45,511):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/haw-hamburg.de_2018-04-20_584344.txt
+DEBUG(2018-04-20 13:14:45,525):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:14:45,526):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:14:45,526):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:14:45,527):worker.py at 134:handling impressum
+DEBUG(2018-04-20 13:14:45,527):impressum.py at 101:lemediengesetz (TMG) : Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg) Berliner Tor 5 20099 Hamburg Deutschland Tel. +49.40.428 75
+DEBUG(2018-04-20 13:14:45,528):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': u'Hamburg-Mitte', 'Land': u'Deutschland ', 'Ort': u'Hamburg ', 'PLZ': u'20099 ', 'Bundesland': u'Hamburg', 'Unternehmen': None, 'Strasse': u'Berliner Tor 5 '})
+DEBUG(2018-04-20 13:14:45,528):impressum.py at 101:wird gesetzlich vertreten durch Prof. Dr. Micha Teuscher, Präsident der HAW Hamburg, Berliner Tor 5, D-20099 Hamburg. Zuständige Aufsichtsbehörde B
+WARNING(2018-04-20 13:14:45,529):impressum.py at 137:couldn't find bds and kr for 
+DEBUG(2018-04-20 13:14:45,529):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': None, 2: '', 'Land': None, 'Ort': u'Hamburg. ', 'PLZ': u'D-20099 ', 'Bundesland': None, 'Unternehmen': u'HAW Hamburg, ', 'Strasse': u'Berliner Tor 5, '})
+DEBUG(2018-04-20 13:14:45,529):impressum.py at 101:ür Wissenschaft, Forschung und Gleichstellung der Freien und Hansestadt Hamburg Hamburger Straße 37, D-22083 Hamburg Umsatzsteueridentifikationsnum
+WARNING(2018-04-20 13:14:45,529):impressum.py at 137:couldn't find bds and kr for 
+DEBUG(2018-04-20 13:14:45,529):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': None, 2: '', 'Land': None, 'Ort': u'Hamburg ', 'PLZ': u'D-22083 ', 'Bundesland': None, 'Unternehmen': None, 'Strasse': u'Hamburger Stra\xdfe 37, '})
+DEBUG(2018-04-20 13:14:45,529):impressum.py at 101:ten der HAW Hamburg: Matthias Echterhagen HAW Hamburg Leiter Presse und Kommunikation Berliner Tor 5 D-20099 Hamburg Tel. +49.40.428 75-9280 Fax +4
+WARNING(2018-04-20 13:14:45,530):impressum.py at 137:couldn't find bds and kr for 
+DEBUG(2018-04-20 13:14:45,530):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': None, 2: '', 'Land': None, 'Ort': u'Hamburg ', 'PLZ': u'D-20099 ', 'Bundesland': None, 'Unternehmen': None, 'Strasse': u'Berliner Tor 5 '})
+DEBUG(2018-04-20 13:14:45,530):impressum.py at 101:8 75 90 19 web(@)haw-hamburg.de Maren Borgerding (Redaktion) HAW Hamburg Webredaktion Berliner Tor 5 D-20099 Hamburg Tel. +49.40.428 75-9847 Fax +4
+WARNING(2018-04-20 13:14:45,531):impressum.py at 137:couldn't find bds and kr for 
+DEBUG(2018-04-20 13:14:45,531):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': None, 2: '', 'Land': None, 'Ort': u'Hamburg ', 'PLZ': u'D-20099 ', 'Bundesland': None, 'Unternehmen': None, 'Strasse': u'Berliner Tor 5 '})
+DEBUG(2018-04-20 13:14:45,531):impressum.py at 101:n, Medien und Information ( DMI ) HAW Hamburg Prof. Dorothea Wenzel Dekanin Fakultät DMI Finkenau 35 D-22081 Hamburg Tel. +49.40.428 75.4635 Fax +4
+WARNING(2018-04-20 13:14:45,532):impressum.py at 137:couldn't find bds and kr for 
+DEBUG(2018-04-20 13:14:45,532):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': None, 2: '', 'Land': None, 'Ort': u'Hamburg ', 'PLZ': u'D-22081 ', 'Bundesland': None, 'Unternehmen': None, 'Strasse': u'Finkenau 35 '})
+DEBUG(2018-04-20 13:14:45,532):impressum.py at 101:fe Sciences ( LS ) HAW Hamburg Prof. Dr. Heinrich-Andreas Biesterfeld Dekan Fakultät LS Ulmenliet 20 D-21033 Hamburg Tel. +49.40.428 75-6400 Fax +4
+WARNING(2018-04-20 13:14:45,533):impressum.py at 137:couldn't find bds and kr for 
+DEBUG(2018-04-20 13:14:45,533):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': None, 2: '', 'Land': None, 'Ort': u'Hamburg ', 'PLZ': u'D-21033 ', 'Bundesland': None, 'Unternehmen': None, 'Strasse': u'Ulmenliet 20 '})
+DEBUG(2018-04-20 13:14:45,533):impressum.py at 101:akultät Technik und Informatik ( TI ) HAW Hamburg Dr. Thomas Flower Dekan Fakultät TI Berliner Tor 7 D-20099 Hamburg Tel. +49.40-428 75-8000 Fax +4
+WARNING(2018-04-20 13:14:45,534):impressum.py at 137:couldn't find bds and kr for 
+DEBUG(2018-04-20 13:14:45,534):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': None, 2: '', 'Land': None, 'Ort': u'Hamburg ', 'PLZ': u'D-20099 ', 'Bundesland': None, 'Unternehmen': None, 'Strasse': u'Berliner Tor 7 '})
+DEBUG(2018-04-20 13:14:45,534):impressum.py at 101: 86 19 ti(@)haw-hamburg.de Fakultät Wirtschaft und Soziales (W&S) HAW Hamburg N.N. Alexanderstraße 1 D-20099 Hamburg Tel. +49.40-428 75-7010 Fax +4
+WARNING(2018-04-20 13:14:45,535):impressum.py at 137:couldn't find bds and kr for 
+DEBUG(2018-04-20 13:14:45,535):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': None, 2: '', 'Land': None, 'Ort': u'Hamburg ', 'PLZ': u'D-20099 ', 'Bundesland': None, 'Unternehmen': None, 'Strasse': u'Alexanderstra\xdfe 1 '})
+INFO(2018-04-20 13:14:45,535):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:14:45,535):worker.py at 275:parts: [[u'Berliner Tor 5 ', u'20099 ', u'Hamburg '], [u'Berliner Tor 5 ', 'DE', u'20099 ', u'Hamburg '], [u'Berliner Tor 5, ', u'D-20099 ', u'Hamburg. '], [u'Berliner Tor 5, ', 'DE', u'D-20099 ', u'Hamburg. '], [u'Berliner Tor 5, ', u'20099 ', u'Hamburg. '], [u'Hamburger Stra\xdfe 37, ', u'D-22083 ', u'Hamburg '], [u'Hamburger Stra\xdfe 37, ', 'DE', u'D-22083 ', u'Hamburg '], [u'Hamburger Stra\xdfe 37, ', u'22083 ', u'Hamburg '], [u'Berliner Tor 5 ', u'D-20099 ', u'Hamburg '], [u'Berliner Tor 5 ', 'DE', u'D-20099 ', u'Hamburg '], [u'Berliner Tor 5 ', u'20099 ', u'Hamburg '], [u'Berliner Tor 5 ', u'D-20099 ', u'Hamburg '], [u'Berliner Tor 5 ', 'DE', u'D-20099 ', u'Hamburg '], [u'Berliner Tor 5 ', u'20099 ', u'Hamburg '], [u'Finkenau 35 ', u'D-22081 ', u'Hamburg '], [u'Finkenau 35 ', 'DE', u'D-22081 ', u'Hamburg '], [u'Finkenau 35 ', u'22081 ', u'Hamburg '], [u'Ulmenliet 20 ', u'D-21033 ', u'Hamburg '], [u'Ulmenliet 20 ', 'DE', u'D-21033 ', u'Hamburg '], [u'Ulmenliet 20 ', u'21033 ', u'Hamburg '], [u'Berliner Tor 7 ', u'D-20099 ', u'Hamburg '], [u'Berliner Tor 7 ', 'DE', u'D-20099 ', u'Hamburg '], [u'Berliner Tor 7 ', u'20099 ', u'Hamburg '], [u'Alexanderstra\xdfe 1 ', u'D-20099 ', u'Hamburg '], [u'Alexanderstra\xdfe 1 ', 'DE', u'D-20099 ', u'Hamburg '], [u'Alexanderstra\xdfe 1 ', u'20099 ', u'Hamburg ']]
+DEBUG(2018-04-20 13:14:45,535):worker.py at 277:clean parts: [[u'Berliner Tor 5 ', u'20099 ', u'Hamburg '], [u'Berliner Tor 5 ', 'DE', u'20099 ', u'Hamburg '], [u'Berliner Tor 5, ', u'D-20099 ', u'Hamburg. '], [u'Berliner Tor 5, ', 'DE', u'D-20099 ', u'Hamburg. '], [u'Berliner Tor 5, ', u'20099 ', u'Hamburg. '], [u'Hamburger Stra\xdfe 37, ', u'D-22083 ', u'Hamburg '], [u'Hamburger Stra\xdfe 37, ', 'DE', u'D-22083 ', u'Hamburg '], [u'Hamburger Stra\xdfe 37, ', u'22083 ', u'Hamburg '], [u'Berliner Tor 5 ', u'D-20099 ', u'Hamburg '], [u'Berliner Tor 5 ', 'DE', u'D-20099 ', u'Hamburg '], [u'Berliner Tor 5 ', u'20099 ', u'Hamburg '], [u'Berliner Tor 5 ', u'D-20099 ', u'Hamburg '], [u'Berliner Tor 5 ', 'DE', u'D-20099 ', u'Hamburg '], [u'Berliner Tor 5 ', u'20099 ', u'Hamburg '], [u'Finkenau 35 ', u'D-22081 ', u'Hamburg '], [u'Finkenau 35 ', 'DE', u'D-22081 ', u'Hamburg '], [u'Finkenau 35 ', u'22081 ', u'Hamburg '], [u'Ulmenliet 20 ', u'D-21033 ', u'Hamburg '], [u'Ulmenliet 20 ', 'DE', u'D-21033 ', u'Hamburg '], [u'Ulmenliet 20 ', u'21033 ', u'Hamburg '], [u'Berliner Tor 7 ', u'D-20099 ', u'Hamburg '], [u'Berliner Tor 7 ', 'DE', u'D-20099 ', u'Hamburg '], [u'Berliner Tor 7 ', u'20099 ', u'Hamburg '], [u'Alexanderstra\xdfe 1 ', u'D-20099 ', u'Hamburg '], [u'Alexanderstra\xdfe 1 ', 'DE', u'D-20099 ', u'Hamburg '], [u'Alexanderstra\xdfe 1 ', u'20099 ', u'Hamburg ']]
+DEBUG(2018-04-20 13:14:45,535):worker.py at 279:joined parts: [u'Berliner Tor 5  20099  Hamburg ', u'Berliner Tor 5  DE 20099  Hamburg ', u'Berliner Tor 5,  D-20099  Hamburg. ', u'Berliner Tor 5,  DE D-20099  Hamburg. ', u'Berliner Tor 5,  20099  Hamburg. ', u'Hamburger Stra\xdfe 37,  D-22083  Hamburg ', u'Hamburger Stra\xdfe 37,  DE D-22083  Hamburg ', u'Hamburger Stra\xdfe 37,  22083  Hamburg ', u'Berliner Tor 5  D-20099  Hamburg ', u'Berliner Tor 5  DE D-20099  Hamburg ', u'Berliner Tor 5  20099  Hamburg ', u'Berliner Tor 5  D-20099  Hamburg ', u'Berliner Tor 5  DE D-20099  Hamburg ', u'Berliner Tor 5  20099  Hamburg ', u'Finkenau 35  D-22081  Hamburg ', u'Finkenau 35  DE D-22081  Hamburg ', u'Finkenau 35  22081  Hamburg ', u'Ulmenliet 20  D-21033  Hamburg ', u'Ulmenliet 20  DE D-21033  Hamburg ', u'Ulmenliet 20  21033  Hamburg ', u'Berliner Tor 7  D-20099  Hamburg ', u'Berliner Tor 7  DE D-20099  Hamburg ', u'Berliner Tor 7  20099  Hamburg ', u'Alexanderstra\xdfe 1  D-20099  Hamburg ', u'Alexanderstra\xdfe 1  DE D-20099  Hamburg ', u'Alexanderstra\xdfe 1  20099  Hamburg ']
+DEBUG(2018-04-20 13:14:45,539):worker.py at 281:to_check: [u'berliner tor 5 20099 hamburg', u'berliner tor 5 de 20099 hamburg', u'berliner tor 5 d-20099 hamburg', u'berliner tor 5 damm 20099 hamburg', u'berliner tor 5 d 20099 hamburg', u'berliner tor 5 de d-20099 hamburg', u'berliner tor 5 de damm 20099 hamburg', u'berliner tor 5 de d 20099 hamburg', u'berliner tor 5 20099 hamburg', u'hamburger strasse 37 d-22083 hamburg', u'hamburger strasse 37 damm 22083 hamburg', u'hamburger strasse 37 d 22083 hamburg', u'hamburger strasse 37 de d-22083 hamburg', u'hamburger strasse 37 de damm 22083 hamburg', u'hamburger strasse 37 de d 22083 hamburg', u'hamburger strasse 37 22083 hamburg', u'berliner tor 5 d-20099 hamburg', u'berliner tor 5 damm 20099 hamburg', u'berliner tor 5 d 20099 hamburg', u'berliner tor 5 de d-20099 hamburg', u'berliner tor 5 de damm 20099 hamburg', u'berliner tor 5 de d 20099 hamburg', u'berliner tor 5 20099 hamburg', u'berliner tor 5 d-20099 hamburg', u'berliner tor 5 damm 20099 hamburg', u'berliner tor 5 d 20099 hamburg', u'berliner tor 5 de d-20099 hamburg', u'berliner tor 5 de damm 20099 hamburg', u'berliner tor 5 de d 20099 hamburg', u'berliner tor 5 20099 hamburg', u'finkenau 35 d-22081 hamburg', u'finkenau 35 damm 22081 hamburg', u'finkenau 35 d 22081 hamburg', u'finkenau 35 de d-22081 hamburg', u'finkenau 35 de damm 22081 hamburg', u'finkenau 35 de d 22081 hamburg', u'finkenau 35 22081 hamburg', u'ulmenliet 20 d-21033 hamburg', u'ulmenliet 20 damm 21033 hamburg', u'ulmenliet 20 d 21033 hamburg', u'ulmenliet 20 de d-21033 hamburg', u'ulmenliet 20 de damm 21033 hamburg', u'ulmenliet 20 de d 21033 hamburg', u'ulmenliet 20 21033 hamburg', u'berliner tor 7 d-20099 hamburg', u'berliner tor 7 damm 20099 hamburg', u'berliner tor 7 d 20099 hamburg', u'berliner tor 7 de d-20099 hamburg', u'berliner tor 7 de damm 20099 hamburg', u'berliner tor 7 de d 20099 hamburg', u'berliner tor 7 20099 hamburg', u'alexanderstrasse 1 d-20099 hamburg', u'alexanderstrasse 1 damm 20099 hamburg', u'alexanderstrasse 1 d 20099 hamburg', u'alexander strasse 1 d-20099 hamburg', u'alexander strasse 1 damm 20099 hamburg', u'alexander strasse 1 d 20099 hamburg', u'alexanderstrasse 1 de d-20099 hamburg', u'alexanderstrasse 1 de damm 20099 hamburg', u'alexanderstrasse 1 de d 20099 hamburg', u'alexander strasse 1 de d-20099 hamburg', u'alexander strasse 1 de damm 20099 hamburg', u'alexander strasse 1 de d 20099 hamburg', u'alexanderstrasse 1 20099 hamburg', u'alexander strasse 1 20099 hamburg']
+DEBUG(2018-04-20 13:14:45,539):bioc.py at 113:get certificate for addresss: [u'berliner tor 5 20099 hamburg', u'berliner tor 5 de 20099 hamburg', u'berliner tor 5 d-20099 hamburg', u'berliner tor 5 damm 20099 hamburg', u'berliner tor 5 d 20099 hamburg', u'berliner tor 5 de d-20099 hamburg', u'berliner tor 5 de damm 20099 hamburg', u'berliner tor 5 de d 20099 hamburg', u'berliner tor 5 20099 hamburg', u'hamburger strasse 37 d-22083 hamburg', u'hamburger strasse 37 damm 22083 hamburg', u'hamburger strasse 37 d 22083 hamburg', u'hamburger strasse 37 de d-22083 hamburg', u'hamburger strasse 37 de damm 22083 hamburg', u'hamburger strasse 37 de d 22083 hamburg', u'hamburger strasse 37 22083 hamburg', u'berliner tor 5 d-20099 hamburg', u'berliner tor 5 damm 20099 hamburg', u'berliner tor 5 d 20099 hamburg', u'berliner tor 5 de d-20099 hamburg', u'berliner tor 5 de damm 20099 hamburg', u'berliner tor 5 de d 20099 hamburg', u'berliner tor 5 20099 hamburg', u'berliner tor 5 d-20099 hamburg', u'berliner tor 5 damm 20099 hamburg', u'berliner tor 5 d 20099 hamburg', u'berliner tor 5 de d-20099 hamburg', u'berliner tor 5 de damm 20099 hamburg', u'berliner tor 5 de d 20099 hamburg', u'berliner tor 5 20099 hamburg', u'finkenau 35 d-22081 hamburg', u'finkenau 35 damm 22081 hamburg', u'finkenau 35 d 22081 hamburg', u'finkenau 35 de d-22081 hamburg', u'finkenau 35 de damm 22081 hamburg', u'finkenau 35 de d 22081 hamburg', u'finkenau 35 22081 hamburg', u'ulmenliet 20 d-21033 hamburg', u'ulmenliet 20 damm 21033 hamburg', u'ulmenliet 20 d 21033 hamburg', u'ulmenliet 20 de d-21033 hamburg', u'ulmenliet 20 de damm 21033 hamburg', u'ulmenliet 20 de d 21033 hamburg', u'ulmenliet 20 21033 hamburg', u'berliner tor 7 d-20099 hamburg', u'berliner tor 7 damm 20099 hamburg', u'berliner tor 7 d 20099 hamburg', u'berliner tor 7 de d-20099 hamburg', u'berliner tor 7 de damm 20099 hamburg', u'berliner tor 7 de d 20099 hamburg', u'berliner tor 7 20099 hamburg', u'alexanderstrasse 1 d-20099 hamburg', u'alexanderstrasse 1 damm 20099 hamburg', u'alexanderstrasse 1 d 20099 hamburg', u'alexander strasse 1 d-20099 hamburg', u'alexander strasse 1 damm 20099 hamburg', u'alexander strasse 1 d 20099 hamburg', u'alexanderstrasse 1 de d-20099 hamburg', u'alexanderstrasse 1 de damm 20099 hamburg', u'alexanderstrasse 1 de d 20099 hamburg', u'alexander strasse 1 de d-20099 hamburg', u'alexander strasse 1 de damm 20099 hamburg', u'alexander strasse 1 de d 20099 hamburg', u'alexanderstrasse 1 20099 hamburg', u'alexander strasse 1 20099 hamburg']
+DEBUG(2018-04-20 13:14:45,539):bioc.py at 120:got 0 idxs for 65 addresses
+DEBUG(2018-04-20 13:14:45,539):bioc.py at 124:got 0 infos
+DEBUG(2018-04-20 13:14:45,539):bioc.py at 141:returning 0 results
+INFO(2018-04-20 13:14:45,539):worker.py at 145:handling shop
+INFO(2018-04-20 13:14:46,979):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:14:47,066):worker.py at 291:done with job
+DEBUG(2018-04-20 13:14:47,066):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:14:47,069):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:14:47,069):worker.py at 371:update for toplevel domain 584343 with site 584344
+DEBUG(2018-04-20 13:14:47,069):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:14:47,069):db_interface.py at 134:selecting results for 584343
+DEBUG(2018-04-20 13:14:47,368):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:14:47,368):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:14:47,368):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:14:47,368):db_interface.py at 159:updating the results for pk: 238690
+DEBUG(2018-04-20 13:14:47,370):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:14:47,370):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:14:47,370):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:14:47,370):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:14:47,464):db_interface.py at 96:returning results
+INFO(2018-04-20 13:14:47,464):worker.py at 438:processing job 240678
+DEBUG(2018-04-20 13:14:47,464):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/searchstudies.org_2018-04-20_584345.txt, 1,2,6,10
+DEBUG(2018-04-20 13:14:47,464):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/searchstudies.org_2018-04-20_584345.txt
+DEBUG(2018-04-20 13:14:47,478):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:14:47,478):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:14:47,478):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:14:47,479):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:14:47,479):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/searchstudies.org_2018-04-20_584345.txt
+DEBUG(2018-04-20 13:14:47,489):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:14:47,489):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:14:47,489):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:14:47,490):worker.py at 134:handling impressum
+INFO(2018-04-20 13:14:47,490):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:14:47,490):worker.py at 275:parts: []
+DEBUG(2018-04-20 13:14:47,490):worker.py at 277:clean parts: []
+DEBUG(2018-04-20 13:14:47,490):worker.py at 279:joined parts: []
+DEBUG(2018-04-20 13:14:47,490):worker.py at 281:to_check: []
+DEBUG(2018-04-20 13:14:47,490):bioc.py at 113:get certificate for addresss: []
+DEBUG(2018-04-20 13:14:47,490):bioc.py at 120:got 0 idxs for 0 addresses
+DEBUG(2018-04-20 13:14:47,490):bioc.py at 124:got 0 infos
+DEBUG(2018-04-20 13:14:47,490):bioc.py at 141:returning 0 results
+INFO(2018-04-20 13:14:47,490):worker.py at 145:handling shop
+INFO(2018-04-20 13:14:48,697):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:14:48,768):worker.py at 291:done with job
+DEBUG(2018-04-20 13:14:48,768):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:14:48,773):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:14:48,773):worker.py at 371:update for toplevel domain None with site 584345
+DEBUG(2018-04-20 13:14:48,773):worker.py at 375:fk_resources for parent: 584345
+DEBUG(2018-04-20 13:14:48,773):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:14:48,773):db_interface.py at 134:selecting results for 584345
+DEBUG(2018-04-20 13:14:49,079):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:14:49,079):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:14:49,080):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:14:49,080):db_interface.py at 159:updating the results for pk: 238692
+DEBUG(2018-04-20 13:14:49,081):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:14:49,082):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:14:49,082):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:14:49,082):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:14:49,178):db_interface.py at 96:returning results
+INFO(2018-04-20 13:14:49,178):worker.py at 438:processing job 240679
+DEBUG(2018-04-20 13:14:49,178):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/searchstudies.org_2018-04-20_584346.txt, 1,2,6,10
+DEBUG(2018-04-20 13:14:49,178):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/searchstudies.org_2018-04-20_584346.txt
+DEBUG(2018-04-20 13:14:49,186):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:14:49,186):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:14:49,186):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:14:49,186):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:14:49,186):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/searchstudies.org_2018-04-20_584346.txt
+DEBUG(2018-04-20 13:14:49,194):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:14:49,195):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:14:49,195):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:14:49,195):worker.py at 134:handling impressum
+DEBUG(2018-04-20 13:14:49,195):impressum.py at 101:en Hamburg (HAW Hamburg) Fakultät Design, Medien und Information Department Information Finkenau 35, 22081 Hamburg Tel.: +49 (0)40 42875 3621 dir
+DEBUG(2018-04-20 13:14:49,196):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': u'Hamburg-Nord', 'Land': None, 'Ort': u'Hamburg ', 'PLZ': u'22081 ', 'Bundesland': u'Hamburg', 'Unternehmen': u'Design, Medien und Information Department Information ', 'Strasse': u'Finkenau 35, '})
+DEBUG(2018-04-20 13:14:49,196):impressum.py at 101:en Hamburg (HAW Hamburg) Fakultät Design, Medien und Information Department Information Finkenau 35, 22081 Hamburg Tel.: +49 (0)40 42875-3653/-37
+DEBUG(2018-04-20 13:14:49,197):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': u'Hamburg-Nord', 'Land': None, 'Ort': u'Hamburg ', 'PLZ': u'22081 ', 'Bundesland': u'Hamburg', 'Unternehmen': u'Design, Medien und Information Department Information ', 'Strasse': u'Finkenau 35, '})
+INFO(2018-04-20 13:14:49,197):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:14:49,197):worker.py at 275:parts: [[u'Finkenau 35, ', u'22081 ', u'Hamburg '], [u'Finkenau 35, ', 'DE', u'22081 ', u'Hamburg '], [u'Finkenau 35, ', u'22081 ', u'Hamburg '], [u'Finkenau 35, ', 'DE', u'22081 ', u'Hamburg ']]
+DEBUG(2018-04-20 13:14:49,197):worker.py at 277:clean parts: [[u'Finkenau 35, ', u'22081 ', u'Hamburg '], [u'Finkenau 35, ', 'DE', u'22081 ', u'Hamburg '], [u'Finkenau 35, ', u'22081 ', u'Hamburg '], [u'Finkenau 35, ', 'DE', u'22081 ', u'Hamburg ']]
+DEBUG(2018-04-20 13:14:49,197):worker.py at 279:joined parts: [u'Finkenau 35,  22081  Hamburg ', u'Finkenau 35,  DE 22081  Hamburg ', u'Finkenau 35,  22081  Hamburg ', u'Finkenau 35,  DE 22081  Hamburg ']
+DEBUG(2018-04-20 13:14:49,197):worker.py at 281:to_check: [u'finkenau 35 22081 hamburg', u'finkenau 35 de 22081 hamburg', u'finkenau 35 22081 hamburg', u'finkenau 35 de 22081 hamburg']
+DEBUG(2018-04-20 13:14:49,197):bioc.py at 113:get certificate for addresss: [u'finkenau 35 22081 hamburg', u'finkenau 35 de 22081 hamburg', u'finkenau 35 22081 hamburg', u'finkenau 35 de 22081 hamburg']
+DEBUG(2018-04-20 13:14:49,198):bioc.py at 120:got 0 idxs for 4 addresses
+DEBUG(2018-04-20 13:14:49,198):bioc.py at 124:got 0 infos
+DEBUG(2018-04-20 13:14:49,198):bioc.py at 141:returning 0 results
+INFO(2018-04-20 13:14:49,198):worker.py at 145:handling shop
+INFO(2018-04-20 13:14:50,193):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:14:50,261):worker.py at 291:done with job
+DEBUG(2018-04-20 13:14:50,261):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:14:50,299):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:14:50,299):worker.py at 371:update for toplevel domain 584345 with site 584346
+DEBUG(2018-04-20 13:14:50,299):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:14:50,299):db_interface.py at 134:selecting results for 584345
+DEBUG(2018-04-20 13:14:50,601):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:14:50,601):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:14:50,601):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:14:50,601):db_interface.py at 159:updating the results for pk: 238692
+DEBUG(2018-04-20 13:14:50,603):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:14:50,603):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:14:50,603):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:14:50,603):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:14:50,694):worker.py at 463:found no job
+DEBUG(2018-04-20 19:14:50,783):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 19:14:50,785):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 19:14:52,450):worker.py at 463:found no job
+DEBUG(2018-04-21 01:14:54,507):worker.py at 432:get job from database and process
+DEBUG(2018-04-21 01:14:54,510):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-21 01:14:54,590):worker.py at 463:found no job
+DEBUG(2018-04-21 07:14:54,614):worker.py at 432:get job from database and process
+DEBUG(2018-04-21 07:14:54,615):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-21 07:14:54,701):worker.py at 463:found no job
+DEBUG(2018-04-21 13:14:54,728):worker.py at 432:get job from database and process
+DEBUG(2018-04-21 13:14:54,729):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-21 13:14:54,807):worker.py at 463:found no job
+DEBUG(2018-04-21 19:14:54,888):worker.py at 432:get job from database and process
+DEBUG(2018-04-21 19:14:54,888):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-21 19:14:54,962):worker.py at 463:found no job
+DEBUG(2018-04-22 01:14:57,103):worker.py at 432:get job from database and process
+DEBUG(2018-04-22 01:14:57,104):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-22 01:14:57,184):worker.py at 463:found no job
+DEBUG(2018-04-22 07:14:57,288):worker.py at 432:get job from database and process
+DEBUG(2018-04-22 07:14:57,291):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-22 07:14:57,369):worker.py at 463:found no job
+DEBUG(2018-04-22 13:14:57,453):worker.py at 432:get job from database and process
+DEBUG(2018-04-22 13:14:57,454):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-22 13:14:57,530):worker.py at 463:found no job
+DEBUG(2018-04-22 19:14:57,592):worker.py at 432:get job from database and process
+DEBUG(2018-04-22 19:14:57,594):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-22 19:14:57,672):worker.py at 463:found no job
+DEBUG(2018-04-23 01:14:59,803):worker.py at 432:get job from database and process
+DEBUG(2018-04-23 01:14:59,804):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-23 01:14:59,911):worker.py at 463:found no job
+DEBUG(2018-04-23 07:14:59,941):worker.py at 432:get job from database and process
+DEBUG(2018-04-23 07:14:59,942):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-23 07:15:00,016):worker.py at 463:found no job
+DEBUG(2018-04-23 13:15:01,159):worker.py at 432:get job from database and process
+DEBUG(2018-04-23 13:15:01,222):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-23 13:15:01,381):worker.py at 463:found no job
+DEBUG(2018-04-23 19:15:01,413):worker.py at 432:get job from database and process
+DEBUG(2018-04-23 19:15:01,413):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-23 19:15:01,512):worker.py at 463:found no job
+DEBUG(2018-04-24 01:15:01,612):worker.py at 432:get job from database and process
+DEBUG(2018-04-24 01:15:01,613):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-24 01:15:01,709):worker.py at 463:found no job
+DEBUG(2018-04-24 07:15:01,809):worker.py at 432:get job from database and process
+DEBUG(2018-04-24 07:15:01,810):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-24 07:15:01,891):worker.py at 463:found no job
+DEBUG(2018-04-24 13:15:01,943):worker.py at 432:get job from database and process
+DEBUG(2018-04-24 13:15:01,944):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-24 13:15:02,029):worker.py at 463:found no job
+DEBUG(2018-04-24 19:15:02,032):worker.py at 432:get job from database and process
+DEBUG(2018-04-24 19:15:02,033):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-24 19:15:02,160):worker.py at 463:found no job
+DEBUG(2018-04-25 01:15:02,230):worker.py at 432:get job from database and process
+DEBUG(2018-04-25 01:15:02,231):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-25 01:15:02,334):worker.py at 463:found no job
+DEBUG(2018-04-25 07:15:02,383):worker.py at 432:get job from database and process
+DEBUG(2018-04-25 07:15:02,384):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-25 07:15:02,465):worker.py at 463:found no job
+DEBUG(2018-04-25 13:15:02,566):worker.py at 432:get job from database and process
+DEBUG(2018-04-25 13:15:02,567):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-25 13:15:05,389):worker.py at 463:found no job
+DEBUG(2018-04-25 19:15:05,490):worker.py at 432:get job from database and process
+DEBUG(2018-04-25 19:15:05,491):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-25 19:15:05,570):worker.py at 463:found no job
+DEBUG(2018-04-26 01:15:05,600):worker.py at 432:get job from database and process
+DEBUG(2018-04-26 01:15:05,601):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-26 01:15:05,728):worker.py at 463:found no job
+DEBUG(2018-04-26 07:15:05,798):worker.py at 432:get job from database and process
+DEBUG(2018-04-26 07:15:05,798):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-26 07:15:05,873):worker.py at 463:found no job
+DEBUG(2018-04-26 13:15:05,984):worker.py at 432:get job from database and process
+DEBUG(2018-04-26 13:15:06,024):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-26 13:15:06,456):worker.py at 463:found no job
+DEBUG(2018-04-26 19:15:06,521):worker.py at 432:get job from database and process
+DEBUG(2018-04-26 19:15:06,523):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-26 19:15:06,638):worker.py at 463:found no job
+DEBUG(2018-04-27 01:15:06,702):worker.py at 432:get job from database and process
+DEBUG(2018-04-27 01:15:06,703):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-27 01:15:06,780):worker.py at 463:found no job
+DEBUG(2018-04-27 07:15:06,782):worker.py at 432:get job from database and process
+DEBUG(2018-04-27 07:15:06,783):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-27 07:15:06,858):worker.py at 463:found no job
+DEBUG(2018-04-27 13:15:06,954):worker.py at 432:get job from database and process
+DEBUG(2018-04-27 13:15:06,955):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-27 13:15:07,043):worker.py at 463:found no job
+INFO(2018-04-27 13:15:07,381):worker.py at 484:no manually labeled data to retrain from
+DEBUG(2018-04-27 19:15:07,480):worker.py at 432:get job from database and process
+DEBUG(2018-04-27 19:15:07,481):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-27 19:15:07,605):worker.py at 463:found no job
+DEBUG(2018-04-28 01:15:08,823):worker.py at 432:get job from database and process
+DEBUG(2018-04-28 01:15:08,825):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-28 01:15:08,902):worker.py at 463:found no job
+DEBUG(2018-04-28 07:15:09,001):worker.py at 432:get job from database and process
+DEBUG(2018-04-28 07:15:09,002):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-28 07:15:09,085):worker.py at 463:found no job
+DEBUG(2018-04-28 13:15:09,086):worker.py at 432:get job from database and process
+DEBUG(2018-04-28 13:15:09,086):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-28 13:15:09,162):worker.py at 463:found no job
+DEBUG(2018-04-28 19:15:09,252):worker.py at 432:get job from database and process
+DEBUG(2018-04-28 19:15:09,253):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-28 19:15:09,338):worker.py at 463:found no job
+DEBUG(2018-04-29 01:15:09,376):worker.py at 432:get job from database and process
+DEBUG(2018-04-29 01:15:09,377):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-29 01:15:09,463):worker.py at 463:found no job
+DEBUG(2018-04-29 07:15:09,545):worker.py at 432:get job from database and process
+DEBUG(2018-04-29 07:15:09,546):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-29 07:15:09,630):worker.py at 463:found no job
+DEBUG(2018-04-29 13:15:09,730):worker.py at 432:get job from database and process
+DEBUG(2018-04-29 13:15:09,731):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-29 13:15:09,807):worker.py at 463:found no job
+DEBUG(2018-04-29 19:15:09,908):worker.py at 432:get job from database and process
+DEBUG(2018-04-29 19:15:09,909):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-29 19:15:09,988):worker.py at 463:found no job
+DEBUG(2018-04-30 01:15:10,089):worker.py at 432:get job from database and process
+DEBUG(2018-04-30 01:15:10,090):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-30 01:15:10,169):worker.py at 463:found no job
+DEBUG(2018-04-30 07:15:10,182):worker.py at 432:get job from database and process
+DEBUG(2018-04-30 07:15:10,185):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-30 07:15:10,260):worker.py at 463:found no job
+DEBUG(2018-04-30 13:15:10,324):worker.py at 432:get job from database and process
+DEBUG(2018-04-30 13:15:10,325):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-30 13:15:10,407):worker.py at 463:found no job
+DEBUG(2018-04-30 19:15:10,508):worker.py at 432:get job from database and process
+DEBUG(2018-04-30 19:15:10,509):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-30 19:15:10,588):worker.py at 463:found no job
+DEBUG(2018-05-01 01:15:11,940):worker.py at 432:get job from database and process
+DEBUG(2018-05-01 01:15:11,940):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-01 01:15:12,019):worker.py at 463:found no job
+DEBUG(2018-05-01 07:15:12,119):worker.py at 432:get job from database and process
+DEBUG(2018-05-01 07:15:12,120):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-01 07:15:12,200):worker.py at 463:found no job
+DEBUG(2018-05-01 13:15:12,300):worker.py at 432:get job from database and process
+DEBUG(2018-05-01 13:15:12,301):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-01 13:15:12,376):worker.py at 463:found no job
+DEBUG(2018-05-01 19:15:12,411):worker.py at 432:get job from database and process
+DEBUG(2018-05-01 19:15:12,412):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-01 19:15:12,503):worker.py at 463:found no job
+DEBUG(2018-05-02 01:15:12,573):worker.py at 432:get job from database and process
+DEBUG(2018-05-02 01:15:12,573):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-02 01:15:12,648):worker.py at 463:found no job
+DEBUG(2018-05-02 07:15:12,704):worker.py at 432:get job from database and process
+DEBUG(2018-05-02 07:15:12,705):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-02 07:15:12,780):worker.py at 463:found no job
+DEBUG(2018-05-02 13:15:12,865):worker.py at 432:get job from database and process
+DEBUG(2018-05-02 13:15:12,866):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-02 13:15:12,946):worker.py at 463:found no job
+DEBUG(2018-05-02 19:15:13,047):worker.py at 432:get job from database and process
+DEBUG(2018-05-02 19:15:13,049):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-02 19:15:13,129):worker.py at 463:found no job
+DEBUG(2018-05-03 01:15:13,154):worker.py at 432:get job from database and process
+DEBUG(2018-05-03 01:15:13,155):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-03 01:15:13,230):worker.py at 463:found no job
+DEBUG(2018-05-03 07:15:13,280):worker.py at 432:get job from database and process
+DEBUG(2018-05-03 07:15:13,280):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-03 07:15:13,354):worker.py at 463:found no job
+DEBUG(2018-05-03 13:15:13,415):worker.py at 432:get job from database and process
+DEBUG(2018-05-03 13:15:13,417):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-03 13:15:13,502):worker.py at 463:found no job
+DEBUG(2018-05-03 19:15:14,979):worker.py at 432:get job from database and process
+DEBUG(2018-05-03 19:15:15,020):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-03 19:15:15,204):worker.py at 463:found no job
+DEBUG(2018-05-04 01:15:15,289):worker.py at 432:get job from database and process
+DEBUG(2018-05-04 01:15:15,290):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-04 01:15:15,369):worker.py at 463:found no job
+DEBUG(2018-05-04 07:15:15,426):worker.py at 432:get job from database and process
+DEBUG(2018-05-04 07:15:15,428):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-04 07:15:15,505):worker.py at 463:found no job
+DEBUG(2018-05-04 13:15:15,654):worker.py at 432:get job from database and process
+DEBUG(2018-05-04 13:15:15,693):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-04 13:15:15,820):worker.py at 463:found no job
+INFO(2018-05-04 13:15:16,581):worker.py at 484:no manually labeled data to retrain from
+DEBUG(2018-05-04 19:15:16,677):worker.py at 432:get job from database and process
+DEBUG(2018-05-04 19:15:16,680):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-04 19:15:16,929):worker.py at 463:found no job
+DEBUG(2018-05-05 01:15:17,030):worker.py at 432:get job from database and process
+DEBUG(2018-05-05 01:15:17,030):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-05 01:15:17,110):worker.py at 463:found no job
+DEBUG(2018-05-05 07:15:17,211):worker.py at 432:get job from database and process
+DEBUG(2018-05-05 07:15:17,213):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-05 07:15:17,287):worker.py at 463:found no job
+DEBUG(2018-05-05 13:15:17,316):worker.py at 432:get job from database and process
+DEBUG(2018-05-05 13:15:17,317):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-05 13:15:17,392):worker.py at 463:found no job
+DEBUG(2018-05-05 19:15:17,493):worker.py at 432:get job from database and process
+DEBUG(2018-05-05 19:15:17,494):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-05 19:15:17,576):worker.py at 463:found no job
+DEBUG(2018-05-06 01:15:17,677):worker.py at 432:get job from database and process
+DEBUG(2018-05-06 01:15:17,678):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-06 01:15:17,763):worker.py at 463:found no job
+DEBUG(2018-05-06 07:15:17,806):worker.py at 432:get job from database and process
+DEBUG(2018-05-06 07:15:17,807):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-06 07:15:17,887):worker.py at 463:found no job
+DEBUG(2018-05-06 13:15:17,988):worker.py at 432:get job from database and process
+DEBUG(2018-05-06 13:15:17,989):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-06 13:15:18,067):worker.py at 463:found no job
+DEBUG(2018-05-06 19:15:18,146):worker.py at 432:get job from database and process
+DEBUG(2018-05-06 19:15:18,146):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-06 19:15:18,232):worker.py at 463:found no job
+DEBUG(2018-05-07 01:15:18,333):worker.py at 432:get job from database and process
+DEBUG(2018-05-07 01:15:18,334):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-07 01:15:18,411):worker.py at 463:found no job
+DEBUG(2018-05-07 07:15:18,504):worker.py at 432:get job from database and process
+DEBUG(2018-05-07 07:15:18,505):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-07 07:15:18,602):worker.py at 463:found no job
+DEBUG(2018-05-07 13:15:18,685):worker.py at 432:get job from database and process
+DEBUG(2018-05-07 13:15:18,686):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-07 13:15:18,762):worker.py at 463:found no job
+DEBUG(2018-05-07 19:15:18,864):worker.py at 432:get job from database and process
+DEBUG(2018-05-07 19:15:18,866):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-07 19:15:18,943):worker.py at 463:found no job
+DEBUG(2018-05-08 01:15:18,986):worker.py at 432:get job from database and process
+DEBUG(2018-05-08 01:15:18,987):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-08 01:15:19,070):worker.py at 463:found no job
+DEBUG(2018-05-08 07:15:19,140):worker.py at 432:get job from database and process
+DEBUG(2018-05-08 07:15:19,142):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-05-08 07:15:19,221):worker.py at 463:found no job

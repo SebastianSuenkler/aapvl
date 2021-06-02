@@ -1,0 +1,2 @@
+DEBUG(2017-06-29 10:24:50,610):db_interface.py at 23:initializing database-interface
+DEBUG(2017-06-29 10:24:50,610):db_interface.py at 37:connecting to database with default-config

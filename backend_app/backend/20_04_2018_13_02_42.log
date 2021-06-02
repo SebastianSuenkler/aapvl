@@ -1,0 +1,887 @@
+DEBUG(2018-04-20 13:02:42,831):worker.py at 89:initializing worker
+DEBUG(2018-04-20 13:02:42,831):db_interface.py at 45:initializing database-interface
+DEBUG(2018-04-20 13:02:42,832):db_interface.py at 66:connecting to database with user config
+DEBUG(2018-04-20 13:02:42,835):db_interface.py at 48:initialized database-interface
+DEBUG(2018-04-20 13:02:42,835):classifier.py at 82:initializing classifier
+DEBUG(2018-04-20 13:02:42,835):classifier.py at 86:loading classifier
+DEBUG(2018-04-20 13:02:48,460):probability.py at 91:initializing probability object
+DEBUG(2018-04-20 13:02:48,460):probability.py at 93:loading the variables
+DEBUG(2018-04-20 13:02:48,461):probability.py at 95:initialized probability object
+DEBUG(2018-04-20 13:02:48,461):classifier.py at 97:initialized classifier
+DEBUG(2018-04-20 13:02:48,461):classifier.py at 82:initializing classifier
+DEBUG(2018-04-20 13:02:48,461):classifier.py at 86:loading classifier
+DEBUG(2018-04-20 13:02:48,497):probability.py at 91:initializing probability object
+DEBUG(2018-04-20 13:02:48,498):probability.py at 93:loading the variables
+DEBUG(2018-04-20 13:02:48,498):probability.py at 95:initialized probability object
+DEBUG(2018-04-20 13:02:48,498):classifier.py at 97:initialized classifier
+DEBUG(2018-04-20 13:02:48,498):classifier.py at 82:initializing classifier
+DEBUG(2018-04-20 13:02:48,498):classifier.py at 86:loading classifier
+DEBUG(2018-04-20 13:02:52,270):probability.py at 91:initializing probability object
+DEBUG(2018-04-20 13:02:52,270):probability.py at 93:loading the variables
+DEBUG(2018-04-20 13:02:52,270):probability.py at 95:initialized probability object
+DEBUG(2018-04-20 13:02:52,270):classifier.py at 97:initialized classifier
+DEBUG(2018-04-20 13:02:53,468):worker.py at 110:initialized worker
+DEBUG(2018-04-20 13:02:53,468):worker.py at 581:started schedule with -1 tries, 3600 delay and 4 checks per day
+DEBUG(2018-04-20 13:02:53,469):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:02:53,469):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:02:55,020):db_interface.py at 96:returning results
+INFO(2018-04-20 13:02:55,020):worker.py at 438:processing job 240655
+DEBUG(2018-04-20 13:02:55,020):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/freshfoods.de_2018-04-20_584320.txt, 1,2,6,10
+DEBUG(2018-04-20 13:02:55,020):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/freshfoods.de_2018-04-20_584320.txt
+DEBUG(2018-04-20 13:02:55,383):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:02:55,411):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:02:55,412):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:02:55,419):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:02:55,419):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/freshfoods.de_2018-04-20_584320.txt
+DEBUG(2018-04-20 13:02:55,675):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:02:55,701):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:02:55,702):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:02:55,702):worker.py at 134:handling impressum
+DEBUG(2018-04-20 13:02:55,703):impressum.py at 101:s anmelden Firmenkunden-Zugang Ihre Münchner Feneberg Filialen Schwanthalerhöhe Ganghoferstraße 6-10 80339 München Tel.: 089/50094447 Schwa
+DEBUG(2018-04-20 13:02:55,704):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': u'"M\xfcnchen, Stadt"', 'Land': None, 'Ort': u'M\xfcnchen ', 'PLZ': u'80339 ', 'Bundesland': u'Bayern', 'Unternehmen': None, 'Strasse': u'Ganghoferstra\xdfe 6-10 '})
+DEBUG(2018-04-20 13:02:55,704):impressum.py at 101:wanthalerhöhe Ganghoferstraße 6-10 80339 München Tel.: 089/50094447 Schwabing-West Leopoldstraße 182 80804 München Tel.: 089/23747759 Milbe
+WARNING(2018-04-20 13:02:55,705):impressum.py at 137:couldn't find bds and kr for 
+DEBUG(2018-04-20 13:02:55,705):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': None, 2: '', 'Land': None, 'Ort': u'M\xfcnchen M\xfcnchen ', 'PLZ': u'80339 80804 ', 'Bundesland': None, 'Unternehmen': None, 'Strasse': u'Ganghoferstra\xdfe 6-10 Leopoldstra\xdfe 182 '})
+DEBUG(2018-04-20 13:02:55,705):impressum.py at 101:chwabing-West Leopoldstraße 182 80804 München Tel.: 089/23747759 Milbertshofen Humperdinckstraße 1-3 80807 München Tel.: 089/35003609 Produ
+WARNING(2018-04-20 13:02:55,705):impressum.py at 137:couldn't find bds and kr for 
+DEBUG(2018-04-20 13:02:55,705):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': None, 2: '', 'Land': None, 'Ort': u'M\xfcnchen M\xfcnchen ', 'PLZ': u'80804 80807 ', 'Bundesland': None, 'Unternehmen': None, 'Strasse': u'Leopoldstra\xdfe 182 Humperdinckstra\xdfe 1-3 '})
+INFO(2018-04-20 13:02:55,705):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:02:55,705):worker.py at 275:parts: [[u'Ganghoferstra\xdfe 6-10 ', u'80339 ', u'M\xfcnchen '], [u'Ganghoferstra\xdfe 6-10 ', 'DE', u'80339 ', u'M\xfcnchen '], [u'Ganghoferstra\xdfe 6-10 Leopoldstra\xdfe 182 ', u'80339 80804 ', u'M\xfcnchen M\xfcnchen '], [u'Ganghoferstra\xdfe 6-10 Leopoldstra\xdfe 182 ', 'DE', u'80339 80804 ', u'M\xfcnchen M\xfcnchen '], [u'Leopoldstra\xdfe 182 Humperdinckstra\xdfe 1-3 ', u'80804 80807 ', u'M\xfcnchen M\xfcnchen '], [u'Leopoldstra\xdfe 182 Humperdinckstra\xdfe 1-3 ', 'DE', u'80804 80807 ', u'M\xfcnchen M\xfcnchen ']]
+DEBUG(2018-04-20 13:02:55,706):worker.py at 277:clean parts: [[u'Ganghoferstra\xdfe 6-10 ', u'80339 ', u'M\xfcnchen '], [u'Ganghoferstra\xdfe 6-10 ', 'DE', u'80339 ', u'M\xfcnchen '], [u'Ganghoferstra\xdfe 6-10 Leopoldstra\xdfe 182 ', u'80339 80804 ', u'M\xfcnchen M\xfcnchen '], [u'Ganghoferstra\xdfe 6-10 Leopoldstra\xdfe 182 ', 'DE', u'80339 80804 ', u'M\xfcnchen M\xfcnchen '], [u'Leopoldstra\xdfe 182 Humperdinckstra\xdfe 1-3 ', u'80804 80807 ', u'M\xfcnchen M\xfcnchen '], [u'Leopoldstra\xdfe 182 Humperdinckstra\xdfe 1-3 ', 'DE', u'80804 80807 ', u'M\xfcnchen M\xfcnchen ']]
+DEBUG(2018-04-20 13:02:55,706):worker.py at 279:joined parts: [u'Ganghoferstra\xdfe 6-10  80339  M\xfcnchen ', u'Ganghoferstra\xdfe 6-10  DE 80339  M\xfcnchen ', u'Ganghoferstra\xdfe 6-10 Leopoldstra\xdfe 182  80339 80804  M\xfcnchen M\xfcnchen ', u'Ganghoferstra\xdfe 6-10 Leopoldstra\xdfe 182  DE 80339 80804  M\xfcnchen M\xfcnchen ', u'Leopoldstra\xdfe 182 Humperdinckstra\xdfe 1-3  80804 80807  M\xfcnchen M\xfcnchen ', u'Leopoldstra\xdfe 182 Humperdinckstra\xdfe 1-3  DE 80804 80807  M\xfcnchen M\xfcnchen ']
+DEBUG(2018-04-20 13:02:55,713):worker.py at 281:to_check: [u'ganghoferstrasse 6-10 80339 muenchen', u'ganghofer strasse 6-10 80339 muenchen', u'ganghoferstrasse 6-10 80339 munchen', u'ganghofer strasse 6-10 80339 munchen', u'ganghoferstrasse 6-10 de 80339 muenchen', u'ganghofer strasse 6-10 de 80339 muenchen', u'ganghoferstrasse 6-10 de 80339 munchen', u'ganghofer strasse 6-10 de 80339 munchen', u'ganghoferstrasse 6-10 leopoldstrasse 182 80339 80804 muenchen muenchen', u'ganghoferstrasse 6-10 leopold strasse 182 80339 80804 muenchen muenchen', u'ganghofer strasse 6-10 leopoldstrasse 182 80339 80804 muenchen muenchen', u'ganghofer strasse 6-10 leopold strasse 182 80339 80804 muenchen muenchen', u'ganghoferstrasse 6-10 leopoldstrasse 182 80339 80804 munchen munchen', u'ganghoferstrasse 6-10 leopold strasse 182 80339 80804 munchen munchen', u'ganghofer strasse 6-10 leopoldstrasse 182 80339 80804 munchen munchen', u'ganghofer strasse 6-10 leopold strasse 182 80339 80804 munchen munchen', u'ganghoferstrasse 6-10 leopoldstrasse 182 de 80339 80804 muenchen muenchen', u'ganghoferstrasse 6-10 leopold strasse 182 de 80339 80804 muenchen muenchen', u'ganghofer strasse 6-10 leopoldstrasse 182 de 80339 80804 muenchen muenchen', u'ganghofer strasse 6-10 leopold strasse 182 de 80339 80804 muenchen muenchen', u'ganghoferstrasse 6-10 leopoldstrasse 182 de 80339 80804 munchen munchen', u'ganghoferstrasse 6-10 leopold strasse 182 de 80339 80804 munchen munchen', u'ganghofer strasse 6-10 leopoldstrasse 182 de 80339 80804 munchen munchen', u'ganghofer strasse 6-10 leopold strasse 182 de 80339 80804 munchen munchen', u'leopoldstrasse 182 humperdinckstrasse 1-3 80804 80807 muenchen muenchen', u'leopoldstrasse 182 humperdinck strasse 1-3 80804 80807 muenchen muenchen', u'leopold strasse 182 humperdinckstrasse 1-3 80804 80807 muenchen muenchen', u'leopold strasse 182 humperdinck strasse 1-3 80804 80807 muenchen muenchen', u'leopoldstrasse 182 humperdinckstrasse 1-3 80804 80807 munchen munchen', u'leopoldstrasse 182 humperdinck strasse 1-3 80804 80807 munchen munchen', u'leopold strasse 182 humperdinckstrasse 1-3 80804 80807 munchen munchen', u'leopold strasse 182 humperdinck strasse 1-3 80804 80807 munchen munchen', u'leopoldstrasse 182 humperdinckstrasse 1-3 de 80804 80807 muenchen muenchen', u'leopoldstrasse 182 humperdinck strasse 1-3 de 80804 80807 muenchen muenchen', u'leopold strasse 182 humperdinckstrasse 1-3 de 80804 80807 muenchen muenchen', u'leopold strasse 182 humperdinck strasse 1-3 de 80804 80807 muenchen muenchen', u'leopoldstrasse 182 humperdinckstrasse 1-3 de 80804 80807 munchen munchen', u'leopoldstrasse 182 humperdinck strasse 1-3 de 80804 80807 munchen munchen', u'leopold strasse 182 humperdinckstrasse 1-3 de 80804 80807 munchen munchen', u'leopold strasse 182 humperdinck strasse 1-3 de 80804 80807 munchen munchen']
+DEBUG(2018-04-20 13:02:55,713):bioc.py at 113:get certificate for addresss: [u'ganghoferstrasse 6-10 80339 muenchen', u'ganghofer strasse 6-10 80339 muenchen', u'ganghoferstrasse 6-10 80339 munchen', u'ganghofer strasse 6-10 80339 munchen', u'ganghoferstrasse 6-10 de 80339 muenchen', u'ganghofer strasse 6-10 de 80339 muenchen', u'ganghoferstrasse 6-10 de 80339 munchen', u'ganghofer strasse 6-10 de 80339 munchen', u'ganghoferstrasse 6-10 leopoldstrasse 182 80339 80804 muenchen muenchen', u'ganghoferstrasse 6-10 leopold strasse 182 80339 80804 muenchen muenchen', u'ganghofer strasse 6-10 leopoldstrasse 182 80339 80804 muenchen muenchen', u'ganghofer strasse 6-10 leopold strasse 182 80339 80804 muenchen muenchen', u'ganghoferstrasse 6-10 leopoldstrasse 182 80339 80804 munchen munchen', u'ganghoferstrasse 6-10 leopold strasse 182 80339 80804 munchen munchen', u'ganghofer strasse 6-10 leopoldstrasse 182 80339 80804 munchen munchen', u'ganghofer strasse 6-10 leopold strasse 182 80339 80804 munchen munchen', u'ganghoferstrasse 6-10 leopoldstrasse 182 de 80339 80804 muenchen muenchen', u'ganghoferstrasse 6-10 leopold strasse 182 de 80339 80804 muenchen muenchen', u'ganghofer strasse 6-10 leopoldstrasse 182 de 80339 80804 muenchen muenchen', u'ganghofer strasse 6-10 leopold strasse 182 de 80339 80804 muenchen muenchen', u'ganghoferstrasse 6-10 leopoldstrasse 182 de 80339 80804 munchen munchen', u'ganghoferstrasse 6-10 leopold strasse 182 de 80339 80804 munchen munchen', u'ganghofer strasse 6-10 leopoldstrasse 182 de 80339 80804 munchen munchen', u'ganghofer strasse 6-10 leopold strasse 182 de 80339 80804 munchen munchen', u'leopoldstrasse 182 humperdinckstrasse 1-3 80804 80807 muenchen muenchen', u'leopoldstrasse 182 humperdinck strasse 1-3 80804 80807 muenchen muenchen', u'leopold strasse 182 humperdinckstrasse 1-3 80804 80807 muenchen muenchen', u'leopold strasse 182 humperdinck strasse 1-3 80804 80807 muenchen muenchen', u'leopoldstrasse 182 humperdinckstrasse 1-3 80804 80807 munchen munchen', u'leopoldstrasse 182 humperdinck strasse 1-3 80804 80807 munchen munchen', u'leopold strasse 182 humperdinckstrasse 1-3 80804 80807 munchen munchen', u'leopold strasse 182 humperdinck strasse 1-3 80804 80807 munchen munchen', u'leopoldstrasse 182 humperdinckstrasse 1-3 de 80804 80807 muenchen muenchen', u'leopoldstrasse 182 humperdinck strasse 1-3 de 80804 80807 muenchen muenchen', u'leopold strasse 182 humperdinckstrasse 1-3 de 80804 80807 muenchen muenchen', u'leopold strasse 182 humperdinck strasse 1-3 de 80804 80807 muenchen muenchen', u'leopoldstrasse 182 humperdinckstrasse 1-3 de 80804 80807 munchen munchen', u'leopoldstrasse 182 humperdinck strasse 1-3 de 80804 80807 munchen munchen', u'leopold strasse 182 humperdinckstrasse 1-3 de 80804 80807 munchen munchen', u'leopold strasse 182 humperdinck strasse 1-3 de 80804 80807 munchen munchen']
+DEBUG(2018-04-20 13:02:55,713):bioc.py at 120:got 0 idxs for 40 addresses
+DEBUG(2018-04-20 13:02:55,713):bioc.py at 124:got 0 infos
+DEBUG(2018-04-20 13:02:55,713):bioc.py at 141:returning 0 results
+INFO(2018-04-20 13:02:55,713):worker.py at 145:handling shop
+INFO(2018-04-20 13:02:57,291):worker.py at 196:handling oeko stuff
+WARNING(2018-04-20 13:02:57,312):find_logos.py at 124:could not read http://aapvl01.gnet.haw-hamburg.de/resources/28/screenshots/freshfoods.de_2018-04-20_584320.jpg
+DEBUG(2018-04-20 13:02:57,312):worker.py at 291:done with job
+DEBUG(2018-04-20 13:02:57,312):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:02:57,317):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:02:57,317):worker.py at 371:update for toplevel domain None with site 584320
+DEBUG(2018-04-20 13:02:57,317):worker.py at 375:fk_resources for parent: 584320
+DEBUG(2018-04-20 13:02:57,318):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:02:57,318):db_interface.py at 134:selecting results for 584320
+DEBUG(2018-04-20 13:02:58,522):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:02:58,523):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:02:58,524):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:02:58,524):db_interface.py at 159:updating the results for pk: 238669
+DEBUG(2018-04-20 13:02:58,526):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:02:58,526):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:02:58,526):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:02:58,526):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:02:58,623):db_interface.py at 96:returning results
+INFO(2018-04-20 13:02:58,624):worker.py at 438:processing job 240656
+DEBUG(2018-04-20 13:02:58,624):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/kraeuterfeld.de_2018-04-20_584321.txt, 1,2,6,10
+DEBUG(2018-04-20 13:02:58,624):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/kraeuterfeld.de_2018-04-20_584321.txt
+DEBUG(2018-04-20 13:02:58,637):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:02:58,638):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:02:58,638):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:02:58,638):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:02:58,638):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/kraeuterfeld.de_2018-04-20_584321.txt
+DEBUG(2018-04-20 13:02:58,651):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:02:58,652):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:02:58,652):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:02:58,652):worker.py at 134:handling impressum
+INFO(2018-04-20 13:02:58,653):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:02:58,653):worker.py at 275:parts: []
+DEBUG(2018-04-20 13:02:58,653):worker.py at 277:clean parts: []
+DEBUG(2018-04-20 13:02:58,653):worker.py at 279:joined parts: []
+DEBUG(2018-04-20 13:02:58,653):worker.py at 281:to_check: []
+DEBUG(2018-04-20 13:02:58,653):bioc.py at 113:get certificate for addresss: []
+DEBUG(2018-04-20 13:02:58,653):bioc.py at 120:got 0 idxs for 0 addresses
+DEBUG(2018-04-20 13:02:58,653):bioc.py at 124:got 0 infos
+DEBUG(2018-04-20 13:02:58,653):bioc.py at 141:returning 0 results
+INFO(2018-04-20 13:02:58,653):worker.py at 145:handling shop
+INFO(2018-04-20 13:03:00,114):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:03:00,336):worker.py at 291:done with job
+DEBUG(2018-04-20 13:03:00,337):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:03:00,341):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:03:00,341):worker.py at 371:update for toplevel domain None with site 584321
+DEBUG(2018-04-20 13:03:00,341):worker.py at 375:fk_resources for parent: 584321
+DEBUG(2018-04-20 13:03:00,341):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:03:00,341):db_interface.py at 134:selecting results for 584321
+DEBUG(2018-04-20 13:03:00,659):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:03:00,659):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:03:00,659):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:03:00,659):db_interface.py at 159:updating the results for pk: 238670
+DEBUG(2018-04-20 13:03:00,661):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:03:00,661):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:03:00,661):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:03:00,662):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:03:00,768):db_interface.py at 96:returning results
+INFO(2018-04-20 13:03:00,768):worker.py at 438:processing job 240657
+DEBUG(2018-04-20 13:03:00,768):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/kraeuterfeld.de_2018-04-20_584322.txt, 1,2,6,10
+DEBUG(2018-04-20 13:03:00,768):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/kraeuterfeld.de_2018-04-20_584322.txt
+DEBUG(2018-04-20 13:03:00,807):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:00,809):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:00,809):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:03:00,809):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:03:00,810):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/kraeuterfeld.de_2018-04-20_584322.txt
+DEBUG(2018-04-20 13:03:00,821):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:00,822):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:00,822):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:03:00,823):worker.py at 134:handling impressum
+DEBUG(2018-04-20 13:03:00,823):impressum.py at 101: Kräuterkorb Impressum Angaben gemäß § 5 TMG: Rita Schöck-Mergenthaler Kraeuterfeld.de Lemberghöfe 2 71729 Erdmannhausen Dieses Impressum gilt auch für
+DEBUG(2018-04-20 13:03:00,823):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': u'Ludwigsburg', 'Land': None, 'Ort': u'Erdmannhausen ', 'PLZ': u'71729 ', 'Bundesland': u'Baden-W\xfcrttemberg', 'Unternehmen': u'Rita Sch\xf6ck-Mergenthaler Kraeuterfeld.de ', 'Strasse': u'Lembergh\xf6fe 2 '})
+INFO(2018-04-20 13:03:00,824):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:03:00,824):worker.py at 275:parts: [[u'Lembergh\xf6fe 2 ', u'71729 ', u'Erdmannhausen '], [u'Lembergh\xf6fe 2 ', 'DE', u'71729 ', u'Erdmannhausen ']]
+DEBUG(2018-04-20 13:03:00,824):worker.py at 277:clean parts: [[u'Lembergh\xf6fe 2 ', u'71729 ', u'Erdmannhausen '], [u'Lembergh\xf6fe 2 ', 'DE', u'71729 ', u'Erdmannhausen ']]
+DEBUG(2018-04-20 13:03:00,824):worker.py at 279:joined parts: [u'Lembergh\xf6fe 2  71729  Erdmannhausen ', u'Lembergh\xf6fe 2  DE 71729  Erdmannhausen ']
+DEBUG(2018-04-20 13:03:00,824):worker.py at 281:to_check: [u'lemberghoefe 2 71729 erdmannhausen', u'lemberghofe 2 71729 erdmannhausen', u'lemberghoefe 2 de 71729 erdmannhausen', u'lemberghofe 2 de 71729 erdmannhausen']
+DEBUG(2018-04-20 13:03:00,824):bioc.py at 113:get certificate for addresss: [u'lemberghoefe 2 71729 erdmannhausen', u'lemberghofe 2 71729 erdmannhausen', u'lemberghoefe 2 de 71729 erdmannhausen', u'lemberghofe 2 de 71729 erdmannhausen']
+DEBUG(2018-04-20 13:03:00,824):bioc.py at 120:got 1 idxs for 4 addresses
+DEBUG(2018-04-20 13:03:00,825):bioc.py at 124:got 1 infos
+DEBUG(2018-04-20 13:03:00,825):bioc.py at 141:returning 3 results
+INFO(2018-04-20 13:03:00,825):worker.py at 145:handling shop
+INFO(2018-04-20 13:03:02,299):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:03:02,471):worker.py at 291:done with job
+DEBUG(2018-04-20 13:03:02,472):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:03:02,487):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:03:02,487):worker.py at 371:update for toplevel domain 584321 with site 584322
+DEBUG(2018-04-20 13:03:02,487):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:03:02,487):db_interface.py at 134:selecting results for 584321
+DEBUG(2018-04-20 13:03:02,788):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:03:02,789):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:03:02,789):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:03:02,789):db_interface.py at 159:updating the results for pk: 238670
+DEBUG(2018-04-20 13:03:02,791):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:03:02,791):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:03:02,791):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:03:02,791):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:03:02,904):db_interface.py at 96:returning results
+INFO(2018-04-20 13:03:02,905):worker.py at 438:processing job 240658
+DEBUG(2018-04-20 13:03:02,905):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/nibelungentee.de_2018-04-20_584323.txt, 1,2,6,10
+DEBUG(2018-04-20 13:03:02,905):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/nibelungentee.de_2018-04-20_584323.txt
+DEBUG(2018-04-20 13:03:02,940):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:02,944):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:02,944):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:03:02,945):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:03:02,945):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/nibelungentee.de_2018-04-20_584323.txt
+DEBUG(2018-04-20 13:03:02,980):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:02,983):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:02,983):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:03:02,983):worker.py at 134:handling impressum
+DEBUG(2018-04-20 13:03:02,983):impressum.py at 101:ro Eigenart Schlürf David Rio Maoci Celestial-Seasonings Kontakt Nibelungentee internet-connect GmbH 67547 Worms Prinz-Carl-Anlage 22 Deutschla
+INFO(2018-04-20 13:03:02,984):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:03:02,984):worker.py at 275:parts: []
+DEBUG(2018-04-20 13:03:02,984):worker.py at 277:clean parts: []
+DEBUG(2018-04-20 13:03:02,984):worker.py at 279:joined parts: []
+DEBUG(2018-04-20 13:03:02,984):worker.py at 281:to_check: []
+DEBUG(2018-04-20 13:03:02,984):bioc.py at 113:get certificate for addresss: []
+DEBUG(2018-04-20 13:03:02,984):bioc.py at 120:got 0 idxs for 0 addresses
+DEBUG(2018-04-20 13:03:02,984):bioc.py at 124:got 0 infos
+DEBUG(2018-04-20 13:03:02,984):bioc.py at 141:returning 0 results
+INFO(2018-04-20 13:03:02,984):worker.py at 145:handling shop
+INFO(2018-04-20 13:03:04,427):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:03:04,513):worker.py at 291:done with job
+DEBUG(2018-04-20 13:03:04,513):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:03:04,516):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:03:04,516):worker.py at 371:update for toplevel domain None with site 584323
+DEBUG(2018-04-20 13:03:04,516):worker.py at 375:fk_resources for parent: 584323
+DEBUG(2018-04-20 13:03:04,516):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:03:04,516):db_interface.py at 134:selecting results for 584323
+DEBUG(2018-04-20 13:03:04,820):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:03:04,821):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:03:04,821):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:03:04,821):db_interface.py at 159:updating the results for pk: 238672
+DEBUG(2018-04-20 13:03:04,822):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:03:04,822):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:03:04,822):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:03:04,822):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:03:04,919):db_interface.py at 96:returning results
+INFO(2018-04-20 13:03:04,919):worker.py at 438:processing job 240659
+DEBUG(2018-04-20 13:03:04,919):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/nibelungentee.de_2018-04-20_584324.txt, 1,2,6,10
+DEBUG(2018-04-20 13:03:04,919):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/nibelungentee.de_2018-04-20_584324.txt
+DEBUG(2018-04-20 13:03:04,946):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:04,948):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:04,949):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:03:04,949):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:03:04,949):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/nibelungentee.de_2018-04-20_584324.txt
+DEBUG(2018-04-20 13:03:04,980):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:04,982):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:04,983):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:03:04,983):worker.py at 134:handling impressum
+DEBUG(2018-04-20 13:03:04,983):impressum.py at 101:trieren Impressum Start Impressum Impressum Nibelungentee internet-connect GmbH Prinz-Carl-Anlage 22 67547 Worms Deutschland Telefon: 06241 / 2
+DEBUG(2018-04-20 13:03:04,984):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': u'"Worms, Stadt"', 'Land': u'Deutschland ', 'Ort': u'Worms ', 'PLZ': u'67547 ', 'Bundesland': u'Rheinland-Pfalz', 'Unternehmen': u'Nibelungentee internet-connect GmbH ', 'Strasse': u'Prinz-Carl-Anlage 22 '})
+DEBUG(2018-04-20 13:03:04,984):impressum.py at 101:@nibelungentee.de Geschäftsführer: Herr Jörg Frödtert Handelsregistereintrag: Amtsgericht Mainz, HRB 12084 Ust.-Identnummer: DE 211927748 Ste
+DEBUG(2018-04-20 13:03:04,984):impressum.py at 101:elsregistereintrag: Amtsgericht Mainz, HRB 12084 Ust.-Identnummer: DE 211927748 Steuernummer: 44 658 00450 EORI-Nummer: DE2337584 EG-Öko-Kontr
+DEBUG(2018-04-20 13:03:04,985):impressum.py at 101:6-18123-B EG-Code: DE-ÖKO-006 Verantwortlich gemäß § 55 RStV: Daniel Frödtert, Prinz-Carl-Anlage 22, 67547 Worms Quelle Bildmaterial: www.istoc
+DEBUG(2018-04-20 13:03:04,985):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': u'"Worms, Stadt"', 'Land': None, 'Ort': u'Worms ', 'PLZ': u'67547 ', 'Bundesland': u'Rheinland-Pfalz', 'Unternehmen': None, 'Strasse': u'Prinz-Carl-Anlage 22, '})
+DEBUG(2018-04-20 13:03:04,985):impressum.py at 101:Weihnachtsmarkt Schnäppchenecke Welcher Tee-Typ bist Du? Kontakt Nibelungentee internet-connect GmbH 67547 Worms Prinz-Carl-Anlage 22 Deutschla
+INFO(2018-04-20 13:03:04,986):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:03:04,986):worker.py at 275:parts: [[u'Prinz-Carl-Anlage 22 ', u'67547 ', u'Worms '], [u'Prinz-Carl-Anlage 22 ', 'DE', u'67547 ', u'Worms '], [u'Prinz-Carl-Anlage 22, ', u'67547 ', u'Worms '], [u'Prinz-Carl-Anlage 22, ', 'DE', u'67547 ', u'Worms ']]
+DEBUG(2018-04-20 13:03:04,986):worker.py at 277:clean parts: [[u'Prinz-Carl-Anlage 22 ', u'67547 ', u'Worms '], [u'Prinz-Carl-Anlage 22 ', 'DE', u'67547 ', u'Worms '], [u'Prinz-Carl-Anlage 22, ', u'67547 ', u'Worms '], [u'Prinz-Carl-Anlage 22, ', 'DE', u'67547 ', u'Worms ']]
+DEBUG(2018-04-20 13:03:04,986):worker.py at 279:joined parts: [u'Prinz-Carl-Anlage 22  67547  Worms ', u'Prinz-Carl-Anlage 22  DE 67547  Worms ', u'Prinz-Carl-Anlage 22,  67547  Worms ', u'Prinz-Carl-Anlage 22,  DE 67547  Worms ']
+DEBUG(2018-04-20 13:03:04,987):worker.py at 281:to_check: [u'prinz-carl-anlage 22 67547 worms', u'prinz carl anlage 22 67547 worms', u'prinz-carl-anlage 22 de 67547 worms', u'prinz carl anlage 22 de 67547 worms', u'prinz-carl-anlage 22 67547 worms', u'prinz carl anlage 22 67547 worms', u'prinz-carl-anlage 22 de 67547 worms', u'prinz carl anlage 22 de 67547 worms']
+DEBUG(2018-04-20 13:03:04,987):bioc.py at 113:get certificate for addresss: [u'prinz-carl-anlage 22 67547 worms', u'prinz carl anlage 22 67547 worms', u'prinz-carl-anlage 22 de 67547 worms', u'prinz carl anlage 22 de 67547 worms', u'prinz-carl-anlage 22 67547 worms', u'prinz carl anlage 22 67547 worms', u'prinz-carl-anlage 22 de 67547 worms', u'prinz carl anlage 22 de 67547 worms']
+DEBUG(2018-04-20 13:03:04,987):bioc.py at 120:got 1 idxs for 8 addresses
+DEBUG(2018-04-20 13:03:04,987):bioc.py at 124:got 1 infos
+DEBUG(2018-04-20 13:03:04,987):bioc.py at 141:returning 3 results
+INFO(2018-04-20 13:03:04,987):worker.py at 145:handling shop
+INFO(2018-04-20 13:03:06,422):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:03:06,496):worker.py at 291:done with job
+DEBUG(2018-04-20 13:03:06,496):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:03:06,513):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:03:06,513):worker.py at 371:update for toplevel domain 584323 with site 584324
+DEBUG(2018-04-20 13:03:06,513):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:03:06,513):db_interface.py at 134:selecting results for 584323
+DEBUG(2018-04-20 13:03:07,767):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:03:07,767):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:03:07,767):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:03:07,767):db_interface.py at 159:updating the results for pk: 238672
+DEBUG(2018-04-20 13:03:07,770):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:03:07,770):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:03:07,770):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:03:07,770):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:03:08,913):db_interface.py at 96:returning results
+INFO(2018-04-20 13:03:08,913):worker.py at 438:processing job 240660
+DEBUG(2018-04-20 13:03:08,913):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/pikantum.de_2018-04-20_584325.txt, 1,2,6,10
+DEBUG(2018-04-20 13:03:08,913):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/pikantum.de_2018-04-20_584325.txt
+DEBUG(2018-04-20 13:03:08,975):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:08,980):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:08,980):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:03:08,982):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:03:08,982):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/pikantum.de_2018-04-20_584325.txt
+DEBUG(2018-04-20 13:03:09,046):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:09,051):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:09,051):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:03:09,052):worker.py at 134:handling impressum
+DEBUG(2018-04-20 13:03:09,052):impressum.py at 101:derrufsrecht Datenschutz Zertifikate zum Download Impressum Kontakt: info@pikantum.de Tel.: +49 5904 94902 Mo.-Do. 9:00-16:30 Uhr Freitags 9
+INFO(2018-04-20 13:03:09,053):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:03:09,053):worker.py at 275:parts: []
+DEBUG(2018-04-20 13:03:09,053):worker.py at 277:clean parts: []
+DEBUG(2018-04-20 13:03:09,053):worker.py at 279:joined parts: []
+DEBUG(2018-04-20 13:03:09,053):worker.py at 281:to_check: []
+DEBUG(2018-04-20 13:03:09,053):bioc.py at 113:get certificate for addresss: []
+DEBUG(2018-04-20 13:03:09,053):bioc.py at 120:got 0 idxs for 0 addresses
+DEBUG(2018-04-20 13:03:09,053):bioc.py at 124:got 0 infos
+DEBUG(2018-04-20 13:03:09,053):bioc.py at 141:returning 0 results
+INFO(2018-04-20 13:03:09,053):worker.py at 145:handling shop
+INFO(2018-04-20 13:03:10,500):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:03:10,960):worker.py at 291:done with job
+DEBUG(2018-04-20 13:03:10,960):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:03:10,964):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:03:10,964):worker.py at 371:update for toplevel domain None with site 584325
+DEBUG(2018-04-20 13:03:10,964):worker.py at 375:fk_resources for parent: 584325
+DEBUG(2018-04-20 13:03:10,964):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:03:10,964):db_interface.py at 134:selecting results for 584325
+DEBUG(2018-04-20 13:03:11,269):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:03:11,269):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:03:11,269):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:03:11,269):db_interface.py at 159:updating the results for pk: 238674
+DEBUG(2018-04-20 13:03:11,287):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:03:11,287):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:03:11,287):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:03:11,287):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:03:11,387):db_interface.py at 96:returning results
+INFO(2018-04-20 13:03:11,387):worker.py at 438:processing job 240661
+DEBUG(2018-04-20 13:03:11,387):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/pikantum.de_2018-04-20_584326.txt, 1,2,6,10
+DEBUG(2018-04-20 13:03:11,387):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/pikantum.de_2018-04-20_584326.txt
+DEBUG(2018-04-20 13:03:11,413):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:11,415):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:11,415):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:03:11,416):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:03:11,416):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/pikantum.de_2018-04-20_584326.txt
+DEBUG(2018-04-20 13:03:11,442):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:11,444):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:11,444):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:03:11,444):worker.py at 134:handling impressum
+DEBUG(2018-04-20 13:03:11,445):impressum.py at 101: Startseite Impressum Impressum pikantum KG Gesetzliche Anbieterkennung: pikantum KG Gewerbegebiet 6 49838 Gersten Deutschland vertreten durch de
+DEBUG(2018-04-20 13:03:11,445):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': u'Emsland', 'Land': u'Deutschland ', 'Ort': u'Gersten ', 'PLZ': u'49838 ', 'Bundesland': u'Niedersachsen', 'Unternehmen': u'pikantum KG ', 'Strasse': u'Gewerbegebiet 6 '})
+DEBUG(2018-04-20 13:03:11,445):impressum.py at 101:n Deutschland vertreten durch den persÃ¶nlich haftenden Gesellschafter: Thomas Becker Telefon: 05904 94902 Telefax: 05904 94901 E-Mail: info@pika
+DEBUG(2018-04-20 13:03:11,446):impressum.py at 101:en durch den persÃ¶nlich haftenden Gesellschafter: Thomas Becker Telefon: 05904 94902 Telefax: 05904 94901 E-Mail: info@pikantum.de USt-IdN
+DEBUG(2018-04-20 13:03:11,447):impressum.py at 101:derrufsrecht Datenschutz Zertifikate zum Download Impressum Kontakt: info@pikantum.de Tel.: +49 5904 94902 Mo.-Do. 9:00-16:30 Uhr Freitags 9
+INFO(2018-04-20 13:03:11,447):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:03:11,447):worker.py at 275:parts: [[u'Gewerbegebiet 6 ', u'49838 ', u'Gersten '], [u'Gewerbegebiet 6 ', 'DE', u'49838 ', u'Gersten ']]
+DEBUG(2018-04-20 13:03:11,448):worker.py at 277:clean parts: [[u'Gewerbegebiet 6 ', u'49838 ', u'Gersten '], [u'Gewerbegebiet 6 ', 'DE', u'49838 ', u'Gersten ']]
+DEBUG(2018-04-20 13:03:11,448):worker.py at 279:joined parts: [u'Gewerbegebiet 6  49838  Gersten ', u'Gewerbegebiet 6  DE 49838  Gersten ']
+DEBUG(2018-04-20 13:03:11,448):worker.py at 281:to_check: [u'gewerbegebiet 6 49838 gersten', u'gewerbegebiet 6 de 49838 gersten']
+DEBUG(2018-04-20 13:03:11,448):bioc.py at 113:get certificate for addresss: [u'gewerbegebiet 6 49838 gersten', u'gewerbegebiet 6 de 49838 gersten']
+DEBUG(2018-04-20 13:03:11,448):bioc.py at 120:got 1 idxs for 2 addresses
+DEBUG(2018-04-20 13:03:11,448):bioc.py at 124:got 1 infos
+DEBUG(2018-04-20 13:03:11,448):bioc.py at 141:returning 3 results
+INFO(2018-04-20 13:03:11,448):worker.py at 145:handling shop
+INFO(2018-04-20 13:03:12,928):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:03:13,061):worker.py at 291:done with job
+DEBUG(2018-04-20 13:03:13,061):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:03:13,064):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:03:13,064):worker.py at 371:update for toplevel domain 584325 with site 584326
+DEBUG(2018-04-20 13:03:13,064):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:03:13,064):db_interface.py at 134:selecting results for 584325
+DEBUG(2018-04-20 13:03:13,365):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:03:13,365):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:03:13,365):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:03:13,365):db_interface.py at 159:updating the results for pk: 238674
+DEBUG(2018-04-20 13:03:13,395):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:03:13,395):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:03:13,395):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:03:13,396):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:03:13,505):db_interface.py at 96:returning results
+INFO(2018-04-20 13:03:13,505):worker.py at 438:processing job 240662
+DEBUG(2018-04-20 13:03:13,505):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/rimoco.de_2018-04-20_584328.txt, 1,2,6,10
+DEBUG(2018-04-20 13:03:13,505):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/rimoco.de_2018-04-20_584328.txt
+DEBUG(2018-04-20 13:03:13,568):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:13,572):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:13,572):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:03:13,573):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:03:13,574):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/rimoco.de_2018-04-20_584328.txt
+DEBUG(2018-04-20 13:03:13,636):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:13,639):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:13,640):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:03:13,640):worker.py at 134:handling impressum
+INFO(2018-04-20 13:03:13,641):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:03:13,641):worker.py at 275:parts: []
+DEBUG(2018-04-20 13:03:13,641):worker.py at 277:clean parts: []
+DEBUG(2018-04-20 13:03:13,641):worker.py at 279:joined parts: []
+DEBUG(2018-04-20 13:03:13,641):worker.py at 281:to_check: []
+DEBUG(2018-04-20 13:03:13,641):bioc.py at 113:get certificate for addresss: []
+DEBUG(2018-04-20 13:03:13,641):bioc.py at 120:got 0 idxs for 0 addresses
+DEBUG(2018-04-20 13:03:13,641):bioc.py at 124:got 0 infos
+DEBUG(2018-04-20 13:03:13,641):bioc.py at 141:returning 0 results
+INFO(2018-04-20 13:03:13,641):worker.py at 145:handling shop
+INFO(2018-04-20 13:03:15,096):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:03:15,191):worker.py at 291:done with job
+DEBUG(2018-04-20 13:03:15,191):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:03:15,214):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:03:15,214):worker.py at 371:update for toplevel domain None with site 584328
+DEBUG(2018-04-20 13:03:15,214):worker.py at 375:fk_resources for parent: 584328
+DEBUG(2018-04-20 13:03:15,214):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:03:15,214):db_interface.py at 134:selecting results for 584328
+DEBUG(2018-04-20 13:03:15,517):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:03:15,517):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:03:15,519):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:03:15,519):db_interface.py at 159:updating the results for pk: 238676
+DEBUG(2018-04-20 13:03:15,520):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:03:15,521):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:03:15,521):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:03:15,521):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:03:15,643):db_interface.py at 96:returning results
+INFO(2018-04-20 13:03:15,643):worker.py at 438:processing job 240663
+DEBUG(2018-04-20 13:03:15,643):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/rimoco.de_2018-04-20_584329.txt, 1,2,6,10
+DEBUG(2018-04-20 13:03:15,643):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/rimoco.de_2018-04-20_584329.txt
+DEBUG(2018-04-20 13:03:15,671):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:15,673):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:15,673):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:03:15,674):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:03:15,674):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/rimoco.de_2018-04-20_584329.txt
+DEBUG(2018-04-20 13:03:15,695):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:15,697):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:15,697):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:03:15,698):worker.py at 134:handling impressum
+DEBUG(2018-04-20 13:03:15,698):impressum.py at 101:Zahlungsarten Impressum Impressum (http://www.trustedshops.de vom 11.04.2018) Coberi GmbH Talstr. 48 66119 Saarbrücken Deutschland Telefon: 0681
+DEBUG(2018-04-20 13:03:15,698):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': u'Stadtverband Saarbr\xfccken', 'Land': u'Deutschland ', 'Ort': u'Saarbr\xfccken ', 'PLZ': u'66119 ', 'Bundesland': u'Saarland', 'Unternehmen': u'Coberi GmbH ', 'Strasse': u'Talstr. 48 '})
+DEBUG(2018-04-20 13:03:15,699):impressum.py at 101:ionsnummer: DE 283056607 Verantwortlich gemäß § 55 RStV: Benjamin Albuzat , Richard Möcks Talstr. 48 66119 Saarbrücken Die Europäische Kommissio
+DEBUG(2018-04-20 13:03:15,699):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': u'Stadtverband Saarbr\xfccken', 'Land': None, 'Ort': u'Saarbr\xfccken ', 'PLZ': u'66119 ', 'Bundesland': u'Saarland', 'Unternehmen': None, 'Strasse': u'Talstr. 48 '})
+INFO(2018-04-20 13:03:15,699):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:03:15,700):worker.py at 275:parts: [[u'Talstr. 48 ', u'66119 ', u'Saarbr\xfccken '], [u'Talstr. 48 ', 'DE', u'66119 ', u'Saarbr\xfccken '], [u'Talstr. 48 ', u'66119 ', u'Saarbr\xfccken '], [u'Talstr. 48 ', 'DE', u'66119 ', u'Saarbr\xfccken ']]
+DEBUG(2018-04-20 13:03:15,700):worker.py at 277:clean parts: [[u'Talstr. 48 ', u'66119 ', u'Saarbr\xfccken '], [u'Talstr. 48 ', 'DE', u'66119 ', u'Saarbr\xfccken '], [u'Talstr. 48 ', u'66119 ', u'Saarbr\xfccken '], [u'Talstr. 48 ', 'DE', u'66119 ', u'Saarbr\xfccken ']]
+DEBUG(2018-04-20 13:03:15,700):worker.py at 279:joined parts: [u'Talstr. 48  66119  Saarbr\xfccken ', u'Talstr. 48  DE 66119  Saarbr\xfccken ', u'Talstr. 48  66119  Saarbr\xfccken ', u'Talstr. 48  DE 66119  Saarbr\xfccken ']
+DEBUG(2018-04-20 13:03:15,701):worker.py at 281:to_check: [u'talstrasse 48 66119 saarbruecken', u'tal strasse 48 66119 saarbruecken', u'talstrasse 48 66119 saarbrucken', u'tal strasse 48 66119 saarbrucken', u'talstrasse 48 de 66119 saarbruecken', u'tal strasse 48 de 66119 saarbruecken', u'talstrasse 48 de 66119 saarbrucken', u'tal strasse 48 de 66119 saarbrucken', u'talstrasse 48 66119 saarbruecken', u'tal strasse 48 66119 saarbruecken', u'talstrasse 48 66119 saarbrucken', u'tal strasse 48 66119 saarbrucken', u'talstrasse 48 de 66119 saarbruecken', u'tal strasse 48 de 66119 saarbruecken', u'talstrasse 48 de 66119 saarbrucken', u'tal strasse 48 de 66119 saarbrucken']
+DEBUG(2018-04-20 13:03:15,701):bioc.py at 113:get certificate for addresss: [u'talstrasse 48 66119 saarbruecken', u'tal strasse 48 66119 saarbruecken', u'talstrasse 48 66119 saarbrucken', u'tal strasse 48 66119 saarbrucken', u'talstrasse 48 de 66119 saarbruecken', u'tal strasse 48 de 66119 saarbruecken', u'talstrasse 48 de 66119 saarbrucken', u'tal strasse 48 de 66119 saarbrucken', u'talstrasse 48 66119 saarbruecken', u'tal strasse 48 66119 saarbruecken', u'talstrasse 48 66119 saarbrucken', u'tal strasse 48 66119 saarbrucken', u'talstrasse 48 de 66119 saarbruecken', u'tal strasse 48 de 66119 saarbruecken', u'talstrasse 48 de 66119 saarbrucken', u'tal strasse 48 de 66119 saarbrucken']
+DEBUG(2018-04-20 13:03:15,701):bioc.py at 120:got 1 idxs for 16 addresses
+DEBUG(2018-04-20 13:03:15,701):bioc.py at 124:got 1 infos
+DEBUG(2018-04-20 13:03:15,701):bioc.py at 141:returning 3 results
+INFO(2018-04-20 13:03:15,701):worker.py at 145:handling shop
+INFO(2018-04-20 13:03:17,294):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:03:17,384):worker.py at 291:done with job
+DEBUG(2018-04-20 13:03:17,384):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:03:17,401):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:03:17,401):worker.py at 371:update for toplevel domain 584328 with site 584329
+DEBUG(2018-04-20 13:03:17,401):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:03:17,401):db_interface.py at 134:selecting results for 584328
+DEBUG(2018-04-20 13:03:19,240):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:03:19,241):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:03:19,241):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:03:19,241):db_interface.py at 159:updating the results for pk: 238676
+DEBUG(2018-04-20 13:03:19,245):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:03:19,245):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:03:19,245):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:03:19,245):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:03:20,276):db_interface.py at 96:returning results
+INFO(2018-04-20 13:03:20,277):worker.py at 438:processing job 240664
+DEBUG(2018-04-20 13:03:20,277):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/rs-vital.de_2018-04-20_584330.txt, 1,2,6,10
+DEBUG(2018-04-20 13:03:20,277):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/rs-vital.de_2018-04-20_584330.txt
+DEBUG(2018-04-20 13:03:20,320):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:20,323):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:20,323):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:03:20,324):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:03:20,325):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/rs-vital.de_2018-04-20_584330.txt
+DEBUG(2018-04-20 13:03:20,365):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:20,369):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:20,369):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:03:20,369):worker.py at 134:handling impressum
+INFO(2018-04-20 13:03:20,370):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:03:20,370):worker.py at 275:parts: []
+DEBUG(2018-04-20 13:03:20,370):worker.py at 277:clean parts: []
+DEBUG(2018-04-20 13:03:20,370):worker.py at 279:joined parts: []
+DEBUG(2018-04-20 13:03:20,370):worker.py at 281:to_check: []
+DEBUG(2018-04-20 13:03:20,370):bioc.py at 113:get certificate for addresss: []
+DEBUG(2018-04-20 13:03:20,370):bioc.py at 120:got 0 idxs for 0 addresses
+DEBUG(2018-04-20 13:03:20,370):bioc.py at 124:got 0 infos
+DEBUG(2018-04-20 13:03:20,370):bioc.py at 141:returning 0 results
+INFO(2018-04-20 13:03:20,370):worker.py at 145:handling shop
+INFO(2018-04-20 13:03:21,829):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:03:21,920):worker.py at 291:done with job
+DEBUG(2018-04-20 13:03:21,920):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:03:21,939):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:03:21,939):worker.py at 371:update for toplevel domain None with site 584330
+DEBUG(2018-04-20 13:03:21,939):worker.py at 375:fk_resources for parent: 584330
+DEBUG(2018-04-20 13:03:21,939):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:03:21,939):db_interface.py at 134:selecting results for 584330
+DEBUG(2018-04-20 13:03:22,241):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:03:22,241):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:03:22,241):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:03:22,242):db_interface.py at 159:updating the results for pk: 238678
+DEBUG(2018-04-20 13:03:22,300):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:03:22,300):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:03:22,300):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:03:22,300):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:03:22,395):db_interface.py at 96:returning results
+INFO(2018-04-20 13:03:22,395):worker.py at 438:processing job 240665
+DEBUG(2018-04-20 13:03:22,395):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/rs-vital.de_2018-04-20_584331.txt, 1,2,6,10
+DEBUG(2018-04-20 13:03:22,395):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/rs-vital.de_2018-04-20_584331.txt
+DEBUG(2018-04-20 13:03:22,426):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:22,429):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:22,429):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:03:22,430):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:03:22,431):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/rs-vital.de_2018-04-20_584331.txt
+DEBUG(2018-04-20 13:03:22,459):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:22,462):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:22,462):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:03:22,463):worker.py at 134:handling impressum
+DEBUG(2018-04-20 13:03:22,463):impressum.py at 101:bieterkennung: RS Vital GmbH diese vertreten durch den Geschäftsführer Jan Heipcke Hatschekstraße 23 69126 Heidelberg Deutschland Telefon: 062216479
+DEBUG(2018-04-20 13:03:22,464):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': u'"Heidelberg, Stadt"', 'Land': u'Deutschland ', 'Ort': u'Heidelberg ', 'PLZ': u'69126 ', 'Bundesland': u'Baden-W\xfcrttemberg', 'Unternehmen': None, 'Strasse': u'Hatschekstra\xdfe 23 '})
+INFO(2018-04-20 13:03:22,464):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:03:22,464):worker.py at 275:parts: [[u'Hatschekstra\xdfe 23 ', u'69126 ', u'Heidelberg '], [u'Hatschekstra\xdfe 23 ', 'DE', u'69126 ', u'Heidelberg ']]
+DEBUG(2018-04-20 13:03:22,464):worker.py at 277:clean parts: [[u'Hatschekstra\xdfe 23 ', u'69126 ', u'Heidelberg '], [u'Hatschekstra\xdfe 23 ', 'DE', u'69126 ', u'Heidelberg ']]
+DEBUG(2018-04-20 13:03:22,464):worker.py at 279:joined parts: [u'Hatschekstra\xdfe 23  69126  Heidelberg ', u'Hatschekstra\xdfe 23  DE 69126  Heidelberg ']
+DEBUG(2018-04-20 13:03:22,465):worker.py at 281:to_check: [u'hatschekstrasse 23 69126 heidelberg', u'hatschek strasse 23 69126 heidelberg', u'hatschekstrasse 23 de 69126 heidelberg', u'hatschek strasse 23 de 69126 heidelberg']
+DEBUG(2018-04-20 13:03:22,465):bioc.py at 113:get certificate for addresss: [u'hatschekstrasse 23 69126 heidelberg', u'hatschek strasse 23 69126 heidelberg', u'hatschekstrasse 23 de 69126 heidelberg', u'hatschek strasse 23 de 69126 heidelberg']
+DEBUG(2018-04-20 13:03:22,465):bioc.py at 120:got 1 idxs for 4 addresses
+DEBUG(2018-04-20 13:03:22,465):bioc.py at 124:got 1 infos
+DEBUG(2018-04-20 13:03:22,465):bioc.py at 141:returning 3 results
+INFO(2018-04-20 13:03:22,465):worker.py at 145:handling shop
+INFO(2018-04-20 13:03:23,912):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:03:23,960):worker.py at 291:done with job
+DEBUG(2018-04-20 13:03:23,960):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:03:23,963):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:03:23,963):worker.py at 371:update for toplevel domain 584330 with site 584331
+DEBUG(2018-04-20 13:03:23,963):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:03:23,963):db_interface.py at 134:selecting results for 584330
+DEBUG(2018-04-20 13:03:24,283):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:03:24,283):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:03:24,283):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:03:24,284):db_interface.py at 159:updating the results for pk: 238678
+DEBUG(2018-04-20 13:03:24,286):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:03:24,286):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:03:24,286):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:03:24,286):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:03:24,412):db_interface.py at 96:returning results
+INFO(2018-04-20 13:03:24,412):worker.py at 438:processing job 240666
+DEBUG(2018-04-20 13:03:24,412):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/sandorado.de_2018-04-20_584332.txt, 1,2,6,10
+DEBUG(2018-04-20 13:03:24,412):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/sandorado.de_2018-04-20_584332.txt
+DEBUG(2018-04-20 13:03:24,430):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:24,432):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:24,432):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:03:24,432):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:03:24,432):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/sandorado.de_2018-04-20_584332.txt
+DEBUG(2018-04-20 13:03:24,449):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:24,450):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:24,451):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:03:24,451):worker.py at 134:handling impressum
+INFO(2018-04-20 13:03:24,451):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:03:24,451):worker.py at 275:parts: []
+DEBUG(2018-04-20 13:03:24,451):worker.py at 277:clean parts: []
+DEBUG(2018-04-20 13:03:24,451):worker.py at 279:joined parts: []
+DEBUG(2018-04-20 13:03:24,451):worker.py at 281:to_check: []
+DEBUG(2018-04-20 13:03:24,451):bioc.py at 113:get certificate for addresss: []
+DEBUG(2018-04-20 13:03:24,451):bioc.py at 120:got 0 idxs for 0 addresses
+DEBUG(2018-04-20 13:03:24,451):bioc.py at 124:got 0 infos
+DEBUG(2018-04-20 13:03:24,451):bioc.py at 141:returning 0 results
+INFO(2018-04-20 13:03:24,451):worker.py at 145:handling shop
+INFO(2018-04-20 13:03:25,913):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:03:26,110):worker.py at 291:done with job
+DEBUG(2018-04-20 13:03:26,110):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:03:26,113):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:03:26,113):worker.py at 371:update for toplevel domain None with site 584332
+DEBUG(2018-04-20 13:03:26,113):worker.py at 375:fk_resources for parent: 584332
+DEBUG(2018-04-20 13:03:26,113):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:03:26,113):db_interface.py at 134:selecting results for 584332
+DEBUG(2018-04-20 13:03:26,418):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:03:26,418):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:03:26,418):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:03:26,418):db_interface.py at 159:updating the results for pk: 238680
+DEBUG(2018-04-20 13:03:26,420):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:03:26,420):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:03:26,420):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:03:26,420):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:03:26,515):db_interface.py at 96:returning results
+INFO(2018-04-20 13:03:26,515):worker.py at 438:processing job 240667
+DEBUG(2018-04-20 13:03:26,515):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/sandorado.de_2018-04-20_584333.txt, 1,2,6,10
+DEBUG(2018-04-20 13:03:26,515):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/sandorado.de_2018-04-20_584333.txt
+DEBUG(2018-04-20 13:03:26,533):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:26,534):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:26,535):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:03:26,535):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:03:26,535):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/sandorado.de_2018-04-20_584333.txt
+DEBUG(2018-04-20 13:03:26,552):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:26,554):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:26,554):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:03:26,554):worker.py at 134:handling impressum
+INFO(2018-04-20 13:03:26,554):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:03:26,554):worker.py at 275:parts: []
+DEBUG(2018-04-20 13:03:26,554):worker.py at 277:clean parts: []
+DEBUG(2018-04-20 13:03:26,554):worker.py at 279:joined parts: []
+DEBUG(2018-04-20 13:03:26,554):worker.py at 281:to_check: []
+DEBUG(2018-04-20 13:03:26,554):bioc.py at 113:get certificate for addresss: []
+DEBUG(2018-04-20 13:03:26,554):bioc.py at 120:got 0 idxs for 0 addresses
+DEBUG(2018-04-20 13:03:26,555):bioc.py at 124:got 0 infos
+DEBUG(2018-04-20 13:03:26,555):bioc.py at 141:returning 0 results
+INFO(2018-04-20 13:03:26,555):worker.py at 145:handling shop
+INFO(2018-04-20 13:03:28,028):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:03:28,293):worker.py at 291:done with job
+DEBUG(2018-04-20 13:03:28,293):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:03:28,313):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:03:28,313):worker.py at 371:update for toplevel domain 584332 with site 584333
+DEBUG(2018-04-20 13:03:28,313):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:03:28,313):db_interface.py at 134:selecting results for 584332
+DEBUG(2018-04-20 13:03:30,016):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:03:30,016):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:03:30,016):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:03:30,016):db_interface.py at 159:updating the results for pk: 238680
+DEBUG(2018-04-20 13:03:30,018):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:03:30,019):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:03:30,019):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:03:30,019):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:03:30,774):db_interface.py at 96:returning results
+INFO(2018-04-20 13:03:30,774):worker.py at 438:processing job 240668
+DEBUG(2018-04-20 13:03:30,774):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/scheid-gewuerzkontor.de_2018-04-20_584334.txt, 1,2,6,10
+DEBUG(2018-04-20 13:03:30,774):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/scheid-gewuerzkontor.de_2018-04-20_584334.txt
+DEBUG(2018-04-20 13:03:30,797):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:30,799):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:30,799):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:03:30,799):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:03:30,800):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/scheid-gewuerzkontor.de_2018-04-20_584334.txt
+DEBUG(2018-04-20 13:03:30,824):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:30,826):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:30,826):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:03:30,826):worker.py at 134:handling impressum
+INFO(2018-04-20 13:03:30,827):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:03:30,827):worker.py at 275:parts: []
+DEBUG(2018-04-20 13:03:30,827):worker.py at 277:clean parts: []
+DEBUG(2018-04-20 13:03:30,827):worker.py at 279:joined parts: []
+DEBUG(2018-04-20 13:03:30,827):worker.py at 281:to_check: []
+DEBUG(2018-04-20 13:03:30,827):bioc.py at 113:get certificate for addresss: []
+DEBUG(2018-04-20 13:03:30,827):bioc.py at 120:got 0 idxs for 0 addresses
+DEBUG(2018-04-20 13:03:30,827):bioc.py at 124:got 0 infos
+DEBUG(2018-04-20 13:03:30,827):bioc.py at 141:returning 0 results
+INFO(2018-04-20 13:03:30,827):worker.py at 145:handling shop
+INFO(2018-04-20 13:03:32,311):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:03:32,385):worker.py at 291:done with job
+DEBUG(2018-04-20 13:03:32,385):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:03:32,389):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:03:32,389):worker.py at 371:update for toplevel domain None with site 584334
+DEBUG(2018-04-20 13:03:32,389):worker.py at 375:fk_resources for parent: 584334
+DEBUG(2018-04-20 13:03:32,389):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:03:32,389):db_interface.py at 134:selecting results for 584334
+DEBUG(2018-04-20 13:03:32,689):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:03:32,689):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:03:32,689):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:03:32,689):db_interface.py at 159:updating the results for pk: 238682
+DEBUG(2018-04-20 13:03:32,691):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:03:32,691):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:03:32,691):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:03:32,691):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:03:32,783):db_interface.py at 96:returning results
+INFO(2018-04-20 13:03:32,784):worker.py at 438:processing job 240669
+DEBUG(2018-04-20 13:03:32,784):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/scheid-gewuerzkontor.de_2018-04-20_584335.txt, 1,2,6,10
+DEBUG(2018-04-20 13:03:32,784):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/scheid-gewuerzkontor.de_2018-04-20_584335.txt
+DEBUG(2018-04-20 13:03:32,804):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:32,806):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:32,806):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:03:32,806):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:03:32,807):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/scheid-gewuerzkontor.de_2018-04-20_584335.txt
+DEBUG(2018-04-20 13:03:32,831):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:32,832):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:32,833):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:03:32,833):worker.py at 134:handling impressum
+DEBUG(2018-04-20 13:03:32,833):impressum.py at 101:: DE279076703 eingetragen im Handelsregister des Amtsgerichtes Saarbrücken Handelsregisternummer HRB 19727 Bio-Kontrollstellennummer: DE-ÖKO-
+DEBUG(2018-04-20 13:03:32,834):impressum.py at 101:die Allgemeine Verbraucherschlichtungsstelle des Zentrums für Schlichtung e. V., Straßburger Str. 8, D-77694 Kehl, mail@verbraucher-schlichter.d
+WARNING(2018-04-20 13:03:32,834):impressum.py at 137:couldn't find bds and kr for 
+DEBUG(2018-04-20 13:03:32,834):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': None, 2: '', 'Land': None, 'Ort': u'Kehl, ', 'PLZ': u'D-77694 ', 'Bundesland': None, 'Unternehmen': u'Allgemeine Verbraucherschlichtungsstelle des Zentrums f\xfcr Schlichtung e. V., ', 'Strasse': u'Stra\xdfburger Str. 8, '})
+INFO(2018-04-20 13:03:32,835):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:03:32,835):worker.py at 275:parts: [[u'Stra\xdfburger Str. 8, ', u'D-77694 ', u'Kehl, '], [u'Stra\xdfburger Str. 8, ', 'DE', u'D-77694 ', u'Kehl, '], [u'Stra\xdfburger Str. 8, ', u'77694 ', u'Kehl, ']]
+DEBUG(2018-04-20 13:03:32,835):worker.py at 277:clean parts: [[u'Stra\xdfburger Str. 8, ', u'D-77694 ', u'Kehl, '], [u'Stra\xdfburger Str. 8, ', 'DE', u'D-77694 ', u'Kehl, '], [u'Stra\xdfburger Str. 8, ', u'77694 ', u'Kehl, ']]
+DEBUG(2018-04-20 13:03:32,835):worker.py at 279:joined parts: [u'Stra\xdfburger Str. 8,  D-77694  Kehl, ', u'Stra\xdfburger Str. 8,  DE D-77694  Kehl, ', u'Stra\xdfburger Str. 8,  77694  Kehl, ']
+DEBUG(2018-04-20 13:03:32,836):worker.py at 281:to_check: [u'strassburger strasse 8 d-77694 kehl', u'strassburger strasse 8 damm 77694 kehl', u'strassburger strasse 8 d 77694 kehl', u'strassburger strasse 8 de d-77694 kehl', u'strassburger strasse 8 de damm 77694 kehl', u'strassburger strasse 8 de d 77694 kehl', u'strassburger strasse 8 77694 kehl']
+DEBUG(2018-04-20 13:03:32,836):bioc.py at 113:get certificate for addresss: [u'strassburger strasse 8 d-77694 kehl', u'strassburger strasse 8 damm 77694 kehl', u'strassburger strasse 8 d 77694 kehl', u'strassburger strasse 8 de d-77694 kehl', u'strassburger strasse 8 de damm 77694 kehl', u'strassburger strasse 8 de d 77694 kehl', u'strassburger strasse 8 77694 kehl']
+DEBUG(2018-04-20 13:03:32,836):bioc.py at 120:got 0 idxs for 7 addresses
+DEBUG(2018-04-20 13:03:32,836):bioc.py at 124:got 0 infos
+DEBUG(2018-04-20 13:03:32,836):bioc.py at 141:returning 0 results
+INFO(2018-04-20 13:03:32,837):worker.py at 145:handling shop
+INFO(2018-04-20 13:03:34,272):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:03:34,455):worker.py at 291:done with job
+DEBUG(2018-04-20 13:03:34,456):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:03:34,459):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:03:34,459):worker.py at 371:update for toplevel domain 584334 with site 584335
+DEBUG(2018-04-20 13:03:34,459):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:03:34,459):db_interface.py at 134:selecting results for 584334
+DEBUG(2018-04-20 13:03:34,759):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:03:34,759):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:03:34,759):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:03:34,759):db_interface.py at 159:updating the results for pk: 238682
+DEBUG(2018-04-20 13:03:34,761):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:03:34,761):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:03:34,761):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:03:34,761):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:03:34,855):db_interface.py at 96:returning results
+INFO(2018-04-20 13:03:34,855):worker.py at 438:processing job 240670
+DEBUG(2018-04-20 13:03:34,855):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/seitenbacher.de_2018-04-20_584336.txt, 1,2,6,10
+DEBUG(2018-04-20 13:03:34,855):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/seitenbacher.de_2018-04-20_584336.txt
+DEBUG(2018-04-20 13:03:34,883):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:34,885):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:34,885):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:03:34,886):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:03:34,886):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/seitenbacher.de_2018-04-20_584336.txt
+DEBUG(2018-04-20 13:03:34,910):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:34,912):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:34,912):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:03:34,913):worker.py at 134:handling impressum
+INFO(2018-04-20 13:03:34,913):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:03:34,913):worker.py at 275:parts: []
+DEBUG(2018-04-20 13:03:34,913):worker.py at 277:clean parts: []
+DEBUG(2018-04-20 13:03:34,913):worker.py at 279:joined parts: []
+DEBUG(2018-04-20 13:03:34,913):worker.py at 281:to_check: []
+DEBUG(2018-04-20 13:03:34,913):bioc.py at 113:get certificate for addresss: []
+DEBUG(2018-04-20 13:03:34,913):bioc.py at 120:got 0 idxs for 0 addresses
+DEBUG(2018-04-20 13:03:34,913):bioc.py at 124:got 0 infos
+DEBUG(2018-04-20 13:03:34,913):bioc.py at 141:returning 0 results
+INFO(2018-04-20 13:03:34,913):worker.py at 145:handling shop
+INFO(2018-04-20 13:03:36,344):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:03:36,468):worker.py at 291:done with job
+DEBUG(2018-04-20 13:03:36,468):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:03:36,470):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:03:36,470):worker.py at 371:update for toplevel domain None with site 584336
+DEBUG(2018-04-20 13:03:36,470):worker.py at 375:fk_resources for parent: 584336
+DEBUG(2018-04-20 13:03:36,470):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:03:36,470):db_interface.py at 134:selecting results for 584336
+DEBUG(2018-04-20 13:03:36,789):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:03:36,789):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:03:36,789):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:03:36,789):db_interface.py at 159:updating the results for pk: 238684
+DEBUG(2018-04-20 13:03:36,791):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:03:36,791):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:03:36,791):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:03:36,791):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:03:36,885):db_interface.py at 96:returning results
+INFO(2018-04-20 13:03:36,885):worker.py at 438:processing job 240671
+DEBUG(2018-04-20 13:03:36,885):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/seitenbacher.de_2018-04-20_584337.txt, 1,2,6,10
+DEBUG(2018-04-20 13:03:36,885):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/seitenbacher.de_2018-04-20_584337.txt
+DEBUG(2018-04-20 13:03:36,904):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:36,905):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:36,905):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:03:36,905):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:03:36,906):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/seitenbacher.de_2018-04-20_584337.txt
+DEBUG(2018-04-20 13:03:36,924):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:36,925):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:36,925):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:03:36,926):worker.py at 134:handling impressum
+DEBUG(2018-04-20 13:03:36,926):impressum.py at 101:itenbacher Forum Sie sind hier Home Impressum Impressum Seitenbacher Vertriebs-GmbH, Siemensstr. 14, D-74722 Buchen im Odenwald Tel: 06281-3066, F
+DEBUG(2018-04-20 13:03:36,926):impressum.py at 101:llschafterin: Seitenbacher Verwaltungs-GmbH, Geschäftsführer: Willi Pfannenschwarz Siemensstraße 14, D-74722 Buchen im Odenwald Amtsgericht Mannhe
+INFO(2018-04-20 13:03:36,927):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:03:36,927):worker.py at 275:parts: []
+DEBUG(2018-04-20 13:03:36,927):worker.py at 277:clean parts: []
+DEBUG(2018-04-20 13:03:36,927):worker.py at 279:joined parts: []
+DEBUG(2018-04-20 13:03:36,927):worker.py at 281:to_check: []
+DEBUG(2018-04-20 13:03:36,927):bioc.py at 113:get certificate for addresss: []
+DEBUG(2018-04-20 13:03:36,927):bioc.py at 120:got 0 idxs for 0 addresses
+DEBUG(2018-04-20 13:03:36,927):bioc.py at 124:got 0 infos
+DEBUG(2018-04-20 13:03:36,927):bioc.py at 141:returning 0 results
+INFO(2018-04-20 13:03:36,927):worker.py at 145:handling shop
+INFO(2018-04-20 13:03:38,358):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:03:38,412):worker.py at 291:done with job
+DEBUG(2018-04-20 13:03:38,412):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:03:38,434):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:03:38,434):worker.py at 371:update for toplevel domain 584336 with site 584337
+DEBUG(2018-04-20 13:03:38,435):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:03:38,435):db_interface.py at 134:selecting results for 584336
+DEBUG(2018-04-20 13:03:40,606):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:03:40,606):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:03:40,606):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:03:40,606):db_interface.py at 159:updating the results for pk: 238684
+DEBUG(2018-04-20 13:03:40,609):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:03:40,609):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:03:40,609):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:03:40,610):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:03:41,858):db_interface.py at 96:returning results
+INFO(2018-04-20 13:03:41,858):worker.py at 438:processing job 240672
+DEBUG(2018-04-20 13:03:41,858):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/st-antony.de_2018-04-20_584338.txt, 1,2,6,10
+DEBUG(2018-04-20 13:03:41,858):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/st-antony.de_2018-04-20_584338.txt
+DEBUG(2018-04-20 13:03:41,900):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:41,904):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:41,904):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:03:41,904):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:03:41,905):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/st-antony.de_2018-04-20_584338.txt
+DEBUG(2018-04-20 13:03:41,935):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:41,938):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:41,938):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:03:41,939):worker.py at 134:handling impressum
+DEBUG(2018-04-20 13:03:41,939):impressum.py at 101:nd persönlich für sie da: Telefon 06133-509110 Beratung info@ st-antony.de Information Wilhelmstr. 4 55283 Nierstein Anschrift Mo–Fr 8–18 Uhr Sa 10
+DEBUG(2018-04-20 13:03:41,940):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': u'Mainz-Bingen', 'Land': None, 'Ort': u'Nierstein ', 'PLZ': u'55283 ', 'Bundesland': u'Rheinland-Pfalz', 'Unternehmen': None, 'Strasse': u'Wilhelmstr. 4 '})
+DEBUG(2018-04-20 13:03:41,940):impressum.py at 101:en … Folge uns auf Facebook Folge uns auf Twitter St. Antony Weingut GmbH & Co. KG, Wilhelmstraße 4, 55283 Nierstein, Telefon +49 61 33 509 110, in
+DEBUG(2018-04-20 13:03:41,941):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': u'Mainz-Bingen', 'Land': None, 'Ort': u'Nierstein, ', 'PLZ': u'55283 ', 'Bundesland': u'Rheinland-Pfalz', 'Unternehmen': u'Weingut GmbH & Co. KG, ', 'Strasse': u'Wilhelmstra\xdfe 4, '})
+INFO(2018-04-20 13:03:41,941):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:03:41,941):worker.py at 275:parts: [[u'Wilhelmstr. 4 ', u'55283 ', u'Nierstein '], [u'Wilhelmstr. 4 ', 'DE', u'55283 ', u'Nierstein '], [u'Wilhelmstra\xdfe 4, ', u'55283 ', u'Nierstein, '], [u'Wilhelmstra\xdfe 4, ', 'DE', u'55283 ', u'Nierstein, ']]
+DEBUG(2018-04-20 13:03:41,941):worker.py at 277:clean parts: [[u'Wilhelmstr. 4 ', u'55283 ', u'Nierstein '], [u'Wilhelmstr. 4 ', 'DE', u'55283 ', u'Nierstein '], [u'Wilhelmstra\xdfe 4, ', u'55283 ', u'Nierstein, '], [u'Wilhelmstra\xdfe 4, ', 'DE', u'55283 ', u'Nierstein, ']]
+DEBUG(2018-04-20 13:03:41,941):worker.py at 279:joined parts: [u'Wilhelmstr. 4  55283  Nierstein ', u'Wilhelmstr. 4  DE 55283  Nierstein ', u'Wilhelmstra\xdfe 4,  55283  Nierstein, ', u'Wilhelmstra\xdfe 4,  DE 55283  Nierstein, ']
+DEBUG(2018-04-20 13:03:41,942):worker.py at 281:to_check: [u'wilhelmstrasse 4 55283 nierstein', u'wilhelm strasse 4 55283 nierstein', u'wilhelmstraat 4 de 55283 nierstein', u'wilhelm straat 4 de 55283 nierstein', u'wilhelmstrasse 4 55283 nierstein', u'wilhelm strasse 4 55283 nierstein', u'wilhelmstrasse 4 de 55283 nierstein', u'wilhelm strasse 4 de 55283 nierstein']
+DEBUG(2018-04-20 13:03:41,942):bioc.py at 113:get certificate for addresss: [u'wilhelmstrasse 4 55283 nierstein', u'wilhelm strasse 4 55283 nierstein', u'wilhelmstraat 4 de 55283 nierstein', u'wilhelm straat 4 de 55283 nierstein', u'wilhelmstrasse 4 55283 nierstein', u'wilhelm strasse 4 55283 nierstein', u'wilhelmstrasse 4 de 55283 nierstein', u'wilhelm strasse 4 de 55283 nierstein']
+DEBUG(2018-04-20 13:03:41,942):bioc.py at 120:got 0 idxs for 8 addresses
+DEBUG(2018-04-20 13:03:41,942):bioc.py at 124:got 0 infos
+DEBUG(2018-04-20 13:03:41,942):bioc.py at 141:returning 0 results
+INFO(2018-04-20 13:03:41,942):worker.py at 145:handling shop
+INFO(2018-04-20 13:03:43,521):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:03:43,736):worker.py at 291:done with job
+DEBUG(2018-04-20 13:03:43,736):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:03:43,739):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:03:43,739):worker.py at 371:update for toplevel domain None with site 584338
+DEBUG(2018-04-20 13:03:43,739):worker.py at 375:fk_resources for parent: 584338
+DEBUG(2018-04-20 13:03:43,739):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:03:43,739):db_interface.py at 134:selecting results for 584338
+DEBUG(2018-04-20 13:03:44,040):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:03:44,040):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:03:44,040):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:03:44,040):db_interface.py at 159:updating the results for pk: 238686
+DEBUG(2018-04-20 13:03:44,042):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:03:44,042):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:03:44,042):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:03:44,042):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:03:44,137):db_interface.py at 96:returning results
+INFO(2018-04-20 13:03:44,137):worker.py at 438:processing job 240673
+DEBUG(2018-04-20 13:03:44,137):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/st-antony.de_2018-04-20_584339.txt, 1,2,6,10
+DEBUG(2018-04-20 13:03:44,137):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/st-antony.de_2018-04-20_584339.txt
+DEBUG(2018-04-20 13:03:44,158):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:44,160):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:44,160):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:03:44,161):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:03:44,161):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/st-antony.de_2018-04-20_584339.txt
+DEBUG(2018-04-20 13:03:44,181):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:44,183):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:44,183):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:03:44,183):worker.py at 134:handling impressum
+DEBUG(2018-04-20 13:03:44,183):impressum.py at 101:nd persönlich für sie da: Telefon 06133-509110 Beratung info@ st-antony.de Information Wilhelmstr. 4 55283 Nierstein Anschrift Mo–Fr 8–18 Uhr Sa 10
+DEBUG(2018-04-20 13:03:44,184):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': u'Mainz-Bingen', 'Land': None, 'Ort': u'Nierstein ', 'PLZ': u'55283 ', 'Bundesland': u'Rheinland-Pfalz', 'Unternehmen': None, 'Strasse': u'Wilhelmstr. 4 '})
+DEBUG(2018-04-20 13:03:44,184):impressum.py at 101:Wein · Ethik · Team · Historie · Presse · Impressum St. Antony Weingut GmbH & Co. KG Wilhelmstraße 4 55283 Nierstein am Rhein Deutschland Telefon: 
+DEBUG(2018-04-20 13:03:44,185):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': u'Mainz-Bingen', 'Land': u'Deutschland ', 'Ort': u'Nierstein am Rhein ', 'PLZ': u'55283 ', 'Bundesland': u'Rheinland-Pfalz', 'Unternehmen': u'St. Antony Weingut GmbH & Co. KG ', 'Strasse': u'Wilhelmstra\xdfe 4 '})
+DEBUG(2018-04-20 13:03:44,185):impressum.py at 101:+49 61 33 509 11 299 www.st-antony.de info@st-antony.de Registereintrag Handelsregister AG Mainz HRA 40036 USt-ID-Nr.: DE814527505 Persönlich
+DEBUG(2018-04-20 13:03:44,186):impressum.py at 101:: DE814527505 Persönlich haftend: St. Antony Beteiligungs-GmbH Sitz: Nierstein am Rhein AG Mainz HRB 40065 Vertreten durch: Geschäftsführer Felix P
+DEBUG(2018-04-20 13:03:44,186):impressum.py at 101:rde Ministerium für Umwelt, Landwirtschaft, Ernährung, Weinbau und Forsten Kaiser-Friedrich-Straße 1 55131 Mainz www.mulewf.rlp.de Gesetzliche 
+DEBUG(2018-04-20 13:03:44,187):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': u'"Mainz, Stadt"', 'Land': None, 'Ort': u'Mainz ', 'PLZ': u'55131 ', 'Bundesland': u'Rheinland-Pfalz', 'Unternehmen': None, 'Strasse': u'Kaiser-Friedrich-Stra\xdfe 1 '})
+DEBUG(2018-04-20 13:03:44,187):impressum.py at 101: unter http://ec.europa.eu/consumers/odr/ finden. St. Antony Weingut GmbH & Co. KG, Wilhelmstraße 4, 55283 Nierstein, Telefon +49 61 33 509 110, in
+DEBUG(2018-04-20 13:03:44,188):impressum.py at 140:defaultdict(<type 'str'>, {'Kreis': u'Mainz-Bingen', 'Land': None, 'Ort': u'Nierstein, ', 'PLZ': u'55283 ', 'Bundesland': u'Rheinland-Pfalz', 'Unternehmen': u'Weingut GmbH & Co. KG, ', 'Strasse': u'Wilhelmstra\xdfe 4, '})
+INFO(2018-04-20 13:03:44,188):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:03:44,188):worker.py at 275:parts: [[u'Wilhelmstr. 4 ', u'55283 ', u'Nierstein '], [u'Wilhelmstr. 4 ', 'DE', u'55283 ', u'Nierstein '], [u'Wilhelmstra\xdfe 4 ', u'55283 ', u'Nierstein am Rhein '], [u'Wilhelmstra\xdfe 4 ', 'DE', u'55283 ', u'Nierstein am Rhein '], [u'Kaiser-Friedrich-Stra\xdfe 1 ', u'55131 ', u'Mainz '], [u'Kaiser-Friedrich-Stra\xdfe 1 ', 'DE', u'55131 ', u'Mainz '], [u'Wilhelmstra\xdfe 4, ', u'55283 ', u'Nierstein, '], [u'Wilhelmstra\xdfe 4, ', 'DE', u'55283 ', u'Nierstein, ']]
+DEBUG(2018-04-20 13:03:44,188):worker.py at 277:clean parts: [[u'Wilhelmstr. 4 ', u'55283 ', u'Nierstein '], [u'Wilhelmstr. 4 ', 'DE', u'55283 ', u'Nierstein '], [u'Wilhelmstra\xdfe 4 ', u'55283 ', u'Nierstein am Rhein '], [u'Wilhelmstra\xdfe 4 ', 'DE', u'55283 ', u'Nierstein am Rhein '], [u'Kaiser-Friedrich-Stra\xdfe 1 ', u'55131 ', u'Mainz '], [u'Kaiser-Friedrich-Stra\xdfe 1 ', 'DE', u'55131 ', u'Mainz '], [u'Wilhelmstra\xdfe 4, ', u'55283 ', u'Nierstein, '], [u'Wilhelmstra\xdfe 4, ', 'DE', u'55283 ', u'Nierstein, ']]
+DEBUG(2018-04-20 13:03:44,188):worker.py at 279:joined parts: [u'Wilhelmstr. 4  55283  Nierstein ', u'Wilhelmstr. 4  DE 55283  Nierstein ', u'Wilhelmstra\xdfe 4  55283  Nierstein am Rhein ', u'Wilhelmstra\xdfe 4  DE 55283  Nierstein am Rhein ', u'Kaiser-Friedrich-Stra\xdfe 1  55131  Mainz ', u'Kaiser-Friedrich-Stra\xdfe 1  DE 55131  Mainz ', u'Wilhelmstra\xdfe 4,  55283  Nierstein, ', u'Wilhelmstra\xdfe 4,  DE 55283  Nierstein, ']
+DEBUG(2018-04-20 13:03:44,190):worker.py at 281:to_check: [u'wilhelmstrasse 4 55283 nierstein', u'wilhelm strasse 4 55283 nierstein', u'wilhelmstraat 4 de 55283 nierstein', u'wilhelm straat 4 de 55283 nierstein', u'wilhelmstrasse 4 55283 nierstein am rhein', u'wilhelm strasse 4 55283 nierstein am rhein', u'wilhelmstrasse 4 de 55283 nierstein am rhein', u'wilhelm strasse 4 de 55283 nierstein am rhein', u'kaiser-friedrichstrasse 1 55131 mainz', u'kaiser-friedrich strasse 1 55131 mainz', u'kaiser friedrichstrasse 1 55131 mainz', u'kaiser friedrich strasse 1 55131 mainz', u'kaiser-friedrichstrasse 1 de 55131 mainz', u'kaiser-friedrich strasse 1 de 55131 mainz', u'kaiser friedrichstrasse 1 de 55131 mainz', u'kaiser friedrich strasse 1 de 55131 mainz', u'wilhelmstrasse 4 55283 nierstein', u'wilhelm strasse 4 55283 nierstein', u'wilhelmstrasse 4 de 55283 nierstein', u'wilhelm strasse 4 de 55283 nierstein']
+DEBUG(2018-04-20 13:03:44,190):bioc.py at 113:get certificate for addresss: [u'wilhelmstrasse 4 55283 nierstein', u'wilhelm strasse 4 55283 nierstein', u'wilhelmstraat 4 de 55283 nierstein', u'wilhelm straat 4 de 55283 nierstein', u'wilhelmstrasse 4 55283 nierstein am rhein', u'wilhelm strasse 4 55283 nierstein am rhein', u'wilhelmstrasse 4 de 55283 nierstein am rhein', u'wilhelm strasse 4 de 55283 nierstein am rhein', u'kaiser-friedrichstrasse 1 55131 mainz', u'kaiser-friedrich strasse 1 55131 mainz', u'kaiser friedrichstrasse 1 55131 mainz', u'kaiser friedrich strasse 1 55131 mainz', u'kaiser-friedrichstrasse 1 de 55131 mainz', u'kaiser-friedrich strasse 1 de 55131 mainz', u'kaiser friedrichstrasse 1 de 55131 mainz', u'kaiser friedrich strasse 1 de 55131 mainz', u'wilhelmstrasse 4 55283 nierstein', u'wilhelm strasse 4 55283 nierstein', u'wilhelmstrasse 4 de 55283 nierstein', u'wilhelm strasse 4 de 55283 nierstein']
+DEBUG(2018-04-20 13:03:44,190):bioc.py at 120:got 0 idxs for 20 addresses
+DEBUG(2018-04-20 13:03:44,191):bioc.py at 124:got 0 infos
+DEBUG(2018-04-20 13:03:44,191):bioc.py at 141:returning 0 results
+INFO(2018-04-20 13:03:44,191):worker.py at 145:handling shop
+INFO(2018-04-20 13:03:45,660):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:03:45,833):worker.py at 291:done with job
+DEBUG(2018-04-20 13:03:45,833):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:03:45,850):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:03:45,850):worker.py at 371:update for toplevel domain 584338 with site 584339
+DEBUG(2018-04-20 13:03:45,850):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:03:45,850):db_interface.py at 134:selecting results for 584338
+DEBUG(2018-04-20 13:03:46,173):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:03:46,173):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:03:46,173):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:03:46,173):db_interface.py at 159:updating the results for pk: 238686
+DEBUG(2018-04-20 13:03:46,175):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:03:46,175):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:03:46,175):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:03:46,175):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:03:46,269):db_interface.py at 96:returning results
+INFO(2018-04-20 13:03:46,269):worker.py at 438:processing job 240674
+DEBUG(2018-04-20 13:03:46,270):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/teaworld.de_2018-04-20_584341.txt, 1,2,6,10
+DEBUG(2018-04-20 13:03:46,270):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/teaworld.de_2018-04-20_584341.txt
+DEBUG(2018-04-20 13:03:46,318):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:46,322):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:46,322):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:03:46,323):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:03:46,323):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/teaworld.de_2018-04-20_584341.txt
+DEBUG(2018-04-20 13:03:46,372):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:46,376):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:46,376):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:03:46,376):worker.py at 134:handling impressum
+INFO(2018-04-20 13:03:46,376):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:03:46,376):worker.py at 275:parts: []
+DEBUG(2018-04-20 13:03:46,377):worker.py at 277:clean parts: []
+DEBUG(2018-04-20 13:03:46,377):worker.py at 279:joined parts: []
+DEBUG(2018-04-20 13:03:46,377):worker.py at 281:to_check: []
+DEBUG(2018-04-20 13:03:46,377):bioc.py at 113:get certificate for addresss: []
+DEBUG(2018-04-20 13:03:46,377):bioc.py at 120:got 0 idxs for 0 addresses
+DEBUG(2018-04-20 13:03:46,377):bioc.py at 124:got 0 infos
+DEBUG(2018-04-20 13:03:46,377):bioc.py at 141:returning 0 results
+INFO(2018-04-20 13:03:46,377):worker.py at 145:handling shop
+INFO(2018-04-20 13:03:47,829):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:03:47,997):worker.py at 291:done with job
+DEBUG(2018-04-20 13:03:47,997):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:03:48,017):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:03:48,017):worker.py at 371:update for toplevel domain None with site 584341
+DEBUG(2018-04-20 13:03:48,017):worker.py at 375:fk_resources for parent: 584341
+DEBUG(2018-04-20 13:03:48,017):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:03:48,017):db_interface.py at 134:selecting results for 584341
+DEBUG(2018-04-20 13:03:48,320):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:03:48,320):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:03:48,320):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:03:48,321):db_interface.py at 159:updating the results for pk: 238688
+DEBUG(2018-04-20 13:03:48,456):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:03:48,456):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:03:48,456):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:03:48,456):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:03:48,910):db_interface.py at 96:returning results
+INFO(2018-04-20 13:03:48,911):worker.py at 438:processing job 240675
+DEBUG(2018-04-20 13:03:48,911):worker.py at 125:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/28/html/teaworld.de_2018-04-20_584342.txt, 1,2,6,10
+DEBUG(2018-04-20 13:03:48,911):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/teaworld.de_2018-04-20_584342.txt
+DEBUG(2018-04-20 13:03:48,959):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:48,963):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:48,963):preprocess.py at 74:get all links and add them
+DEBUG(2018-04-20 13:03:48,964):preprocess.py at 81:done with preprocessing
+DEBUG(2018-04-20 13:03:48,965):preprocess.py at 45:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/28/html/teaworld.de_2018-04-20_584342.txt
+DEBUG(2018-04-20 13:03:49,013):preprocess.py at 58:extracting text
+DEBUG(2018-04-20 13:03:49,017):preprocess.py at 62:pretify text
+DEBUG(2018-04-20 13:03:49,017):preprocess.py at 81:done with preprocessing
+INFO(2018-04-20 13:03:49,017):worker.py at 134:handling impressum
+INFO(2018-04-20 13:03:49,017):worker.py at 256:handling bioc
+DEBUG(2018-04-20 13:03:49,018):worker.py at 275:parts: []
+DEBUG(2018-04-20 13:03:49,018):worker.py at 277:clean parts: []
+DEBUG(2018-04-20 13:03:49,018):worker.py at 279:joined parts: []
+DEBUG(2018-04-20 13:03:49,018):worker.py at 281:to_check: []
+DEBUG(2018-04-20 13:03:49,018):bioc.py at 113:get certificate for addresss: []
+DEBUG(2018-04-20 13:03:49,018):bioc.py at 120:got 0 idxs for 0 addresses
+DEBUG(2018-04-20 13:03:49,018):bioc.py at 124:got 0 infos
+DEBUG(2018-04-20 13:03:49,018):bioc.py at 141:returning 0 results
+INFO(2018-04-20 13:03:49,018):worker.py at 145:handling shop
+INFO(2018-04-20 13:03:50,469):worker.py at 196:handling oeko stuff
+DEBUG(2018-04-20 13:03:50,628):worker.py at 291:done with job
+DEBUG(2018-04-20 13:03:50,628):db_interface.py at 106:updating the results for a job
+DEBUG(2018-04-20 13:03:50,649):db_interface.py at 121:updated the database
+DEBUG(2018-04-20 13:03:50,650):worker.py at 371:update for toplevel domain 584341 with site 584342
+DEBUG(2018-04-20 13:03:50,650):worker.py at 376:getting old results
+DEBUG(2018-04-20 13:03:50,650):db_interface.py at 134:selecting results for 584341
+DEBUG(2018-04-20 13:03:52,232):db_interface.py at 145:returning results
+DEBUG(2018-04-20 13:03:52,232):worker.py at 379:calculating new results
+DEBUG(2018-04-20 13:03:52,232):worker.py at 424:writing new results to database
+DEBUG(2018-04-20 13:03:52,232):db_interface.py at 159:updating the results for pk: 238688
+DEBUG(2018-04-20 13:03:52,251):db_interface.py at 167:updated the database
+DEBUG(2018-04-20 13:03:52,251):worker.py at 426:finished writing new results
+DEBUG(2018-04-20 13:03:52,252):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:03:52,252):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:03:52,363):worker.py at 463:found no job

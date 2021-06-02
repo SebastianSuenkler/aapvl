@@ -1,0 +1,22 @@
+DEBUG(2018-01-25 08:29:57,054):worker.py at 49:initializing worker
+DEBUG(2018-01-25 08:29:57,055):db_interface.py at 23:initializing database-interface
+DEBUG(2018-01-25 08:29:57,055):db_interface.py at 44:connecting to database with user config
+DEBUG(2018-01-25 08:29:57,058):db_interface.py at 26:initialized database-interface
+DEBUG(2018-01-25 08:29:57,058):classifier.py at 59:initializing classifier
+DEBUG(2018-01-25 08:29:57,058):classifier.py at 63:loading classifier
+DEBUG(2018-01-25 08:30:03,050):probability.py at 72:initializing probability object
+DEBUG(2018-01-25 08:30:03,050):probability.py at 74:loading the variables
+DEBUG(2018-01-25 08:30:03,052):probability.py at 76:initialized probability object
+DEBUG(2018-01-25 08:30:03,052):classifier.py at 74:initialized classifier
+DEBUG(2018-01-25 08:30:03,052):classifier.py at 59:initializing classifier
+DEBUG(2018-01-25 08:30:03,052):classifier.py at 63:loading classifier
+DEBUG(2018-01-25 08:30:03,092):probability.py at 72:initializing probability object
+DEBUG(2018-01-25 08:30:03,092):probability.py at 74:loading the variables
+DEBUG(2018-01-25 08:30:03,093):probability.py at 76:initialized probability object
+DEBUG(2018-01-25 08:30:03,093):classifier.py at 74:initialized classifier
+DEBUG(2018-01-25 08:30:03,094):classifier.py at 59:initializing classifier
+DEBUG(2018-01-25 08:30:03,094):classifier.py at 63:loading classifier
+DEBUG(2018-01-25 08:30:07,013):probability.py at 72:initializing probability object
+DEBUG(2018-01-25 08:30:07,013):probability.py at 74:loading the variables
+DEBUG(2018-01-25 08:30:07,014):probability.py at 76:initialized probability object
+DEBUG(2018-01-25 08:30:07,014):classifier.py at 74:initialized classifier

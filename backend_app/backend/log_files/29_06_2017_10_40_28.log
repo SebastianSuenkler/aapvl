@@ -1,0 +1,27 @@
+DEBUG(2017-06-29 10:40:28,842):worker.py at 43:initializing worker
+DEBUG(2017-06-29 10:40:28,842):db_interface.py at 23:initializing database-interface
+DEBUG(2017-06-29 10:40:28,842):db_interface.py at 44:connecting to database with user config
+DEBUG(2017-06-29 10:40:28,846):db_interface.py at 26:initialized database-interface
+DEBUG(2017-06-29 10:40:28,846):classifier.py at 42:initializing classifier
+DEBUG(2017-06-29 10:40:28,846):classifier.py at 46:loading classifier
+DEBUG(2017-06-29 10:40:37,193):probability.py at 66:initializing probability object
+DEBUG(2017-06-29 10:40:37,194):probability.py at 68:loading the variables
+DEBUG(2017-06-29 10:40:37,194):probability.py at 70:initialized probability object
+DEBUG(2017-06-29 10:40:37,194):classifier.py at 57:initialized classifier
+DEBUG(2017-06-29 10:40:37,194):classifier.py at 42:initializing classifier
+DEBUG(2017-06-29 10:40:37,194):classifier.py at 46:loading classifier
+DEBUG(2017-06-29 10:40:37,247):probability.py at 66:initializing probability object
+DEBUG(2017-06-29 10:40:37,247):probability.py at 68:loading the variables
+DEBUG(2017-06-29 10:40:37,247):probability.py at 70:initialized probability object
+DEBUG(2017-06-29 10:40:37,247):classifier.py at 57:initialized classifier
+DEBUG(2017-06-29 10:40:37,247):classifier.py at 42:initializing classifier
+DEBUG(2017-06-29 10:40:37,248):classifier.py at 46:loading classifier
+DEBUG(2017-06-29 10:40:42,848):probability.py at 66:initializing probability object
+DEBUG(2017-06-29 10:40:42,848):probability.py at 68:loading the variables
+DEBUG(2017-06-29 10:40:42,848):probability.py at 70:initialized probability object
+DEBUG(2017-06-29 10:40:42,848):classifier.py at 57:initialized classifier
+DEBUG(2017-06-29 10:40:43,046):worker.py at 58:initialized worker
+DEBUG(2017-06-29 10:40:43,046):worker.py at 263:started schedule with 5 tries and 240 delay
+DEBUG(2017-06-29 10:40:43,046):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 10:40:43,046):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 10:40:43,047):worker.py at 238:found no job

@@ -1,0 +1,18 @@
+DEBUG(2018-04-20 13:15:08,711):worker.py at 89:initializing worker
+DEBUG(2018-04-20 13:15:08,712):db_interface.py at 45:initializing database-interface
+DEBUG(2018-04-20 13:15:08,712):db_interface.py at 66:connecting to database with user config
+DEBUG(2018-04-20 13:15:08,715):db_interface.py at 48:initialized database-interface
+DEBUG(2018-04-20 13:15:08,715):classifier.py at 82:initializing classifier
+DEBUG(2018-04-20 13:15:08,715):classifier.py at 86:loading classifier
+DEBUG(2018-04-20 13:15:14,232):probability.py at 91:initializing probability object
+DEBUG(2018-04-20 13:15:14,232):probability.py at 93:loading the variables
+DEBUG(2018-04-20 13:15:14,232):probability.py at 95:initialized probability object
+DEBUG(2018-04-20 13:15:14,232):classifier.py at 97:initialized classifier
+DEBUG(2018-04-20 13:15:14,232):classifier.py at 82:initializing classifier
+DEBUG(2018-04-20 13:15:14,233):classifier.py at 86:loading classifier
+DEBUG(2018-04-20 13:15:14,269):probability.py at 91:initializing probability object
+DEBUG(2018-04-20 13:15:14,269):probability.py at 93:loading the variables
+DEBUG(2018-04-20 13:15:14,269):probability.py at 95:initialized probability object
+DEBUG(2018-04-20 13:15:14,269):classifier.py at 97:initialized classifier
+DEBUG(2018-04-20 13:15:14,269):classifier.py at 82:initializing classifier
+DEBUG(2018-04-20 13:15:14,269):classifier.py at 86:loading classifier

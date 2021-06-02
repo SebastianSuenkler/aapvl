@@ -1,0 +1,227 @@
+Blähungen
+Cholesterinspiegel
+Blutzuckerspiegel
+Homocystein-Stoffwechsel
+Energiestoffwechsel
+Nervensystem
+Stoffwechsel
+Makronährstoffe
+psychische Funktion
+Haare
+Schleimhaut
+Schleimhäute
+Haut
+Blutgerinnung
+Muskelfunktion
+Signalübertragung
+Nervenzellen
+Verdauungsenzyme
+Zellteilung
+Zellspezialisierung
+Knochen
+Zähne
+Magensäure
+Verdauung
+Fettstoffwechsel
+Leberfunktion
+Gehirnfunktion
+Sehkraft
+Herzfunktion
+kognitive Funktion
+rote Blutkörperchen
+Hämoglobin
+Sauerstofftransport
+Immunsystem
+Müdigkeit
+Ermüdung
+Zahnmineralisierung
+Schwangerschaft
+mütterliches Gewebe
+Aminosäuresynthese
+Blutbildung
+Stuhlvolumen
+Gewichtsverlust
+Schilddrüsenhormone
+Schilddrüsenfunktion
+Blutdruck
+Ausdauerleistung
+körperliche Betätigung
+körperliche Leistung
+Bindegewebe
+Haarpigmentierung
+Eisentransport
+Hautpigmentierung
+oxidativer Stress
+Lactoseverdauung
+Darmpassage
+Elektrolytgleichgewicht
+Eiweißsynthese
+Bindegewebsbildung
+Jetlag-Empfindung
+Einschlafzeit
+Verstoffwechslung
+schwefelhaltige Aminosäuren
+Steroidhormone
+Vitamin D
+Neurotransmitter
+geistige Leistung
+Zellmembran
+Muskelmasse
+Eisenstoffwechsel
+Darmfunktion
+Spermabildung
+Nägel
+Nagel
+Cystein-Synthese
+Eiweißstoffwechsel
+Glycogenstoffwechsel
+Hormontätigkeit
+Kollagenbildung
+Blutgefäße
+Knorpelfunktion
+Zahnfleisch
+Calciumspiegel
+Körpertemperatur
+Säure-Basen-Stoffwechsel
+Kohlenhydrat-Stoffwechsel
+DNA-Synthese
+Fruchtbarkeit
+Reproduktion
+Fettsäurestoffwechsel
+Vitamin-A-Stoffwechsel
+Eiweißsynthese
+Testosteronspiegel
+Zahnmineralisierung
+Zahnbelag
+Mundtrockenheit
+Behandlung
+Vorbeugung
+Therapie
+therapeutisch
+Krankheit
+krankhaft
+Störungen
+gestörte
+Diagnose
+krank
+akut
+chronisch
+Schmerz
+schmerzhaft
+Warnsignal
+Symptom
+Entzündung
+entzündlich
+Infektion
+Dysfunktion 
+Krebs
+Osteoporose
+Osteoporosis
+Knochenbruch
+Knochenbrüche
+Athrose
+Athritis
+Osteoarthritis
+Gelenkentzündung
+Rheuma
+rheumatisch
+erhöhtes Cholesterin
+gesteigertes Cholesterin
+erhöhtes LDL
+gesteigertes LDL 
+Hypercholesterinämie
+Hypertriglyceridämie
+Herzinfarkt
+Herzinsuffizienz
+Schlaganfall
+Gehirnschlag
+Hirnschlag 
+Thrombus
+Thromben
+Blutgerinnsel
+Blutpfropfen
+Gerinnsel
+Durchblutungsstörung 
+Alzheimer
+Demenz
+Gedächtnisverlust
+Vergesslichkeit 
+Diabetes
+Diabetiker
+Erhöhter Blutzucker
+gesteigert Blutzucker
+hoher Blutzucker 
+Neuropathie
+Polyneuropathie 
+Grüner Star
+Grauer Star
+Augenerkrankung
+Haarausfall
+Neurodermitis
+Schuppenflechte
+Flechte
+Wundheilung 
+Parodontose 
+Verdauungsstörungen
+Verstopfung
+Darmverschluss
+Darmkrebs
+Reizdarm
+Reizdarmsyndrom
+Magenkrebs
+Gastritis
+Pankreatitis
+Bauchspeichelkrebs 
+Fettleber
+Leberzirrhose
+Leberentzündung
+Schrumpfleber
+Leberkrebs
+Hepatitis
+Herzrasen
+Bluthochdruck
+Tinnitus 
+Grippe
+Viren
+bakterielle Infektion 
+Blasenentzündung
+Harnwegsinfekt
+Harnwegsinfektion 
+Brustkrebs
+Prostatakrebs
+Prostataentzündung
+Prostatavergrößerung
+erektile Dysfunktion  
+Inkontinenz
+Nierenbeckenentzündung 
+Unfruchtbarkeit 
+Asthma
+Heuschnupfen
+Allergie 
+Schilddrüsenüberfunktion
+Schilddrüsenunterfunktion 
+Blutarmut
+Hormonstörungen 
+Myopatie
+Muskelatrophie
+Autoimmunkrankheit
+Hämorrhoiden 
+Morbus Crohn
+Colitis Ulcerosa
+Zöliakie
+Sodbrennen 
+Geschwür
+Sekundentod
+Herzversagen
+Herztod
+Herzrhythmusstörungen
+Kammerflimmern
+Herzschlag
+Herzmuskelentzündung
+Lungenembolie
+Atemnot 
+Magenschmerzen
+Bauchschmerzen 
+Durchfall
+Fieber
+Migräne 

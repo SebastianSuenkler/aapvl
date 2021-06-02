@@ -1,0 +1,4 @@
+INFO(2017-05-03 14:41:09,383):worker.py at 143:processing job 1
+INFO(2017-05-03 14:41:09,591):worker.py at 64:handling impressum
+INFO(2017-05-03 14:41:09,591):worker.py at 93:handling shop
+INFO(2017-05-03 14:41:11,632):worker.py at 104:handling food

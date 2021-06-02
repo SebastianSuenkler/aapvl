@@ -1,0 +1,438 @@
+DEBUG(2018-01-25 11:22:15,611):worker.py at 93:initializing worker
+DEBUG(2018-01-25 11:22:15,611):db_interface.py at 23:initializing database-interface
+DEBUG(2018-01-25 11:22:15,611):db_interface.py at 44:connecting to database with user config
+DEBUG(2018-01-25 11:22:15,615):db_interface.py at 26:initialized database-interface
+DEBUG(2018-01-25 11:22:15,615):classifier.py at 59:initializing classifier
+DEBUG(2018-01-25 11:22:15,615):classifier.py at 63:loading classifier
+DEBUG(2018-01-25 11:22:21,381):probability.py at 72:initializing probability object
+DEBUG(2018-01-25 11:22:21,382):probability.py at 74:loading the variables
+DEBUG(2018-01-25 11:22:21,382):probability.py at 76:initialized probability object
+DEBUG(2018-01-25 11:22:21,382):classifier.py at 74:initialized classifier
+DEBUG(2018-01-25 11:22:21,382):classifier.py at 59:initializing classifier
+DEBUG(2018-01-25 11:22:21,382):classifier.py at 63:loading classifier
+DEBUG(2018-01-25 11:22:21,419):probability.py at 72:initializing probability object
+DEBUG(2018-01-25 11:22:21,419):probability.py at 74:loading the variables
+DEBUG(2018-01-25 11:22:21,419):probability.py at 76:initialized probability object
+DEBUG(2018-01-25 11:22:21,419):classifier.py at 74:initialized classifier
+DEBUG(2018-01-25 11:22:21,419):classifier.py at 59:initializing classifier
+DEBUG(2018-01-25 11:22:21,419):classifier.py at 63:loading classifier
+DEBUG(2018-01-25 11:22:25,176):probability.py at 72:initializing probability object
+DEBUG(2018-01-25 11:22:25,177):probability.py at 74:loading the variables
+DEBUG(2018-01-25 11:22:25,177):probability.py at 76:initialized probability object
+DEBUG(2018-01-25 11:22:25,177):classifier.py at 74:initialized classifier
+DEBUG(2018-01-25 11:22:26,456):worker.py at 114:initialized worker
+DEBUG(2018-01-25 11:22:26,456):worker.py at 471:started schedule with 5 tries and 240 delay
+DEBUG(2018-01-25 11:22:26,456):worker.py at 369:get job from database and process
+DEBUG(2018-01-25 11:22:26,456):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2018-01-25 11:22:26,531):db_interface.py at 72:returning results
+INFO(2018-01-25 11:22:26,532):worker.py at 375:processing job 240398
+DEBUG(2018-01-25 11:22:26,532):worker.py at 130:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/27/html/querbeet.de_2018-01-23_584042.txt, 1,2,6,10
+DEBUG(2018-01-25 11:22:26,532):preprocess.py at 20:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/27/html/querbeet.de_2018-01-23_584042.txt
+DEBUG(2018-01-25 11:22:26,545):preprocess.py at 33:extracting text
+DEBUG(2018-01-25 11:22:26,546):preprocess.py at 37:pretify text
+DEBUG(2018-01-25 11:22:26,547):preprocess.py at 49:get all links and add them
+DEBUG(2018-01-25 11:22:26,547):preprocess.py at 56:done with preprocessing
+INFO(2018-01-25 11:22:26,547):worker.py at 138:handling impressum
+DEBUG(2018-01-25 11:22:26,547):impressum.py at 83:¶rderpreis Klimaschutz Impressum Querbeet - Bio Frischvermarktung GmbH Pappelhof, Dorheimer Str. 107 61203 Reichelsheim Tel.: 0 60 35 - 70 93 100 Fax:
+DEBUG(2018-01-25 11:22:26,548):impressum.py at 122:defaultdict(<type 'str'>, {'Kreis': u'Wetteraukreis', 'Land': None, 'Ort': u'Reichelsheim ', 'PLZ': u'61203 ', 'Bundesland': u'Hessen', 'Unternehmen': u'Querbeet - Bio Frischvermarktung GmbH Pappelhof, ', 'Strasse': u'Dorheimer Str. 107 '})
+DEBUG(2018-01-25 11:22:26,549):impressum.py at 83:st eine eingetragene und damit gesetzlich geschÃ¼tzte Marke der Querbeet Bio Frischvermarktung GmbH, 61203 Reichelsheim. Produkte und/oder Dienstleist
+DEBUG(2018-01-25 11:22:26,549):impressum.py at 83:hop Informationen der Datenbank Ãkoinform. EKOINFORM e.K. Wolfgang Giesler ErdmannsdÃ¶rferstraÃe 6 81247 MÃ¼nchen Tel: 49-89-89129219 49-
+DEBUG(2018-01-25 11:22:26,550):impressum.py at 122:defaultdict(<type 'str'>, {'Strasse': None, 'Unternehmen': u'EKOINFORM e.K. ', 'Land': None, 'Ort': None, 'PLZ': None})
+DEBUG(2018-01-25 11:22:26,550):impressum.py at 83:hen Tel: 49-89-89129219 49-89-89129219 E-mail: info@oekoinform.de www.oekoinform.de AG MÃ¼nchen, HRA 75540 Inhaltlich Verantwortlicher gem. Â§ 55 Ab
+INFO(2018-01-25 11:22:26,551):worker.py at 240:handling bioc
+DEBUG(2018-01-25 11:22:26,551):worker.py at 254:parts: [[u'Dorheimer Str. 107 ', u'61203 ', u'Reichelsheim '], [u'Dorheimer Str. 107 ', 'DE', u'61203 ', u'Reichelsheim '], [None, None, None], [None, 'DE', None, None]]
+DEBUG(2018-01-25 11:22:26,551):worker.py at 256:clean parts: [[u'Dorheimer Str. 107 ', u'61203 ', u'Reichelsheim '], [u'Dorheimer Str. 107 ', 'DE', u'61203 ', u'Reichelsheim ']]
+DEBUG(2018-01-25 11:22:26,551):worker.py at 258:joined parts: [u'Dorheimer Str. 107  61203  Reichelsheim ', u'Dorheimer Str. 107  DE 61203  Reichelsheim ']
+DEBUG(2018-01-25 11:22:26,551):worker.py at 260:to_check: [u'dorheimer strasse 107 61203 reichelsheim', u'dorheimer strasse 107 de 61203 reichelsheim']
+DEBUG(2018-01-25 11:22:26,551):bioc.py at 93:get certificate for addresss: [u'dorheimer strasse 107 61203 reichelsheim', u'dorheimer strasse 107 de 61203 reichelsheim']
+DEBUG(2018-01-25 11:22:26,551):bioc.py at 100:got 1 idxs for 2 addresses
+DEBUG(2018-01-25 11:22:26,551):bioc.py at 104:got 1 infos
+DEBUG(2018-01-25 11:22:26,551):bioc.py at 122:returning 3 results
+INFO(2018-01-25 11:22:26,551):worker.py at 148:handling shop
+INFO(2018-01-25 11:22:28,054):worker.py at 195:handling oeko stuff
+DEBUG(2018-01-25 11:22:28,055):worker.py at 269:done with job
+DEBUG(2018-01-25 11:22:28,055):db_interface.py at 79:updating the results for a job
+DEBUG(2018-01-25 11:22:28,059):db_interface.py at 94:updated the database
+DEBUG(2018-01-25 11:22:28,059):worker.py at 304:update for toplevel domain 584041 with site 584042
+DEBUG(2018-01-25 11:22:28,059):worker.py at 309:getting old results
+DEBUG(2018-01-25 11:22:28,059):db_interface.py at 97:selecting results for 584041
+DEBUG(2018-01-25 11:22:37,300):db_interface.py at 108:returning results
+DEBUG(2018-01-25 11:22:37,300):worker.py at 312:calculating new results
+DEBUG(2018-01-25 11:22:37,300):worker.py at 357:writing new results to database
+DEBUG(2018-01-25 11:22:37,300):db_interface.py at 112:updating the results for pk: 238157
+DEBUG(2018-01-25 11:22:37,338):db_interface.py at 120:updated the database
+DEBUG(2018-01-25 11:22:37,339):worker.py at 359:finished writing new results
+DEBUG(2018-01-25 11:22:37,339):worker.py at 369:get job from database and process
+DEBUG(2018-01-25 11:22:37,339):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2018-01-25 11:22:41,046):db_interface.py at 72:returning results
+INFO(2018-01-25 11:22:41,046):worker.py at 375:processing job 240399
+DEBUG(2018-01-25 11:22:41,046):worker.py at 130:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/27/html/gemuesekiste.abo-kiste.com_2018-01-23_584043.txt, 1,2,6,10
+DEBUG(2018-01-25 11:22:41,046):preprocess.py at 20:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/27/html/gemuesekiste.abo-kiste.com_2018-01-23_584043.txt
+DEBUG(2018-01-25 11:22:41,061):preprocess.py at 33:extracting text
+DEBUG(2018-01-25 11:22:41,062):preprocess.py at 37:pretify text
+DEBUG(2018-01-25 11:22:41,062):preprocess.py at 49:get all links and add them
+DEBUG(2018-01-25 11:22:41,063):preprocess.py at 56:done with preprocessing
+INFO(2018-01-25 11:22:41,063):worker.py at 138:handling impressum
+DEBUG(2018-01-25 11:22:41,063):impressum.py at 83:e Ihre Kundennummer. Die Kundennummer muss fünfstellig sein, d. h. Kunde 945 trägt „00945“ ein Kunde 12001 trägt „12001“ ein Kunde 3 trägt „
+DEBUG(2018-01-25 11:22:41,064):impressum.py at 83:k) Sauerkraut im Glas groß Erdbeere Fruchtgarten Shopsystem ecoinform Gemüsekiste | Hauptstraße 72 | 30966 Hemmingen-Hiddestorf | 05101 58836-0 | i
+DEBUG(2018-01-25 11:22:41,065):impressum.py at 122:defaultdict(<type 'str'>, {'Unternehmen': None, 'Strasse': u'Hauptstra\xdfe 72 ', 'Land': None, 'Ort': None, 'PLZ': None})
+DEBUG(2018-01-25 11:22:41,065):impressum.py at 83: 05101 58836-0 | info@gemuesekiste.com | Datenschutz | DE-ÖKO-006 Ein Auszug unseres Liefergebietes: 30451 Hannover Linden-Nord mobile/klassische 
+INFO(2018-01-25 11:22:41,066):worker.py at 240:handling bioc
+DEBUG(2018-01-25 11:22:41,066):worker.py at 254:parts: [[u'Hauptstra\xdfe 72 ', None, None], [u'Hauptstra\xdfe 72 ', 'DE', None, None]]
+DEBUG(2018-01-25 11:22:41,066):worker.py at 256:clean parts: []
+DEBUG(2018-01-25 11:22:41,066):worker.py at 258:joined parts: []
+DEBUG(2018-01-25 11:22:41,066):worker.py at 260:to_check: []
+DEBUG(2018-01-25 11:22:41,066):bioc.py at 93:get certificate for addresss: []
+DEBUG(2018-01-25 11:22:41,066):bioc.py at 100:got 0 idxs for 0 addresses
+DEBUG(2018-01-25 11:22:41,066):bioc.py at 104:got 0 infos
+DEBUG(2018-01-25 11:22:41,066):bioc.py at 122:returning 0 results
+INFO(2018-01-25 11:22:41,066):worker.py at 148:handling shop
+INFO(2018-01-25 11:22:42,681):worker.py at 195:handling oeko stuff
+DEBUG(2018-01-25 11:22:42,681):worker.py at 269:done with job
+DEBUG(2018-01-25 11:22:42,682):db_interface.py at 79:updating the results for a job
+DEBUG(2018-01-25 11:22:42,688):db_interface.py at 94:updated the database
+DEBUG(2018-01-25 11:22:42,688):worker.py at 304:update for toplevel domain None with site 584043
+DEBUG(2018-01-25 11:22:42,688):worker.py at 308:fk_resources for parent: 584043
+DEBUG(2018-01-25 11:22:42,688):worker.py at 309:getting old results
+DEBUG(2018-01-25 11:22:42,688):db_interface.py at 97:selecting results for 584043
+DEBUG(2018-01-25 11:22:43,031):db_interface.py at 108:returning results
+DEBUG(2018-01-25 11:22:43,031):worker.py at 312:calculating new results
+DEBUG(2018-01-25 11:22:43,032):worker.py at 357:writing new results to database
+DEBUG(2018-01-25 11:22:43,032):db_interface.py at 112:updating the results for pk: 238392
+DEBUG(2018-01-25 11:22:43,034):db_interface.py at 120:updated the database
+DEBUG(2018-01-25 11:22:43,034):worker.py at 359:finished writing new results
+DEBUG(2018-01-25 11:22:43,034):worker.py at 369:get job from database and process
+DEBUG(2018-01-25 11:22:43,034):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2018-01-25 11:22:43,158):db_interface.py at 72:returning results
+INFO(2018-01-25 11:22:43,158):worker.py at 375:processing job 240401
+DEBUG(2018-01-25 11:22:43,158):worker.py at 130:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/27/html/gemuesekiste.abo-kiste.com_2018-01-23_584045.txt, 1,2,6,10
+DEBUG(2018-01-25 11:22:43,158):preprocess.py at 20:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/27/html/gemuesekiste.abo-kiste.com_2018-01-23_584045.txt
+DEBUG(2018-01-25 11:22:43,188):preprocess.py at 33:extracting text
+DEBUG(2018-01-25 11:22:43,191):preprocess.py at 37:pretify text
+DEBUG(2018-01-25 11:22:43,191):preprocess.py at 49:get all links and add them
+DEBUG(2018-01-25 11:22:43,192):preprocess.py at 56:done with preprocessing
+INFO(2018-01-25 11:22:43,192):worker.py at 138:handling impressum
+DEBUG(2018-01-25 11:22:43,192):impressum.py at 83:rt > Kontakt > Impressum Impressum Anschrift Die Gemüsekiste - Hartmann & Rönicke OHG Hauptstr. 72 | 30966 Hemmingen-Hiddestorf Telefon: 05101.5883
+DEBUG(2018-01-25 11:22:43,193):impressum.py at 122:defaultdict(<type 'str'>, {'Kreis': u'"Hannover, Land"', 'Land': None, 'Ort': u'Hemmingen-Hiddestorf ', 'PLZ': u'30966 ', 'Bundesland': u'Niedersachsen', 'Strasse': None, 'Unternehmen': None})
+DEBUG(2018-01-25 11:22:43,193):impressum.py at 83:Hannover Steuernummer 23/221/02908 Verantwortliche Sven Hartmann und Matthias Rönicke, Hauptstr. 72, 30966 Hiddestorf Umsetzung Kontor4 Agentur für 
+DEBUG(2018-01-25 11:22:43,194):impressum.py at 122:defaultdict(<type 'str'>, {'Kreis': u'"Hannover, Land"', 'Land': None, 'Ort': u'Hiddestorf ', 'PLZ': u'30966 ', 'Bundesland': u'Niedersachsen', 'Unternehmen': None, 'Strasse': u'Hauptstr. 72, '})
+INFO(2018-01-25 11:22:43,194):worker.py at 240:handling bioc
+DEBUG(2018-01-25 11:22:43,194):worker.py at 254:parts: [[None, u'30966 ', u'Hemmingen-Hiddestorf '], [None, 'DE', u'30966 ', u'Hemmingen-Hiddestorf '], [u'Hauptstr. 72, ', u'30966 ', u'Hiddestorf '], [u'Hauptstr. 72, ', 'DE', u'30966 ', u'Hiddestorf ']]
+DEBUG(2018-01-25 11:22:43,194):worker.py at 256:clean parts: [[u'Hauptstr. 72, ', u'30966 ', u'Hiddestorf '], [u'Hauptstr. 72, ', 'DE', u'30966 ', u'Hiddestorf ']]
+DEBUG(2018-01-25 11:22:43,194):worker.py at 258:joined parts: [u'Hauptstr. 72,  30966  Hiddestorf ', u'Hauptstr. 72,  DE 30966  Hiddestorf ']
+DEBUG(2018-01-25 11:22:43,195):worker.py at 260:to_check: [u'hauptstrasse 72 30966 hiddestorf', u'haupt strasse 72 30966 hiddestorf', u'hauptstrasse 72 de 30966 hiddestorf', u'haupt strasse 72 de 30966 hiddestorf']
+DEBUG(2018-01-25 11:22:43,195):bioc.py at 93:get certificate for addresss: [u'hauptstrasse 72 30966 hiddestorf', u'haupt strasse 72 30966 hiddestorf', u'hauptstrasse 72 de 30966 hiddestorf', u'haupt strasse 72 de 30966 hiddestorf']
+DEBUG(2018-01-25 11:22:43,195):bioc.py at 100:got 1 idxs for 4 addresses
+DEBUG(2018-01-25 11:22:43,195):bioc.py at 104:got 1 infos
+DEBUG(2018-01-25 11:22:43,195):bioc.py at 122:returning 3 results
+INFO(2018-01-25 11:22:43,195):worker.py at 148:handling shop
+INFO(2018-01-25 11:22:44,733):worker.py at 195:handling oeko stuff
+DEBUG(2018-01-25 11:22:44,735):worker.py at 269:done with job
+DEBUG(2018-01-25 11:22:44,735):db_interface.py at 79:updating the results for a job
+DEBUG(2018-01-25 11:22:44,738):db_interface.py at 94:updated the database
+DEBUG(2018-01-25 11:22:44,738):worker.py at 304:update for toplevel domain 584043 with site 584045
+DEBUG(2018-01-25 11:22:44,738):worker.py at 309:getting old results
+DEBUG(2018-01-25 11:22:44,738):db_interface.py at 97:selecting results for 584043
+DEBUG(2018-01-25 11:22:45,144):db_interface.py at 108:returning results
+DEBUG(2018-01-25 11:22:45,144):worker.py at 312:calculating new results
+DEBUG(2018-01-25 11:22:45,144):worker.py at 357:writing new results to database
+DEBUG(2018-01-25 11:22:45,145):db_interface.py at 112:updating the results for pk: 238392
+DEBUG(2018-01-25 11:22:45,147):db_interface.py at 120:updated the database
+DEBUG(2018-01-25 11:22:45,147):worker.py at 359:finished writing new results
+DEBUG(2018-01-25 11:22:45,147):worker.py at 369:get job from database and process
+DEBUG(2018-01-25 11:22:45,147):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2018-01-25 11:22:45,255):db_interface.py at 72:returning results
+INFO(2018-01-25 11:22:45,255):worker.py at 375:processing job 240476
+DEBUG(2018-01-25 11:22:45,255):worker.py at 130:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/27/html/fressnapf.de_2018-01-23_584126.txt, 1,2,6,10
+DEBUG(2018-01-25 11:22:45,255):preprocess.py at 20:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/27/html/fressnapf.de_2018-01-23_584126.txt
+DEBUG(2018-01-25 11:22:45,302):preprocess.py at 33:extracting text
+DEBUG(2018-01-25 11:22:45,307):preprocess.py at 37:pretify text
+DEBUG(2018-01-25 11:22:45,307):preprocess.py at 49:get all links and add them
+DEBUG(2018-01-25 11:22:45,309):preprocess.py at 56:done with preprocessing
+INFO(2018-01-25 11:22:45,309):worker.py at 138:handling impressum
+DEBUG(2018-01-25 11:22:45,309):impressum.py at 83:sandkostenfrei . … Impressum Impressum Betreiber Fressnapf Tiernahrungs GmbH Westpreußenstr. 32 - 38 D-47809 Krefeld Sitz der Gesellschaft: Krefeld
+DEBUG(2018-01-25 11:22:45,310):impressum.py at 122:defaultdict(<type 'str'>, {'PLZ': None, 'Unternehmen': u'Betreiber Fressnapf Tiernahrungs GmbH ', 'Land': None, 'Strasse': u'Westpreu\xdfenstr. 32 ', 'Ort': None})
+DEBUG(2018-01-25 11:22:45,310):impressum.py at 83:: DE 120591970 Kundenservice Fressnapf-Online-Shop c/ o arvato distribution GmbH Lösnitz Mark 100 D- 06780 Großzöberitz E-Mail: online-shoppi
+DEBUG(2018-01-25 11:22:45,311):impressum.py at 83:chbar) Kundenservice Fressnapf Tiernahrungs GmbH Fressnapf Tiernahrungs GmbH Westpreußenstr. 32 - 38 D-47809 Krefeld E-Mail: info@fressnapf.de Tel.
+DEBUG(2018-01-25 11:22:45,311):impressum.py at 122:defaultdict(<type 'str'>, {'PLZ': None, 'Unternehmen': u'Tiernahrungs GmbH Fressnapf Tiernahrungs GmbH ', 'Land': None, 'Strasse': u'Westpreu\xdfenstr. 32 ', 'Ort': None})
+DEBUG(2018-01-25 11:22:45,311):impressum.py at 83:r. D-G4PK-8Q6OL-11 eingetragen. Zuständige Aufsichtsbehörde: IHK Mittlerer Niederrhein, Nordwall 39, 47798 Krefeld, ihk@krefeld.ihk.de Maßgeblich
+DEBUG(2018-01-25 11:22:45,312):impressum.py at 122:defaultdict(<type 'str'>, {'Kreis': u'"Krefeld, Stadt"', 'Land': None, 'Ort': u'Krefeld, ', 'PLZ': u'47798 ', 'Bundesland': u'Nordrhein-Westfalen', 'Unternehmen': u'IHK Mittlerer Niederrhein, ', 'Strasse': u'Nordwall 39, '})
+INFO(2018-01-25 11:22:45,312):worker.py at 240:handling bioc
+DEBUG(2018-01-25 11:22:45,312):worker.py at 254:parts: [[u'Westpreu\xdfenstr. 32 ', None, None], [u'Westpreu\xdfenstr. 32 ', 'DE', None, None], [u'Westpreu\xdfenstr. 32 ', None, None], [u'Westpreu\xdfenstr. 32 ', 'DE', None, None], [u'Nordwall 39, ', u'47798 ', u'Krefeld, '], [u'Nordwall 39, ', 'DE', u'47798 ', u'Krefeld, ']]
+DEBUG(2018-01-25 11:22:45,312):worker.py at 256:clean parts: [[u'Nordwall 39, ', u'47798 ', u'Krefeld, '], [u'Nordwall 39, ', 'DE', u'47798 ', u'Krefeld, ']]
+DEBUG(2018-01-25 11:22:45,313):worker.py at 258:joined parts: [u'Nordwall 39,  47798  Krefeld, ', u'Nordwall 39,  DE 47798  Krefeld, ']
+DEBUG(2018-01-25 11:22:45,313):worker.py at 260:to_check: [u'nordwall 39 47798 krefeld', u'nordwall 39 de 47798 krefeld']
+DEBUG(2018-01-25 11:22:45,313):bioc.py at 93:get certificate for addresss: [u'nordwall 39 47798 krefeld', u'nordwall 39 de 47798 krefeld']
+DEBUG(2018-01-25 11:22:45,313):bioc.py at 100:got 0 idxs for 2 addresses
+DEBUG(2018-01-25 11:22:45,313):bioc.py at 104:got 0 infos
+DEBUG(2018-01-25 11:22:45,313):bioc.py at 122:returning 0 results
+INFO(2018-01-25 11:22:45,313):worker.py at 148:handling shop
+INFO(2018-01-25 11:22:46,898):worker.py at 195:handling oeko stuff
+DEBUG(2018-01-25 11:22:46,900):worker.py at 269:done with job
+DEBUG(2018-01-25 11:22:46,900):db_interface.py at 79:updating the results for a job
+DEBUG(2018-01-25 11:22:46,919):db_interface.py at 94:updated the database
+DEBUG(2018-01-25 11:22:46,920):worker.py at 304:update for toplevel domain 584124 with site 584126
+DEBUG(2018-01-25 11:22:46,920):worker.py at 309:getting old results
+DEBUG(2018-01-25 11:22:46,920):db_interface.py at 97:selecting results for 584124
+DEBUG(2018-01-25 11:22:55,172):db_interface.py at 108:returning results
+DEBUG(2018-01-25 11:22:55,172):worker.py at 312:calculating new results
+DEBUG(2018-01-25 11:22:55,173):worker.py at 357:writing new results to database
+DEBUG(2018-01-25 11:22:55,173):db_interface.py at 112:updating the results for pk: 238231
+DEBUG(2018-01-25 11:22:55,180):db_interface.py at 120:updated the database
+DEBUG(2018-01-25 11:22:55,180):worker.py at 359:finished writing new results
+DEBUG(2018-01-25 11:22:55,180):worker.py at 369:get job from database and process
+DEBUG(2018-01-25 11:22:55,180):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2018-01-25 11:22:56,754):db_interface.py at 72:returning results
+INFO(2018-01-25 11:22:56,754):worker.py at 375:processing job 240517
+DEBUG(2018-01-25 11:22:56,754):worker.py at 130:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/27/html/bio-brotgesundheit.de_2018-01-23_584168.txt, 1,2,6,10
+DEBUG(2018-01-25 11:22:56,754):preprocess.py at 20:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/27/html/bio-brotgesundheit.de_2018-01-23_584168.txt
+DEBUG(2018-01-25 11:22:56,770):preprocess.py at 33:extracting text
+DEBUG(2018-01-25 11:22:56,770):preprocess.py at 37:pretify text
+DEBUG(2018-01-25 11:22:56,771):preprocess.py at 49:get all links and add them
+DEBUG(2018-01-25 11:22:56,771):preprocess.py at 56:done with preprocessing
+INFO(2018-01-25 11:22:56,771):worker.py at 138:handling impressum
+DEBUG(2018-01-25 11:22:56,771):impressum.py at 83:ten-, Teff- oder Bio Bauernbrot selbst zusammen. Bio-Brotgesundheit Inhaber: Eva Pilger Lindenweg1 | 94139 Breitenberg E-Mail: info@bio-brotgesundhei
+DEBUG(2018-01-25 11:22:56,772):impressum.py at 122:defaultdict(<type 'str'>, {'Kreis': u'"Passau, Land"', 'Land': None, 'Ort': u'Breitenberg ', 'PLZ': u'94139 ', 'Bundesland': u'Bayern', 'Strasse': None, 'Unternehmen': None})
+INFO(2018-01-25 11:22:56,772):worker.py at 240:handling bioc
+DEBUG(2018-01-25 11:22:56,772):worker.py at 254:parts: [[None, u'94139 ', u'Breitenberg '], [None, 'DE', u'94139 ', u'Breitenberg ']]
+DEBUG(2018-01-25 11:22:56,772):worker.py at 256:clean parts: []
+DEBUG(2018-01-25 11:22:56,772):worker.py at 258:joined parts: []
+DEBUG(2018-01-25 11:22:56,772):worker.py at 260:to_check: []
+DEBUG(2018-01-25 11:22:56,772):bioc.py at 93:get certificate for addresss: []
+DEBUG(2018-01-25 11:22:56,772):bioc.py at 100:got 0 idxs for 0 addresses
+DEBUG(2018-01-25 11:22:56,772):bioc.py at 104:got 0 infos
+DEBUG(2018-01-25 11:22:56,772):bioc.py at 122:returning 0 results
+INFO(2018-01-25 11:22:56,772):worker.py at 148:handling shop
+INFO(2018-01-25 11:22:58,363):worker.py at 195:handling oeko stuff
+DEBUG(2018-01-25 11:22:58,364):worker.py at 269:done with job
+DEBUG(2018-01-25 11:22:58,364):db_interface.py at 79:updating the results for a job
+DEBUG(2018-01-25 11:22:58,381):db_interface.py at 94:updated the database
+DEBUG(2018-01-25 11:22:58,382):worker.py at 304:update for toplevel domain None with site 584168
+DEBUG(2018-01-25 11:22:58,382):worker.py at 308:fk_resources for parent: 584168
+DEBUG(2018-01-25 11:22:58,382):worker.py at 309:getting old results
+DEBUG(2018-01-25 11:22:58,382):db_interface.py at 97:selecting results for 584168
+DEBUG(2018-01-25 11:23:04,392):db_interface.py at 108:returning results
+DEBUG(2018-01-25 11:23:04,392):worker.py at 312:calculating new results
+DEBUG(2018-01-25 11:23:04,393):worker.py at 357:writing new results to database
+DEBUG(2018-01-25 11:23:04,393):db_interface.py at 112:updating the results for pk: 238395
+DEBUG(2018-01-25 11:23:04,399):db_interface.py at 120:updated the database
+DEBUG(2018-01-25 11:23:04,399):worker.py at 359:finished writing new results
+DEBUG(2018-01-25 11:23:04,399):worker.py at 369:get job from database and process
+DEBUG(2018-01-25 11:23:04,399):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2018-01-25 11:23:05,414):db_interface.py at 72:returning results
+INFO(2018-01-25 11:23:05,415):worker.py at 375:processing job 240518
+DEBUG(2018-01-25 11:23:05,415):worker.py at 130:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/27/html/bio-brotgesundheit.de_2018-01-23_584169.txt, 1,2,6,10
+DEBUG(2018-01-25 11:23:05,415):preprocess.py at 20:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/27/html/bio-brotgesundheit.de_2018-01-23_584169.txt
+DEBUG(2018-01-25 11:23:05,427):preprocess.py at 33:extracting text
+DEBUG(2018-01-25 11:23:05,428):preprocess.py at 37:pretify text
+DEBUG(2018-01-25 11:23:05,428):preprocess.py at 49:get all links and add them
+DEBUG(2018-01-25 11:23:05,428):preprocess.py at 56:done with preprocessing
+INFO(2018-01-25 11:23:05,428):worker.py at 138:handling impressum
+DEBUG(2018-01-25 11:23:05,429):impressum.py at 83:sum – Bio-Brotgesundheit Angaben gemäß § 5 TMG: BIO-BROTGESUNDHEIT Inhaber: Eva Pilger Lindenweg 1 | 94139 Breitenberg KONTAKT: Telefon: +49.(0)8584.
+DEBUG(2018-01-25 11:23:05,429):impressum.py at 122:defaultdict(<type 'str'>, {'Strasse': None, 'Unternehmen': u'BIO-BROTGESUNDHEIT ', 'Land': None, 'Ort': None, 'PLZ': None})
+DEBUG(2018-01-25 11:23:05,430):impressum.py at 83:end entfernen. Quellverweis: Disclaimer eRecht24 Bio-Brotgesundheit Inhaber: Eva Pilger Lindenweg1 | 94139 Breitenberg E-Mail: info@bio-brotgesundhei
+DEBUG(2018-01-25 11:23:05,430):impressum.py at 122:defaultdict(<type 'str'>, {'Kreis': u'"Passau, Land"', 'Land': None, 'Ort': u'Breitenberg ', 'PLZ': u'94139 ', 'Bundesland': u'Bayern', 'Strasse': None, 'Unternehmen': None})
+INFO(2018-01-25 11:23:05,430):worker.py at 240:handling bioc
+DEBUG(2018-01-25 11:23:05,430):worker.py at 254:parts: [[None, None, None], [None, 'DE', None, None], [None, u'94139 ', u'Breitenberg '], [None, 'DE', u'94139 ', u'Breitenberg ']]
+DEBUG(2018-01-25 11:23:05,430):worker.py at 256:clean parts: []
+DEBUG(2018-01-25 11:23:05,430):worker.py at 258:joined parts: []
+DEBUG(2018-01-25 11:23:05,431):worker.py at 260:to_check: []
+DEBUG(2018-01-25 11:23:05,431):bioc.py at 93:get certificate for addresss: []
+DEBUG(2018-01-25 11:23:05,431):bioc.py at 100:got 0 idxs for 0 addresses
+DEBUG(2018-01-25 11:23:05,431):bioc.py at 104:got 0 infos
+DEBUG(2018-01-25 11:23:05,431):bioc.py at 122:returning 0 results
+INFO(2018-01-25 11:23:05,431):worker.py at 148:handling shop
+INFO(2018-01-25 11:23:07,032):worker.py at 195:handling oeko stuff
+DEBUG(2018-01-25 11:23:07,033):worker.py at 269:done with job
+DEBUG(2018-01-25 11:23:07,033):db_interface.py at 79:updating the results for a job
+DEBUG(2018-01-25 11:23:07,048):db_interface.py at 94:updated the database
+DEBUG(2018-01-25 11:23:07,048):worker.py at 304:update for toplevel domain 584168 with site 584169
+DEBUG(2018-01-25 11:23:07,048):worker.py at 309:getting old results
+DEBUG(2018-01-25 11:23:07,048):db_interface.py at 97:selecting results for 584168
+DEBUG(2018-01-25 11:23:13,889):db_interface.py at 108:returning results
+DEBUG(2018-01-25 11:23:13,890):worker.py at 312:calculating new results
+DEBUG(2018-01-25 11:23:13,890):worker.py at 357:writing new results to database
+DEBUG(2018-01-25 11:23:13,890):db_interface.py at 112:updating the results for pk: 238395
+DEBUG(2018-01-25 11:23:13,902):db_interface.py at 120:updated the database
+DEBUG(2018-01-25 11:23:13,902):worker.py at 359:finished writing new results
+DEBUG(2018-01-25 11:23:13,902):worker.py at 369:get job from database and process
+DEBUG(2018-01-25 11:23:13,902):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2018-01-25 11:23:15,475):db_interface.py at 72:returning results
+INFO(2018-01-25 11:23:15,475):worker.py at 375:processing job 240586
+DEBUG(2018-01-25 11:23:15,475):worker.py at 130:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/27/html/oekokiste-schwarzach.de_2018-01-23_584242.txt, 1,2,6,10
+DEBUG(2018-01-25 11:23:15,475):preprocess.py at 20:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/27/html/oekokiste-schwarzach.de_2018-01-23_584242.txt
+DEBUG(2018-01-25 11:23:15,513):preprocess.py at 33:extracting text
+DEBUG(2018-01-25 11:23:15,516):preprocess.py at 37:pretify text
+DEBUG(2018-01-25 11:23:15,516):preprocess.py at 49:get all links and add them
+DEBUG(2018-01-25 11:23:15,517):preprocess.py at 56:done with preprocessing
+INFO(2018-01-25 11:23:15,517):worker.py at 138:handling impressum
+DEBUG(2018-01-25 11:23:15,518):impressum.py at 83: Bioanbau) [ Mehr Infos ] Tipp: Mouseover stoppt Scrolling Ökokiste Schwarzach :Gewerbering-Nord 6 | 97359 Schwarzach Tel.: 09324 978990 | DE-ÖKO-03
+DEBUG(2018-01-25 11:23:15,519):impressum.py at 122:defaultdict(<type 'str'>, {'Kreis': u'Kitzingen', 'Land': None, 'Ort': u'Schwarzach ', 'PLZ': u'97359 ', 'Bundesland': u'Bayern', 'Strasse': None, 'Unternehmen': None})
+INFO(2018-01-25 11:23:15,519):worker.py at 240:handling bioc
+DEBUG(2018-01-25 11:23:15,519):worker.py at 254:parts: [[None, u'97359 ', u'Schwarzach '], [None, 'DE', u'97359 ', u'Schwarzach ']]
+DEBUG(2018-01-25 11:23:15,519):worker.py at 256:clean parts: []
+DEBUG(2018-01-25 11:23:15,519):worker.py at 258:joined parts: []
+DEBUG(2018-01-25 11:23:15,519):worker.py at 260:to_check: []
+DEBUG(2018-01-25 11:23:15,520):bioc.py at 93:get certificate for addresss: []
+DEBUG(2018-01-25 11:23:15,520):bioc.py at 100:got 0 idxs for 0 addresses
+DEBUG(2018-01-25 11:23:15,520):bioc.py at 104:got 0 infos
+DEBUG(2018-01-25 11:23:15,520):bioc.py at 122:returning 0 results
+INFO(2018-01-25 11:23:15,520):worker.py at 148:handling shop
+INFO(2018-01-25 11:23:17,168):worker.py at 195:handling oeko stuff
+DEBUG(2018-01-25 11:23:17,170):worker.py at 269:done with job
+DEBUG(2018-01-25 11:23:17,170):db_interface.py at 79:updating the results for a job
+DEBUG(2018-01-25 11:23:17,189):db_interface.py at 94:updated the database
+DEBUG(2018-01-25 11:23:17,189):worker.py at 304:update for toplevel domain None with site 584242
+DEBUG(2018-01-25 11:23:17,189):worker.py at 308:fk_resources for parent: 584242
+DEBUG(2018-01-25 11:23:17,189):worker.py at 309:getting old results
+DEBUG(2018-01-25 11:23:17,189):db_interface.py at 97:selecting results for 584242
+DEBUG(2018-01-25 11:23:21,807):db_interface.py at 108:returning results
+DEBUG(2018-01-25 11:23:21,807):worker.py at 312:calculating new results
+DEBUG(2018-01-25 11:23:21,807):worker.py at 357:writing new results to database
+DEBUG(2018-01-25 11:23:21,807):db_interface.py at 112:updating the results for pk: 238397
+DEBUG(2018-01-25 11:23:21,814):db_interface.py at 120:updated the database
+DEBUG(2018-01-25 11:23:21,814):worker.py at 359:finished writing new results
+DEBUG(2018-01-25 11:23:21,814):worker.py at 369:get job from database and process
+DEBUG(2018-01-25 11:23:21,814):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2018-01-25 11:23:24,270):db_interface.py at 72:returning results
+INFO(2018-01-25 11:23:24,270):worker.py at 375:processing job 240588
+DEBUG(2018-01-25 11:23:24,270):worker.py at 130:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/27/html/oekokiste-schwarzach.de_2018-01-23_584244.txt, 1,2,6,10
+DEBUG(2018-01-25 11:23:24,270):preprocess.py at 20:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/27/html/oekokiste-schwarzach.de_2018-01-23_584244.txt
+DEBUG(2018-01-25 11:23:24,308):preprocess.py at 33:extracting text
+DEBUG(2018-01-25 11:23:24,311):preprocess.py at 37:pretify text
+DEBUG(2018-01-25 11:23:24,311):preprocess.py at 49:get all links and add them
+DEBUG(2018-01-25 11:23:24,312):preprocess.py at 56:done with preprocessing
+INFO(2018-01-25 11:23:24,312):worker.py at 138:handling impressum
+DEBUG(2018-01-25 11:23:24,312):impressum.py at 83: Bioanbau) [ Mehr Infos ] Tipp: Mouseover stoppt Scrolling Ökokiste Schwarzach :Gewerbering-Nord 6 | 97359 Schwarzach Tel.: 09324 978990 | DE-ÖKO-03
+DEBUG(2018-01-25 11:23:24,313):impressum.py at 122:defaultdict(<type 'str'>, {'Kreis': u'Kitzingen', 'Land': None, 'Ort': u'Schwarzach ', 'PLZ': u'97359 ', 'Bundesland': u'Bayern', 'Strasse': None, 'Unternehmen': None})
+INFO(2018-01-25 11:23:24,314):worker.py at 240:handling bioc
+DEBUG(2018-01-25 11:23:24,314):worker.py at 254:parts: [[None, u'97359 ', u'Schwarzach '], [None, 'DE', u'97359 ', u'Schwarzach ']]
+DEBUG(2018-01-25 11:23:24,314):worker.py at 256:clean parts: []
+DEBUG(2018-01-25 11:23:24,314):worker.py at 258:joined parts: []
+DEBUG(2018-01-25 11:23:24,314):worker.py at 260:to_check: []
+DEBUG(2018-01-25 11:23:24,314):bioc.py at 93:get certificate for addresss: []
+DEBUG(2018-01-25 11:23:24,314):bioc.py at 100:got 0 idxs for 0 addresses
+DEBUG(2018-01-25 11:23:24,314):bioc.py at 104:got 0 infos
+DEBUG(2018-01-25 11:23:24,314):bioc.py at 122:returning 0 results
+INFO(2018-01-25 11:23:24,314):worker.py at 148:handling shop
+INFO(2018-01-25 11:23:25,891):worker.py at 195:handling oeko stuff
+DEBUG(2018-01-25 11:23:25,893):worker.py at 269:done with job
+DEBUG(2018-01-25 11:23:25,893):db_interface.py at 79:updating the results for a job
+DEBUG(2018-01-25 11:23:25,897):db_interface.py at 94:updated the database
+DEBUG(2018-01-25 11:23:25,897):worker.py at 304:update for toplevel domain 584242 with site 584244
+DEBUG(2018-01-25 11:23:25,897):worker.py at 309:getting old results
+DEBUG(2018-01-25 11:23:25,897):db_interface.py at 97:selecting results for 584242
+DEBUG(2018-01-25 11:23:26,263):db_interface.py at 108:returning results
+DEBUG(2018-01-25 11:23:26,263):worker.py at 312:calculating new results
+DEBUG(2018-01-25 11:23:26,263):worker.py at 357:writing new results to database
+DEBUG(2018-01-25 11:23:26,263):db_interface.py at 112:updating the results for pk: 238397
+DEBUG(2018-01-25 11:23:26,276):db_interface.py at 120:updated the database
+DEBUG(2018-01-25 11:23:26,276):worker.py at 359:finished writing new results
+DEBUG(2018-01-25 11:23:26,276):worker.py at 369:get job from database and process
+DEBUG(2018-01-25 11:23:26,277):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2018-01-25 11:23:26,373):db_interface.py at 72:returning results
+INFO(2018-01-25 11:23:26,373):worker.py at 375:processing job 240591
+DEBUG(2018-01-25 11:23:26,373):worker.py at 130:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/27/html/biomarkt-schwerin.de_2018-01-23_584248.txt, 1,2,6,10
+DEBUG(2018-01-25 11:23:26,373):preprocess.py at 20:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/27/html/biomarkt-schwerin.de_2018-01-23_584248.txt
+DEBUG(2018-01-25 11:23:26,407):preprocess.py at 33:extracting text
+DEBUG(2018-01-25 11:23:26,410):preprocess.py at 37:pretify text
+DEBUG(2018-01-25 11:23:26,410):preprocess.py at 49:get all links and add them
+DEBUG(2018-01-25 11:23:26,411):preprocess.py at 56:done with preprocessing
+INFO(2018-01-25 11:23:26,411):worker.py at 138:handling impressum
+DEBUG(2018-01-25 11:23:26,411):impressum.py at 83:lineshop Über uns Sortiment Bio-Zertifizierung Kontakt Startseite BioMarkt KaRo | Lübecker Str. 34 | 19053 Schwerin | Öffnungszeiten: Montag - Fre
+DEBUG(2018-01-25 11:23:26,412):impressum.py at 122:defaultdict(<type 'str'>, {'Unternehmen': None, 'Strasse': u'L\xfcbecker Str. 34 ', 'Land': None, 'Ort': None, 'PLZ': None})
+INFO(2018-01-25 11:23:26,412):worker.py at 240:handling bioc
+DEBUG(2018-01-25 11:23:26,412):worker.py at 254:parts: [[u'L\xfcbecker Str. 34 ', None, None], [u'L\xfcbecker Str. 34 ', 'DE', None, None]]
+DEBUG(2018-01-25 11:23:26,412):worker.py at 256:clean parts: []
+DEBUG(2018-01-25 11:23:26,412):worker.py at 258:joined parts: []
+DEBUG(2018-01-25 11:23:26,412):worker.py at 260:to_check: []
+DEBUG(2018-01-25 11:23:26,412):bioc.py at 93:get certificate for addresss: []
+DEBUG(2018-01-25 11:23:26,412):bioc.py at 100:got 0 idxs for 0 addresses
+DEBUG(2018-01-25 11:23:26,412):bioc.py at 104:got 0 infos
+DEBUG(2018-01-25 11:23:26,412):bioc.py at 122:returning 0 results
+INFO(2018-01-25 11:23:26,412):worker.py at 148:handling shop
+INFO(2018-01-25 11:23:28,212):worker.py at 195:handling oeko stuff
+DEBUG(2018-01-25 11:23:28,213):worker.py at 269:done with job
+DEBUG(2018-01-25 11:23:28,213):db_interface.py at 79:updating the results for a job
+DEBUG(2018-01-25 11:23:28,265):db_interface.py at 94:updated the database
+DEBUG(2018-01-25 11:23:28,265):worker.py at 304:update for toplevel domain None with site 584248
+DEBUG(2018-01-25 11:23:28,265):worker.py at 308:fk_resources for parent: 584248
+DEBUG(2018-01-25 11:23:28,265):worker.py at 309:getting old results
+DEBUG(2018-01-25 11:23:28,265):db_interface.py at 97:selecting results for 584248
+DEBUG(2018-01-25 11:23:34,050):db_interface.py at 108:returning results
+DEBUG(2018-01-25 11:23:34,060):worker.py at 312:calculating new results
+DEBUG(2018-01-25 11:23:34,061):worker.py at 357:writing new results to database
+DEBUG(2018-01-25 11:23:34,061):db_interface.py at 112:updating the results for pk: 238399
+DEBUG(2018-01-25 11:23:34,066):db_interface.py at 120:updated the database
+DEBUG(2018-01-25 11:23:34,066):worker.py at 359:finished writing new results
+DEBUG(2018-01-25 11:23:34,066):worker.py at 369:get job from database and process
+DEBUG(2018-01-25 11:23:34,066):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2018-01-25 11:23:36,183):db_interface.py at 72:returning results
+INFO(2018-01-25 11:23:36,183):worker.py at 375:processing job 240595
+DEBUG(2018-01-25 11:23:36,183):worker.py at 130:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/27/html/topagrar.com_2018-01-23_584252.txt, 1,2,6,10
+DEBUG(2018-01-25 11:23:36,183):preprocess.py at 20:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/27/html/topagrar.com_2018-01-23_584252.txt
+DEBUG(2018-01-25 11:23:36,852):preprocess.py at 33:extracting text
+DEBUG(2018-01-25 11:23:36,856):preprocess.py at 37:pretify text
+DEBUG(2018-01-25 11:23:36,856):preprocess.py at 49:get all links and add them
+DEBUG(2018-01-25 11:23:36,857):preprocess.py at 56:done with preprocessing
+INFO(2018-01-25 11:23:36,857):worker.py at 138:handling impressum
+DEBUG(2018-01-25 11:23:36,857):impressum.py at 83:ome » Impressum » Impressum Impressum 31.01.2011 Mail zur Startseite Redaktion Hülsebrockstraße 2-8, 48165 Münster, Tel.: 02501/801-6400, F
+DEBUG(2018-01-25 11:23:36,858):impressum.py at 122:defaultdict(<type 'str'>, {'Kreis': u'"M\xfcnster, Stadt"', 'Land': None, 'Ort': u'M\xfcnster, ', 'PLZ': u'48165 ', 'Bundesland': u'Nordrhein-Westfalen', 'Unternehmen': None, 'Strasse': u'H\xfclsebrockstra\xdfe 2-8, '})
+DEBUG(2018-01-25 11:23:36,858):impressum.py at 83:ockstraße 2-8, 48165 Münster, Tel.: 02501/801-6400, Fax: 02501/801-654 Postanschrift: Postfach 7847,  48042 Münster,  E-Mail: redaktion@topa
+WARNING(2018-01-25 11:23:36,859):impressum.py at 119:couldn't find bds and kr for 
+DEBUG(2018-01-25 11:23:36,859):impressum.py at 122:defaultdict(<type 'str'>, {'Kreis': None, 2: '', 'Land': None, 'Ort': u'M\xfcnster, ', 'PLZ': u'48042 ', 'Bundesland': None, 'Unternehmen': None, 'Strasse': u'Postfach 7847, '})
+DEBUG(2018-01-25 11:23:36,859):impressum.py at 83:d Kontaktdaten hier... Hauptstadtredkation Berlin: Stefanie Awater-Esper (sta), Charlottenstraße 65, 10117 Berlin, Tel.: 0 30/24 62 51-70, Fax: 
+DEBUG(2018-01-25 11:23:36,860):impressum.py at 122:defaultdict(<type 'str'>, {'Kreis': u'Mitte', 'Land': None, 'Ort': u'Berlin, ', 'PLZ': u'10117 ', 'Bundesland': u'Berlin', 'Unternehmen': None, 'Strasse': u'Charlottenstra\xdfe 65, '})
+DEBUG(2018-01-25 11:23:36,860):impressum.py at 83:24 62 51-70, Fax: -71 Redaktion Süddeutschland: Klaus Dorsch (do) (Redaktionsleiter), Jurastraße 40, D-96155 Buttenheim, Tel.: 0 95 45/44 21- 08, Fax:
+WARNING(2018-01-25 11:23:36,860):impressum.py at 119:couldn't find bds and kr for 
+DEBUG(2018-01-25 11:23:36,860):impressum.py at 122:defaultdict(<type 'str'>, {'Kreis': None, 2: '', 'Land': None, 'Ort': u'Buttenheim, ', 'PLZ': u'D-96155 ', 'Bundesland': None, 'Unternehmen': None, 'Strasse': u'Jurastra\xdfe 40, '})
+DEBUG(2018-01-25 11:23:36,861):impressum.py at 83:urastraße 40, D-96155 Buttenheim, Tel.: 0 95 45/44 21- 08, Fax: - 09; Silvia Lehnert (sl), Breite 9, D-88709 Meersburg, Tel.: 0 75 32/8 08 54 50, Fax
+WARNING(2018-01-25 11:23:36,861):impressum.py at 119:couldn't find bds and kr for 
+DEBUG(2018-01-25 11:23:36,862):impressum.py at 122:defaultdict(<type 'str'>, {'Kreis': None, 2: '', 'Land': None, 'Ort': u'Meersburg, ', 'PLZ': u'D-88709 ', 'Bundesland': None, 'Unternehmen': None, 'Strasse': u'Breite 9, '})
+DEBUG(2018-01-25 11:23:36,862):impressum.py at 83:sander@lv.de Verlag: Besucher- und Paketanschrift: Landwirtschaftsverlag GmbH, Hülsebrockstr. 2 – 8, D-48165 Münster, E-Mail: zentrale@lv.de 
+DEBUG(2018-01-25 11:23:36,862):impressum.py at 122:defaultdict(<type 'str'>, {'PLZ': None, 'Unternehmen': u'Landwirtschaftsverlag GmbH, ', 'Land': None, 'Strasse': u'H\xfclsebrockstr. 2 ', 'Ort': None})
+DEBUG(2018-01-25 11:23:36,862):impressum.py at 83:brockstr. 2 – 8, D-48165 Münster, E-Mail: zentrale@lv.de Briefanschrift: Landwirtschaftsverlag GmbH, D-48084 Münster Geschäftsführer: Hermann
+WARNING(2018-01-25 11:23:36,863):impressum.py at 119:couldn't find bds and kr for 
+DEBUG(2018-01-25 11:23:36,863):impressum.py at 122:defaultdict(<type 'str'>, {'Kreis': None, 2: '', 'Land': None, 'Ort': u'M\xfcnster ', 'PLZ': u'D-48084 ', 'Bundesland': None, 'Strasse': None, 'Unternehmen': u'Landwirtschaftsverlag GmbH, '})
+DEBUG(2018-01-25 11:23:36,863):impressum.py at 83:, Geldern Erscheinungsort und Gerichtsstand: Münster Copyright © 2017 by Landwirtschaftsverlag GmbH, D-48084 Münster-Hiltrup Registergericht:
+INFO(2018-01-25 11:23:36,864):worker.py at 240:handling bioc
+DEBUG(2018-01-25 11:23:36,864):worker.py at 254:parts: [[u'H\xfclsebrockstra\xdfe 2-8, ', u'48165 ', u'M\xfcnster, '], [u'H\xfclsebrockstra\xdfe 2-8, ', 'DE', u'48165 ', u'M\xfcnster, '], [u'Postfach 7847, ', u'48042 ', u'M\xfcnster, '], [u'Postfach 7847, ', 'DE', u'48042 ', u'M\xfcnster, '], [u'Charlottenstra\xdfe 65, ', u'10117 ', u'Berlin, '], [u'Charlottenstra\xdfe 65, ', 'DE', u'10117 ', u'Berlin, '], [u'Jurastra\xdfe 40, ', u'D-96155 ', u'Buttenheim, '], [u'Jurastra\xdfe 40, ', 'DE', u'D-96155 ', u'Buttenheim, '], [u'Breite 9, ', u'D-88709 ', u'Meersburg, '], [u'Breite 9, ', 'DE', u'D-88709 ', u'Meersburg, '], [u'H\xfclsebrockstr. 2 ', None, None], [u'H\xfclsebrockstr. 2 ', 'DE', None, None], [None, u'D-48084 ', u'M\xfcnster '], [None, 'DE', u'D-48084 ', u'M\xfcnster ']]
+DEBUG(2018-01-25 11:23:36,864):worker.py at 256:clean parts: [[u'H\xfclsebrockstra\xdfe 2-8, ', u'48165 ', u'M\xfcnster, '], [u'H\xfclsebrockstra\xdfe 2-8, ', 'DE', u'48165 ', u'M\xfcnster, '], [u'Postfach 7847, ', u'48042 ', u'M\xfcnster, '], [u'Postfach 7847, ', 'DE', u'48042 ', u'M\xfcnster, '], [u'Charlottenstra\xdfe 65, ', u'10117 ', u'Berlin, '], [u'Charlottenstra\xdfe 65, ', 'DE', u'10117 ', u'Berlin, '], [u'Jurastra\xdfe 40, ', u'D-96155 ', u'Buttenheim, '], [u'Jurastra\xdfe 40, ', 'DE', u'D-96155 ', u'Buttenheim, '], [u'Breite 9, ', u'D-88709 ', u'Meersburg, '], [u'Breite 9, ', 'DE', u'D-88709 ', u'Meersburg, ']]
+DEBUG(2018-01-25 11:23:36,864):worker.py at 258:joined parts: [u'H\xfclsebrockstra\xdfe 2-8,  48165  M\xfcnster, ', u'H\xfclsebrockstra\xdfe 2-8,  DE 48165  M\xfcnster, ', u'Postfach 7847,  48042  M\xfcnster, ', u'Postfach 7847,  DE 48042  M\xfcnster, ', u'Charlottenstra\xdfe 65,  10117  Berlin, ', u'Charlottenstra\xdfe 65,  DE 10117  Berlin, ', u'Jurastra\xdfe 40,  D-96155  Buttenheim, ', u'Jurastra\xdfe 40,  DE D-96155  Buttenheim, ', u'Breite 9,  D-88709  Meersburg, ', u'Breite 9,  DE D-88709  Meersburg, ']
+DEBUG(2018-01-25 11:23:36,867):worker.py at 260:to_check: [u'huelsebrockstrasse 2-8 48165 muenster', u'huelsebrock strasse 2-8 48165 muenster', u'hulsebrockstrasse 2-8 48165 munster', u'hulsebrock strasse 2-8 48165 munster', u'huelsebrockstrasse 2-8 de 48165 muenster', u'huelsebrock strasse 2-8 de 48165 muenster', u'hulsebrockstrasse 2-8 de 48165 munster', u'hulsebrock strasse 2-8 de 48165 munster', u'postfach 7847 48042 muenster', u'postfach 7847 48042 munster', u'postfach 7847 de 48042 muenster', u'postfach 7847 de 48042 munster', u'charlottenstrasse 65 10117 berlin', u'charlotten strasse 65 10117 berlin', u'charlottenstrasse 65 de 10117 berlin', u'charlotten strasse 65 de 10117 berlin', u'jurastrasse 40 d-96155 buttenheim', u'jurastrasse 40 damm 96155 buttenheim', u'jurastrasse 40 d 96155 buttenheim', u'jura strasse 40 d-96155 buttenheim', u'jura strasse 40 damm 96155 buttenheim', u'jura strasse 40 d 96155 buttenheim', u'jurastrasse 40 de d-96155 buttenheim', u'jurastrasse 40 de damm 96155 buttenheim', u'jurastrasse 40 de d 96155 buttenheim', u'jura strasse 40 de d-96155 buttenheim', u'jura strasse 40 de damm 96155 buttenheim', u'jura strasse 40 de d 96155 buttenheim', u'breite 9 d-88709 meersburg', u'breite 9 damm 88709 meersburg', u'breite 9 d 88709 meersburg', u'breite 9 de d-88709 meersburg', u'breite 9 de damm 88709 meersburg', u'breite 9 de d 88709 meersburg']
+DEBUG(2018-01-25 11:23:36,867):bioc.py at 93:get certificate for addresss: [u'huelsebrockstrasse 2-8 48165 muenster', u'huelsebrock strasse 2-8 48165 muenster', u'hulsebrockstrasse 2-8 48165 munster', u'hulsebrock strasse 2-8 48165 munster', u'huelsebrockstrasse 2-8 de 48165 muenster', u'huelsebrock strasse 2-8 de 48165 muenster', u'hulsebrockstrasse 2-8 de 48165 munster', u'hulsebrock strasse 2-8 de 48165 munster', u'postfach 7847 48042 muenster', u'postfach 7847 48042 munster', u'postfach 7847 de 48042 muenster', u'postfach 7847 de 48042 munster', u'charlottenstrasse 65 10117 berlin', u'charlotten strasse 65 10117 berlin', u'charlottenstrasse 65 de 10117 berlin', u'charlotten strasse 65 de 10117 berlin', u'jurastrasse 40 d-96155 buttenheim', u'jurastrasse 40 damm 96155 buttenheim', u'jurastrasse 40 d 96155 buttenheim', u'jura strasse 40 d-96155 buttenheim', u'jura strasse 40 damm 96155 buttenheim', u'jura strasse 40 d 96155 buttenheim', u'jurastrasse 40 de d-96155 buttenheim', u'jurastrasse 40 de damm 96155 buttenheim', u'jurastrasse 40 de d 96155 buttenheim', u'jura strasse 40 de d-96155 buttenheim', u'jura strasse 40 de damm 96155 buttenheim', u'jura strasse 40 de d 96155 buttenheim', u'breite 9 d-88709 meersburg', u'breite 9 damm 88709 meersburg', u'breite 9 d 88709 meersburg', u'breite 9 de d-88709 meersburg', u'breite 9 de damm 88709 meersburg', u'breite 9 de d 88709 meersburg']
+DEBUG(2018-01-25 11:23:36,867):bioc.py at 100:got 0 idxs for 34 addresses
+DEBUG(2018-01-25 11:23:36,867):bioc.py at 104:got 0 infos
+DEBUG(2018-01-25 11:23:36,867):bioc.py at 122:returning 0 results
+INFO(2018-01-25 11:23:36,867):worker.py at 148:handling shop
+INFO(2018-01-25 11:23:38,461):worker.py at 195:handling oeko stuff
+DEBUG(2018-01-25 11:23:38,462):worker.py at 269:done with job
+DEBUG(2018-01-25 11:23:38,463):db_interface.py at 79:updating the results for a job
+DEBUG(2018-01-25 11:23:38,479):db_interface.py at 94:updated the database
+DEBUG(2018-01-25 11:23:38,479):worker.py at 304:update for toplevel domain 584250 with site 584252
+DEBUG(2018-01-25 11:23:38,479):worker.py at 309:getting old results
+DEBUG(2018-01-25 11:23:38,479):db_interface.py at 97:selecting results for 584250
+DEBUG(2018-01-25 11:23:43,331):db_interface.py at 108:returning results
+DEBUG(2018-01-25 11:23:43,331):worker.py at 312:calculating new results
+DEBUG(2018-01-25 11:23:43,331):worker.py at 357:writing new results to database
+DEBUG(2018-01-25 11:23:43,331):db_interface.py at 112:updating the results for pk: 238344
+DEBUG(2018-01-25 11:23:43,353):db_interface.py at 120:updated the database
+DEBUG(2018-01-25 11:23:43,353):worker.py at 359:finished writing new results
+DEBUG(2018-01-25 11:23:43,353):worker.py at 369:get job from database and process
+DEBUG(2018-01-25 11:23:43,353):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2018-01-25 11:23:46,039):worker.py at 400:found no job
+DEBUG(2018-01-25 11:27:46,140):worker.py at 369:get job from database and process
+DEBUG(2018-01-25 11:27:46,140):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2018-01-25 11:27:46,234):worker.py at 400:found no job
+DEBUG(2018-01-25 11:31:46,311):worker.py at 369:get job from database and process
+DEBUG(2018-01-25 11:31:46,311):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2018-01-25 11:31:46,410):worker.py at 400:found no job
+DEBUG(2018-01-25 11:35:46,510):worker.py at 369:get job from database and process
+DEBUG(2018-01-25 11:35:46,510):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2018-01-25 11:35:46,594):worker.py at 400:found no job
+DEBUG(2018-01-25 11:39:46,615):worker.py at 369:get job from database and process
+DEBUG(2018-01-25 11:39:46,616):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2018-01-25 11:39:46,693):worker.py at 400:found no job
+DEBUG(2018-01-25 11:43:46,793):worker.py at 477:reached 5 tries. had 5 max_tries
+DEBUG(2018-01-25 11:43:46,793):worker.py at 460:shutting down
+DEBUG(2018-01-25 11:43:46,793):worker.py at 462:shutted down

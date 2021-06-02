@@ -1,0 +1,1925 @@
+DEBUG(2016-11-25 08:44:59,823):worker.py at 30:initializing worker
+DEBUG(2016-11-25 08:44:59,823):db_interface.py at 22:initializing database-interface
+DEBUG(2016-11-25 08:44:59,823):db_interface.py at 42:connecting to database with user config
+DEBUG(2016-11-25 08:44:59,832):db_interface.py at 25:initialized database-interface
+DEBUG(2016-11-25 08:44:59,833):classifier.py at 37:initializing classifier
+DEBUG(2016-11-25 08:44:59,833):classifier.py at 41:loading classifier
+DEBUG(2016-11-25 08:45:08,371):probability.py at 54:initializing probability object
+DEBUG(2016-11-25 08:45:08,371):probability.py at 56:loading the variables
+DEBUG(2016-11-25 08:45:08,371):probability.py at 58:initialized probability object
+DEBUG(2016-11-25 08:45:08,371):classifier.py at 51:initialized classifier
+DEBUG(2016-11-25 08:45:08,371):classifier.py at 37:initializing classifier
+DEBUG(2016-11-25 08:45:08,371):classifier.py at 41:loading classifier
+DEBUG(2016-11-25 08:45:17,042):probability.py at 54:initializing probability object
+DEBUG(2016-11-25 08:45:17,042):probability.py at 56:loading the variables
+DEBUG(2016-11-25 08:45:17,043):probability.py at 58:initialized probability object
+DEBUG(2016-11-25 08:45:17,043):classifier.py at 51:initialized classifier
+DEBUG(2016-11-25 08:45:17,043):impressum.py at 19:initializing impressums handler
+DEBUG(2016-11-25 08:45:17,118):impressum.py at 21:initialized impressums handler
+DEBUG(2016-11-25 08:45:17,118):worker.py at 40:initialized worker
+DEBUG(2016-11-25 08:45:17,118):worker.py at 140:started schedule with 5 tries and 240 delay
+DEBUG(2016-11-25 08:45:17,118):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:45:17,118):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:45:17,121):db_interface.py at 67:returning results
+INFO(2016-11-25 08:45:17,121):worker.py at 112:processing job 11569
+DEBUG(2016-11-25 08:45:17,121):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_allyouneedfresh.de_15875_analysis.txt, https://www.allyouneedfresh.de, 1,2,3
+INFO(2016-11-25 08:45:17,121):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:45:17,122):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_allyouneedfresh.de_15875_analysis.txt
+DEBUG(2016-11-25 08:45:17,128):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:45:17,139):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:45:17,139):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:45:20,056):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:45:20,056):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:45:20,056):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:45:20,056):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_allyouneedfresh.de_15875_analysis.txt
+DEBUG(2016-11-25 08:45:20,170):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:20,182):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:20,182):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:20,184):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:45:20,195):worker.py at 85:handling food
+DEBUG(2016-11-25 08:45:20,196):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_allyouneedfresh.de_15875_analysis.txt
+DEBUG(2016-11-25 08:45:20,310):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:20,322):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:20,322):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:20,324):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:45:20,337):worker.py at 99:done with job
+DEBUG(2016-11-25 08:45:20,337):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:45:20,340):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:45:20,340):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:45:20,340):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:45:20,341):db_interface.py at 67:returning results
+INFO(2016-11-25 08:45:20,341):worker.py at 112:processing job 11570
+DEBUG(2016-11-25 08:45:20,341):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bvl.bund.de_15882_analysis.txt, http://www.bvl.bund.de/DE/01_Lebensmittel/01_Aufgaben/02_AmtlicheLebensmittelueberwachung/04_Monitoring/lm_monitoring_node.html, 1,2,3
+INFO(2016-11-25 08:45:20,342):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:45:20,342):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bvl.bund.de_15882_analysis.txt
+DEBUG(2016-11-25 08:45:20,348):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:45:20,354):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:45:20,354):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:45:21,422):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:45:21,422):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:45:21,422):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:45:21,422):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bvl.bund.de_15882_analysis.txt
+DEBUG(2016-11-25 08:45:21,457):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:21,461):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:21,461):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:21,462):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:45:21,470):worker.py at 85:handling food
+DEBUG(2016-11-25 08:45:21,470):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bvl.bund.de_15882_analysis.txt
+DEBUG(2016-11-25 08:45:21,505):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:21,509):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:21,509):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:21,510):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:45:21,518):worker.py at 99:done with job
+DEBUG(2016-11-25 08:45:21,518):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:45:21,521):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:45:21,521):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:45:21,521):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:45:21,522):db_interface.py at 67:returning results
+INFO(2016-11-25 08:45:21,522):worker.py at 112:processing job 11571
+DEBUG(2016-11-25 08:45:21,522):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.indeed.com_15851_analysis.txt, http://de.indeed.com/Lebensmittel-Jobs-in-Hamburg, 1,2,3
+INFO(2016-11-25 08:45:21,522):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:45:21,522):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.indeed.com_15851_analysis.txt
+DEBUG(2016-11-25 08:45:21,527):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:45:21,534):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:45:21,534):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:45:29,522):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:45:29,522):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:45:29,523):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:45:29,523):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.indeed.com_15851_analysis.txt
+DEBUG(2016-11-25 08:45:29,581):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:29,587):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:29,587):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:29,588):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:45:29,595):worker.py at 85:handling food
+DEBUG(2016-11-25 08:45:29,596):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.indeed.com_15851_analysis.txt
+DEBUG(2016-11-25 08:45:29,657):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:29,663):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:29,663):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:29,664):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:45:29,672):worker.py at 99:done with job
+DEBUG(2016-11-25 08:45:29,672):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:45:29,674):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:45:29,674):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:45:29,674):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:45:29,675):db_interface.py at 67:returning results
+INFO(2016-11-25 08:45:29,675):worker.py at 112:processing job 11572
+DEBUG(2016-11-25 08:45:29,676):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.statista.com_15866_analysis.txt, https://de.statista.com/themen/1191/einkauf-und-konsum-von-lebensmitteln, 1,2,3
+INFO(2016-11-25 08:45:29,676):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:45:29,676):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.statista.com_15866_analysis.txt
+DEBUG(2016-11-25 08:45:29,680):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:45:29,686):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:45:29,686):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:45:31,619):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:45:31,619):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:45:31,619):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:45:31,619):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.statista.com_15866_analysis.txt
+DEBUG(2016-11-25 08:45:31,691):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:31,696):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:31,696):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:31,697):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:45:31,708):worker.py at 85:handling food
+DEBUG(2016-11-25 08:45:31,708):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.statista.com_15866_analysis.txt
+DEBUG(2016-11-25 08:45:31,780):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:31,785):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:31,785):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:31,786):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:45:31,798):worker.py at 99:done with job
+DEBUG(2016-11-25 08:45:31,798):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:45:31,801):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:45:31,801):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:45:31,801):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:45:31,802):db_interface.py at 67:returning results
+INFO(2016-11-25 08:45:31,802):worker.py at 112:processing job 11573
+DEBUG(2016-11-25 08:45:31,802):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wikipedia.org_15839_analysis.txt, https://de.wikipedia.org/wiki/Lebensmittel, 1,2,3
+INFO(2016-11-25 08:45:31,802):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:45:31,802):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wikipedia.org_15839_analysis.txt
+DEBUG(2016-11-25 08:45:31,807):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:45:31,812):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:45:31,812):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:45:33,857):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:45:33,857):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:45:33,858):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:45:33,858):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wikipedia.org_15839_analysis.txt
+DEBUG(2016-11-25 08:45:33,931):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:33,938):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:33,938):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:33,940):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:45:33,951):worker.py at 85:handling food
+DEBUG(2016-11-25 08:45:33,951):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wikipedia.org_15839_analysis.txt
+DEBUG(2016-11-25 08:45:34,024):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:34,031):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:34,031):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:34,033):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:45:34,044):worker.py at 99:done with job
+DEBUG(2016-11-25 08:45:34,045):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:45:34,055):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:45:34,055):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:45:34,055):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:45:34,060):db_interface.py at 67:returning results
+INFO(2016-11-25 08:45:34,060):worker.py at 112:processing job 11574
+DEBUG(2016-11-25 08:45:34,061):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wikipedia.org_15874_analysis.txt, https://de.wikipedia.org/wiki/Warenkorb, 1,2,3
+INFO(2016-11-25 08:45:34,061):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:45:34,061):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wikipedia.org_15874_analysis.txt
+DEBUG(2016-11-25 08:45:34,077):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:45:34,079):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:45:34,079):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:45:35,772):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:45:35,773):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:45:35,773):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:45:35,773):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wikipedia.org_15874_analysis.txt
+DEBUG(2016-11-25 08:45:35,813):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:35,817):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:35,818):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:35,818):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:45:35,827):worker.py at 85:handling food
+DEBUG(2016-11-25 08:45:35,827):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wikipedia.org_15874_analysis.txt
+DEBUG(2016-11-25 08:45:35,866):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:35,870):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:35,870):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:35,871):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:45:35,879):worker.py at 99:done with job
+DEBUG(2016-11-25 08:45:35,879):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:45:35,882):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:45:35,882):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:45:35,882):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:45:35,883):db_interface.py at 67:returning results
+INFO(2016-11-25 08:45:35,883):worker.py at 112:processing job 11575
+DEBUG(2016-11-25 08:45:35,884):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wiktionary.org_15860_analysis.txt, https://de.wiktionary.org/wiki/Lebensmittel, 1,2,3
+INFO(2016-11-25 08:45:35,884):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:45:35,884):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wiktionary.org_15860_analysis.txt
+DEBUG(2016-11-25 08:45:35,888):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:45:35,892):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:45:35,892):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:45:37,303):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:45:37,303):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:45:37,303):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:45:37,303):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wiktionary.org_15860_analysis.txt
+DEBUG(2016-11-25 08:45:37,362):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:37,368):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:37,369):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:37,370):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:45:37,380):worker.py at 85:handling food
+DEBUG(2016-11-25 08:45:37,380):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wiktionary.org_15860_analysis.txt
+DEBUG(2016-11-25 08:45:37,477):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:37,483):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:37,484):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:37,485):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:45:37,494):worker.py at 99:done with job
+DEBUG(2016-11-25 08:45:37,494):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:45:37,497):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:45:37,497):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:45:37,497):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:45:37,498):db_interface.py at 67:returning results
+INFO(2016-11-25 08:45:37,498):worker.py at 112:processing job 11576
+DEBUG(2016-11-25 08:45:37,498):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_destatis.de_15872_analysis.txt, https://www.destatis.de/DE/ZahlenFakten/GesamtwirtschaftUmwelt/Preise/Verbraucherpreisindizes/WarenkorbWaegungsschema/WarenkorbWaegungsschema.html, 1,2,3
+INFO(2016-11-25 08:45:37,498):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:45:37,498):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_destatis.de_15872_analysis.txt
+DEBUG(2016-11-25 08:45:37,503):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:45:37,505):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:45:37,505):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:45:37,850):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:45:37,850):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:45:37,850):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:45:37,850):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_destatis.de_15872_analysis.txt
+DEBUG(2016-11-25 08:45:37,891):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:37,895):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:37,896):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:37,896):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:45:37,905):worker.py at 85:handling food
+DEBUG(2016-11-25 08:45:37,905):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_destatis.de_15872_analysis.txt
+DEBUG(2016-11-25 08:45:37,946):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:37,950):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:37,950):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:37,951):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:45:37,959):worker.py at 99:done with job
+DEBUG(2016-11-25 08:45:37,960):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:45:37,963):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:45:37,963):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:45:37,963):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:45:37,964):db_interface.py at 67:returning results
+INFO(2016-11-25 08:45:37,964):worker.py at 112:processing job 11577
+DEBUG(2016-11-25 08:45:37,964):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_gesundheit.de_15848_analysis.txt, http://www.gesundheit.de/ernaehrung/lebensmittel, 1,2,3
+INFO(2016-11-25 08:45:37,964):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:45:37,965):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_gesundheit.de_15848_analysis.txt
+DEBUG(2016-11-25 08:45:37,969):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:45:37,974):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:45:37,974):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:45:39,515):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:45:39,516):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:45:39,516):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:45:39,516):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_gesundheit.de_15848_analysis.txt
+DEBUG(2016-11-25 08:45:39,583):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:39,589):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:39,590):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:39,591):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:45:39,599):worker.py at 85:handling food
+DEBUG(2016-11-25 08:45:39,599):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_gesundheit.de_15848_analysis.txt
+DEBUG(2016-11-25 08:45:39,667):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:39,674):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:39,675):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:39,676):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:45:39,684):worker.py at 99:done with job
+DEBUG(2016-11-25 08:45:39,684):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:45:39,687):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:45:39,687):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:45:39,687):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:45:39,688):db_interface.py at 67:returning results
+INFO(2016-11-25 08:45:39,688):worker.py at 112:processing job 11578
+DEBUG(2016-11-25 08:45:39,688):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_hamburg.de_15854_analysis.txt, http://www.hamburg.de/branchenbuch/hamburg/10239997/n0, 1,2,3
+INFO(2016-11-25 08:45:39,688):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:45:39,688):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_hamburg.de_15854_analysis.txt
+DEBUG(2016-11-25 08:45:39,692):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:45:39,699):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:45:39,700):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:45:41,838):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:45:41,838):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:45:41,838):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:45:41,838):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_hamburg.de_15854_analysis.txt
+DEBUG(2016-11-25 08:45:41,939):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:41,952):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:41,953):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:41,955):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:45:41,965):worker.py at 85:handling food
+DEBUG(2016-11-25 08:45:41,965):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_hamburg.de_15854_analysis.txt
+DEBUG(2016-11-25 08:45:42,068):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:42,081):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:42,082):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:42,084):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:45:42,094):worker.py at 99:done with job
+DEBUG(2016-11-25 08:45:42,094):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:45:42,100):db_interface.py at 111:add two addresses
+DEBUG(2016-11-25 08:45:42,101):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:45:42,102):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:45:42,102):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:45:42,103):db_interface.py at 67:returning results
+INFO(2016-11-25 08:45:42,103):worker.py at 112:processing job 11579
+DEBUG(2016-11-25 08:45:42,103):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel.de_15841_analysis.txt, https://www.lebensmittel.de, 1,2,3
+INFO(2016-11-25 08:45:42,103):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:45:42,103):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel.de_15841_analysis.txt
+DEBUG(2016-11-25 08:45:42,107):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:45:42,110):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:45:42,110):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:45:46,907):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:45:46,907):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:45:46,907):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:45:46,907):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel.de_15841_analysis.txt
+DEBUG(2016-11-25 08:45:46,953):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:46,958):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:46,959):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:46,960):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:45:46,967):worker.py at 85:handling food
+DEBUG(2016-11-25 08:45:46,967):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel.de_15841_analysis.txt
+DEBUG(2016-11-25 08:45:47,013):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:47,018):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:47,018):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:47,019):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:45:47,026):worker.py at 99:done with job
+DEBUG(2016-11-25 08:45:47,026):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:45:47,029):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:45:47,029):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:45:47,029):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:45:47,030):db_interface.py at 67:returning results
+INFO(2016-11-25 08:45:47,030):worker.py at 112:processing job 11580
+DEBUG(2016-11-25 08:45:47,031):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel.de_15869_analysis.txt, http://www.lebensmittel.de/?p=warenkorb, 1,2,3
+INFO(2016-11-25 08:45:47,031):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:45:47,031):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel.de_15869_analysis.txt
+DEBUG(2016-11-25 08:45:47,035):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:45:47,037):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:45:47,037):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:45:51,937):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:45:51,937):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:45:51,938):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:45:51,938):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel.de_15869_analysis.txt
+DEBUG(2016-11-25 08:45:51,966):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:51,970):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:51,970):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:51,970):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:45:51,976):worker.py at 85:handling food
+DEBUG(2016-11-25 08:45:51,977):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel.de_15869_analysis.txt
+DEBUG(2016-11-25 08:45:52,004):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:52,007):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:52,007):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:52,008):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:45:52,014):worker.py at 99:done with job
+DEBUG(2016-11-25 08:45:52,014):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:45:52,016):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:45:52,016):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:45:52,016):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:45:52,017):db_interface.py at 67:returning results
+INFO(2016-11-25 08:45:52,018):worker.py at 112:processing job 11581
+DEBUG(2016-11-25 08:45:52,018):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittellexikon.de_15857_analysis.txt, https://www.lebensmittellexikon.de/l0000300.php, 1,2,3
+INFO(2016-11-25 08:45:52,018):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:45:52,018):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittellexikon.de_15857_analysis.txt
+DEBUG(2016-11-25 08:45:52,023):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:45:52,025):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:45:52,025):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:45:52,529):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:45:52,530):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:45:52,530):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:45:52,530):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittellexikon.de_15857_analysis.txt
+DEBUG(2016-11-25 08:45:52,560):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:52,564):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:52,564):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:52,564):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:45:52,571):worker.py at 85:handling food
+DEBUG(2016-11-25 08:45:52,572):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittellexikon.de_15857_analysis.txt
+DEBUG(2016-11-25 08:45:52,601):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:52,604):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:52,605):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:52,605):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:45:52,612):worker.py at 99:done with job
+DEBUG(2016-11-25 08:45:52,612):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:45:52,615):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:45:52,615):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:45:52,615):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:45:52,616):db_interface.py at 67:returning results
+INFO(2016-11-25 08:45:52,616):worker.py at 112:processing job 11582
+DEBUG(2016-11-25 08:45:52,616):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lidl.de_15845_analysis.txt, http://www.lidl.de/de/lebensmittel/c13341, 1,2,3
+INFO(2016-11-25 08:45:52,616):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:45:52,616):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lidl.de_15845_analysis.txt
+DEBUG(2016-11-25 08:45:52,620):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:45:52,624):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:45:52,624):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:45:55,774):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:45:55,774):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:45:55,774):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:45:55,774):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lidl.de_15845_analysis.txt
+DEBUG(2016-11-25 08:45:55,817):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:55,823):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:55,823):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:55,824):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:45:55,832):worker.py at 85:handling food
+DEBUG(2016-11-25 08:45:55,832):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lidl.de_15845_analysis.txt
+DEBUG(2016-11-25 08:45:55,874):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:55,879):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:55,880):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:55,881):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:45:55,888):worker.py at 99:done with job
+DEBUG(2016-11-25 08:45:55,888):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:45:55,891):db_interface.py at 102:add one address
+DEBUG(2016-11-25 08:45:55,894):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:45:55,894):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:45:55,894):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:45:55,896):db_interface.py at 67:returning results
+INFO(2016-11-25 08:45:55,896):worker.py at 112:processing job 11583
+DEBUG(2016-11-25 08:45:55,896):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_shop.rewe.de_15863_analysis.txt, https://shop.rewe.de/checkout/basket, 1,2,3
+INFO(2016-11-25 08:45:55,896):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:45:55,896):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_shop.rewe.de_15863_analysis.txt
+DEBUG(2016-11-25 08:45:55,901):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:45:55,903):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:45:55,903):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:45:56,692):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:45:56,692):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:45:56,692):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:45:56,693):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_shop.rewe.de_15863_analysis.txt
+DEBUG(2016-11-25 08:45:56,716):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:56,717):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:56,717):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:56,718):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:45:56,724):worker.py at 85:handling food
+DEBUG(2016-11-25 08:45:56,724):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_shop.rewe.de_15863_analysis.txt
+DEBUG(2016-11-25 08:45:56,749):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:56,750):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:56,750):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:56,751):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:45:56,757):worker.py at 99:done with job
+DEBUG(2016-11-25 08:45:56,757):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:45:56,760):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:45:56,760):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:45:56,760):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:45:56,763):db_interface.py at 67:returning results
+INFO(2016-11-25 08:45:56,763):worker.py at 112:processing job 11584
+DEBUG(2016-11-25 08:45:56,763):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_warenkorb-pfungstadt.de_15879_analysis.txt, http://www.warenkorb-pfungstadt.de/index.php/lebensmittel, 1,2,3
+INFO(2016-11-25 08:45:56,763):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:45:56,763):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_warenkorb-pfungstadt.de_15879_analysis.txt
+DEBUG(2016-11-25 08:45:56,767):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:45:56,768):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:45:56,768):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:45:57,230):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:45:57,230):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:45:57,231):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:45:57,231):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_warenkorb-pfungstadt.de_15879_analysis.txt
+DEBUG(2016-11-25 08:45:57,246):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:57,247):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:57,247):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:57,248):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:45:57,253):worker.py at 85:handling food
+DEBUG(2016-11-25 08:45:57,253):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_warenkorb-pfungstadt.de_15879_analysis.txt
+DEBUG(2016-11-25 08:45:57,268):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:57,269):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:57,269):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:57,269):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:45:57,275):worker.py at 99:done with job
+DEBUG(2016-11-25 08:45:57,275):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:45:57,278):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:45:57,278):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:45:57,278):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:45:57,279):db_interface.py at 67:returning results
+INFO(2016-11-25 08:45:57,279):worker.py at 112:processing job 11585
+DEBUG(2016-11-25 08:45:57,279):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bvl.bund.de_15881_analysis.txt, http://www.bvl.bund.de, 1,2,3
+INFO(2016-11-25 08:45:57,279):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:45:57,279):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bvl.bund.de_15881_analysis.txt
+DEBUG(2016-11-25 08:45:57,283):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:45:57,285):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:45:57,285):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:45:57,615):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:45:57,615):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:45:57,615):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:45:57,616):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bvl.bund.de_15881_analysis.txt
+DEBUG(2016-11-25 08:45:57,642):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:57,645):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:57,645):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:57,645):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:45:57,652):worker.py at 85:handling food
+DEBUG(2016-11-25 08:45:57,652):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bvl.bund.de_15881_analysis.txt
+DEBUG(2016-11-25 08:45:57,678):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:57,680):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:57,681):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:57,681):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:45:57,688):worker.py at 99:done with job
+DEBUG(2016-11-25 08:45:57,688):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:45:57,691):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:45:57,691):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:45:57,691):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:45:57,692):db_interface.py at 67:returning results
+INFO(2016-11-25 08:45:57,693):worker.py at 112:processing job 11586
+DEBUG(2016-11-25 08:45:57,693):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.indeed.com_15850_analysis.txt, http://de.indeed.com, 1,2,3
+INFO(2016-11-25 08:45:57,693):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:45:57,693):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.indeed.com_15850_analysis.txt
+DEBUG(2016-11-25 08:45:57,704):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:45:57,707):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:45:57,707):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:45:59,103):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:45:59,103):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:45:59,103):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:45:59,103):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.indeed.com_15850_analysis.txt
+DEBUG(2016-11-25 08:45:59,120):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:59,121):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:59,121):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:59,122):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:45:59,127):worker.py at 85:handling food
+DEBUG(2016-11-25 08:45:59,127):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.indeed.com_15850_analysis.txt
+DEBUG(2016-11-25 08:45:59,176):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:45:59,177):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:45:59,177):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:45:59,177):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:45:59,183):worker.py at 99:done with job
+DEBUG(2016-11-25 08:45:59,183):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:45:59,185):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:45:59,185):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:45:59,185):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:45:59,186):db_interface.py at 67:returning results
+INFO(2016-11-25 08:45:59,186):worker.py at 112:processing job 11587
+DEBUG(2016-11-25 08:45:59,186):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.statista.com_15865_analysis.txt, https://de.statista.com, 1,2,3
+INFO(2016-11-25 08:45:59,187):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:45:59,187):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.statista.com_15865_analysis.txt
+DEBUG(2016-11-25 08:45:59,191):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:45:59,198):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:45:59,198):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:02,283):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:02,283):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:02,284):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:02,284):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.statista.com_15865_analysis.txt
+DEBUG(2016-11-25 08:46:02,371):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:02,377):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:02,377):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:02,379):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:02,391):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:02,392):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.statista.com_15865_analysis.txt
+DEBUG(2016-11-25 08:46:02,478):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:02,484):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:02,484):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:02,485):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:02,498):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:02,498):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:02,501):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:02,501):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:02,501):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:02,502):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:02,502):worker.py at 112:processing job 11588
+DEBUG(2016-11-25 08:46:02,502):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wikipedia.org_15838_analysis.txt, https://de.wikipedia.org, 1,2,3
+INFO(2016-11-25 08:46:02,502):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:02,502):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wikipedia.org_15838_analysis.txt
+DEBUG(2016-11-25 08:46:02,506):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:02,509):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:02,509):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:04,190):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:04,190):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:04,190):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:04,190):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wikipedia.org_15838_analysis.txt
+DEBUG(2016-11-25 08:46:04,230):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:04,234):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:04,234):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:04,235):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:04,243):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:04,243):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wikipedia.org_15838_analysis.txt
+DEBUG(2016-11-25 08:46:04,284):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:04,288):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:04,288):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:04,289):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:04,297):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:04,297):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:04,300):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:04,300):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:04,300):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:04,301):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:04,301):worker.py at 112:processing job 11589
+DEBUG(2016-11-25 08:46:04,301):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wiktionary.org_15859_analysis.txt, https://de.wiktionary.org, 1,2,3
+INFO(2016-11-25 08:46:04,301):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:04,301):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wiktionary.org_15859_analysis.txt
+DEBUG(2016-11-25 08:46:04,306):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:04,310):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:04,310):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:05,584):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:05,584):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:05,584):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:05,585):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wiktionary.org_15859_analysis.txt
+DEBUG(2016-11-25 08:46:05,652):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:05,659):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:05,660):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:05,661):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:05,671):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:05,671):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wiktionary.org_15859_analysis.txt
+DEBUG(2016-11-25 08:46:05,737):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:05,744):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:05,744):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:05,745):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:05,755):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:05,755):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:05,757):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:05,757):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:05,758):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:05,758):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:05,759):worker.py at 112:processing job 11590
+DEBUG(2016-11-25 08:46:05,759):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_destatis.de_15871_analysis.txt, https://www.destatis.de, 1,2,3
+INFO(2016-11-25 08:46:05,759):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:05,759):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_destatis.de_15871_analysis.txt
+DEBUG(2016-11-25 08:46:05,763):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:05,767):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:05,767):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:06,632):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:06,632):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:06,632):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:06,632):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_destatis.de_15871_analysis.txt
+DEBUG(2016-11-25 08:46:06,689):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:06,695):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:06,695):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:06,696):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:06,706):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:06,706):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_destatis.de_15871_analysis.txt
+DEBUG(2016-11-25 08:46:06,764):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:06,769):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:06,770):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:06,771):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:06,782):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:06,782):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:06,785):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:06,785):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:06,785):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:06,786):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:06,786):worker.py at 112:processing job 11591
+DEBUG(2016-11-25 08:46:06,786):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_gesundheit.de_15847_analysis.txt, http://www.gesundheit.de, 1,2,3
+INFO(2016-11-25 08:46:06,786):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:06,786):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_gesundheit.de_15847_analysis.txt
+DEBUG(2016-11-25 08:46:06,791):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:06,795):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:06,795):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:08,401):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:08,402):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:08,402):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:08,402):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_gesundheit.de_15847_analysis.txt
+DEBUG(2016-11-25 08:46:08,473):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:08,480):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:08,481):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:08,482):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:08,492):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:08,492):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_gesundheit.de_15847_analysis.txt
+DEBUG(2016-11-25 08:46:08,563):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:08,571):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:08,571):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:08,572):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:08,582):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:08,582):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:08,584):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:08,584):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:08,585):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:08,585):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:08,586):worker.py at 112:processing job 11592
+DEBUG(2016-11-25 08:46:08,586):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_hamburg.de_15853_analysis.txt, http://www.hamburg.de, 1,2,3
+INFO(2016-11-25 08:46:08,586):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:08,586):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_hamburg.de_15853_analysis.txt
+DEBUG(2016-11-25 08:46:08,592):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:08,610):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:08,610):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:17,314):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:17,314):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:17,314):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:17,315):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_hamburg.de_15853_analysis.txt
+DEBUG(2016-11-25 08:46:17,453):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:17,470):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:17,471):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:17,473):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:17,485):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:17,485):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_hamburg.de_15853_analysis.txt
+DEBUG(2016-11-25 08:46:17,655):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:17,671):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:17,672):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:17,674):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:17,686):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:17,686):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:17,688):db_interface.py at 102:add one address
+DEBUG(2016-11-25 08:46:17,689):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:17,689):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:17,689):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:17,690):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:17,690):worker.py at 112:processing job 11593
+DEBUG(2016-11-25 08:46:17,691):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel.de_15868_analysis.txt, http://www.lebensmittel.de, 1,2,3
+INFO(2016-11-25 08:46:17,691):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:17,691):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel.de_15868_analysis.txt
+DEBUG(2016-11-25 08:46:17,695):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:17,698):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:17,698):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:22,665):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:22,665):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:22,665):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:22,665):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel.de_15868_analysis.txt
+DEBUG(2016-11-25 08:46:22,712):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:22,718):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:22,718):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:22,719):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:22,726):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:22,726):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel.de_15868_analysis.txt
+DEBUG(2016-11-25 08:46:22,772):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:22,777):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:22,778):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:22,778):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:22,785):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:22,785):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:22,788):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:22,788):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:22,788):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:22,789):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:22,790):worker.py at 112:processing job 11594
+DEBUG(2016-11-25 08:46:22,790):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittellexikon.de_15856_analysis.txt, https://www.lebensmittellexikon.de, 1,2,3
+INFO(2016-11-25 08:46:22,790):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:22,790):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittellexikon.de_15856_analysis.txt
+DEBUG(2016-11-25 08:46:22,794):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:22,796):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:22,796):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:23,361):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:23,361):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:23,361):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:23,361):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittellexikon.de_15856_analysis.txt
+DEBUG(2016-11-25 08:46:23,396):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:23,400):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:23,400):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:23,401):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:23,408):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:23,408):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittellexikon.de_15856_analysis.txt
+DEBUG(2016-11-25 08:46:23,443):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:23,447):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:23,447):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:23,448):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:23,455):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:23,455):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:23,458):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:23,458):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:23,458):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:23,460):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:23,460):worker.py at 112:processing job 11595
+DEBUG(2016-11-25 08:46:23,460):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lidl.de_15844_analysis.txt, http://www.lidl.de, 1,2,3
+INFO(2016-11-25 08:46:23,460):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:23,460):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lidl.de_15844_analysis.txt
+DEBUG(2016-11-25 08:46:23,465):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:23,469):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:23,469):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:25,428):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:25,428):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:25,428):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:25,428):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lidl.de_15844_analysis.txt
+DEBUG(2016-11-25 08:46:25,491):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:25,498):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:25,498):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:25,500):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:25,508):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:25,508):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lidl.de_15844_analysis.txt
+DEBUG(2016-11-25 08:46:25,571):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:25,578):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:25,579):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:25,580):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:25,588):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:25,588):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:25,590):db_interface.py at 102:add one address
+DEBUG(2016-11-25 08:46:25,591):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:25,591):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:25,591):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:25,592):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:25,592):worker.py at 112:processing job 11596
+DEBUG(2016-11-25 08:46:25,592):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_shop.rewe.de_15862_analysis.txt, https://shop.rewe.de, 1,2,3
+INFO(2016-11-25 08:46:25,592):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:25,592):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_shop.rewe.de_15862_analysis.txt
+DEBUG(2016-11-25 08:46:25,597):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:25,606):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:25,606):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:27,196):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:27,196):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:27,196):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:27,196):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_shop.rewe.de_15862_analysis.txt
+DEBUG(2016-11-25 08:46:27,349):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:27,366):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:27,367):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:27,370):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:27,382):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:27,382):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_shop.rewe.de_15862_analysis.txt
+DEBUG(2016-11-25 08:46:27,534):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:27,552):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:27,553):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:27,555):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:27,567):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:27,568):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:27,570):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:27,570):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:27,570):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:27,571):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:27,571):worker.py at 112:processing job 11597
+DEBUG(2016-11-25 08:46:27,571):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_warenkorb-pfungstadt.de_15878_analysis.txt, http://www.warenkorb-pfungstadt.de, 1,2,3
+INFO(2016-11-25 08:46:27,571):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:27,571):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_warenkorb-pfungstadt.de_15878_analysis.txt
+DEBUG(2016-11-25 08:46:27,576):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:27,576):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:27,576):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:27,745):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:27,746):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:27,746):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:27,746):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_warenkorb-pfungstadt.de_15878_analysis.txt
+DEBUG(2016-11-25 08:46:27,760):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:27,761):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:27,761):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:27,761):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:27,766):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:27,766):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_warenkorb-pfungstadt.de_15878_analysis.txt
+DEBUG(2016-11-25 08:46:27,786):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:27,787):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:27,787):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:27,788):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:27,793):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:27,793):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:27,796):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:27,797):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:27,797):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:27,798):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:27,798):worker.py at 112:processing job 11598
+DEBUG(2016-11-25 08:46:27,798):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_allyouneedfresh.de_15877_analysis.txt, https://www.allyouneedfresh.de/kundenservice/impressum, 1,2,3
+INFO(2016-11-25 08:46:27,799):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:27,799):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_allyouneedfresh.de_15877_analysis.txt
+DEBUG(2016-11-25 08:46:27,804):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:27,810):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:27,810):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:29,684):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:29,684):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:29,685):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:29,685):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_allyouneedfresh.de_15877_analysis.txt
+DEBUG(2016-11-25 08:46:29,763):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:29,771):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:29,771):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:29,772):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:29,781):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:29,781):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_allyouneedfresh.de_15877_analysis.txt
+DEBUG(2016-11-25 08:46:29,860):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:29,868):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:29,868):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:29,870):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:29,878):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:29,878):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:29,880):db_interface.py at 102:add one address
+DEBUG(2016-11-25 08:46:29,881):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:29,881):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:29,881):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:29,882):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:29,883):worker.py at 112:processing job 11599
+DEBUG(2016-11-25 08:46:29,883):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bvl.bund.de_15883_analysis.txt, http://www.bvl.bund.de/DE/Service/Impressum/impressum_node.html;jsessionid=8BFB63799CE3E7C8CBA93A744E8A821B.2_cid322, 1,2,3
+INFO(2016-11-25 08:46:29,883):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:29,883):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bvl.bund.de_15883_analysis.txt
+DEBUG(2016-11-25 08:46:29,888):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:29,891):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:29,891):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:30,358):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:30,358):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:30,358):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:30,359):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bvl.bund.de_15883_analysis.txt
+DEBUG(2016-11-25 08:46:30,379):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:30,381):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:30,382):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:30,382):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:30,389):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:30,389):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bvl.bund.de_15883_analysis.txt
+DEBUG(2016-11-25 08:46:30,472):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:30,475):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:30,475):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:30,475):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:30,482):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:30,482):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:30,531):db_interface.py at 111:add two addresses
+DEBUG(2016-11-25 08:46:30,535):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:30,535):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:30,536):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:30,539):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:30,539):worker.py at 112:processing job 11600
+DEBUG(2016-11-25 08:46:30,539):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.indeed.com_15852_analysis.txt, http://de.indeed.com/intl/de/about.html, 1,2,3
+INFO(2016-11-25 08:46:30,539):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:30,539):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.indeed.com_15852_analysis.txt
+DEBUG(2016-11-25 08:46:30,548):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:30,554):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:30,554):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:32,570):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:32,570):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:32,570):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:32,570):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.indeed.com_15852_analysis.txt
+DEBUG(2016-11-25 08:46:32,592):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:32,594):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:32,594):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:32,595):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:32,601):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:32,601):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.indeed.com_15852_analysis.txt
+DEBUG(2016-11-25 08:46:32,626):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:32,628):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:32,628):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:32,628):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:32,635):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:32,635):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:32,638):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:32,638):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:32,638):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:32,640):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:32,640):worker.py at 112:processing job 11601
+DEBUG(2016-11-25 08:46:32,640):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.statista.com_15867_analysis.txt, https://de.statista.com/statistik/impressum, 1,2,3
+INFO(2016-11-25 08:46:32,640):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:32,640):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.statista.com_15867_analysis.txt
+DEBUG(2016-11-25 08:46:32,650):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:32,657):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:32,657):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:36,882):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:36,882):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:36,883):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:36,883):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.statista.com_15867_analysis.txt
+DEBUG(2016-11-25 08:46:36,938):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:36,942):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:36,942):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:36,943):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:36,957):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:36,957):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.statista.com_15867_analysis.txt
+DEBUG(2016-11-25 08:46:37,014):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:37,018):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:37,018):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:37,019):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:37,033):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:37,033):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:37,035):db_interface.py at 111:add two addresses
+DEBUG(2016-11-25 08:46:37,036):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:37,036):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:37,036):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:37,037):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:37,037):worker.py at 112:processing job 11602
+DEBUG(2016-11-25 08:46:37,037):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wikipedia.org_15840_analysis.txt, https://de.wikipedia.org/wiki/Wikipedia:Impressum, 1,2,3
+INFO(2016-11-25 08:46:37,038):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:37,038):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wikipedia.org_15840_analysis.txt
+DEBUG(2016-11-25 08:46:37,042):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:37,045):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:37,045):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:38,575):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:38,575):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:38,575):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:38,575):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wikipedia.org_15840_analysis.txt
+DEBUG(2016-11-25 08:46:38,617):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:38,621):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:38,621):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:38,622):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:38,633):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:38,633):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wikipedia.org_15840_analysis.txt
+DEBUG(2016-11-25 08:46:38,675):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:38,679):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:38,679):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:38,680):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:38,691):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:38,691):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:38,695):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:38,695):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:38,696):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:38,697):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:38,697):worker.py at 112:processing job 11603
+DEBUG(2016-11-25 08:46:38,697):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wiktionary.org_15861_analysis.txt, https://de.wiktionary.org/wiki/Wiktionary:Impressum, 1,2,3
+INFO(2016-11-25 08:46:38,697):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:38,697):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wiktionary.org_15861_analysis.txt
+DEBUG(2016-11-25 08:46:38,701):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:38,703):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:38,703):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:40,167):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:40,168):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:40,168):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:40,168):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wiktionary.org_15861_analysis.txt
+DEBUG(2016-11-25 08:46:40,195):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:40,197):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:40,198):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:40,198):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:40,205):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:40,205):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_de.wiktionary.org_15861_analysis.txt
+DEBUG(2016-11-25 08:46:40,227):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:40,229):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:40,229):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:40,229):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:40,236):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:40,237):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:40,239):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:40,239):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:40,239):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:40,240):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:40,240):worker.py at 112:processing job 11604
+DEBUG(2016-11-25 08:46:40,240):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_destatis.de_15873_analysis.txt, https://www.destatis.de/DE/Meta/Impressum/Impressum.html;jsessionid=3F54A561FC9256668BC3CCC7D907B32C.cae2, 1,2,3
+INFO(2016-11-25 08:46:40,240):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:40,241):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_destatis.de_15873_analysis.txt
+DEBUG(2016-11-25 08:46:40,247):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:40,250):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:40,250):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:41,033):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:41,033):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:41,033):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:41,033):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_destatis.de_15873_analysis.txt
+DEBUG(2016-11-25 08:46:41,069):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:41,073):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:41,073):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:41,074):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:41,083):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:41,083):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_destatis.de_15873_analysis.txt
+DEBUG(2016-11-25 08:46:41,120):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:41,124):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:41,124):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:41,125):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:41,134):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:41,134):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:41,136):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:41,137):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:41,137):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:41,137):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:41,138):worker.py at 112:processing job 11605
+DEBUG(2016-11-25 08:46:41,138):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_gesundheit.de_15849_analysis.txt, http://www.gesundheit.de/impressum, 1,2,3
+INFO(2016-11-25 08:46:41,138):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:41,138):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_gesundheit.de_15849_analysis.txt
+DEBUG(2016-11-25 08:46:41,142):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:41,146):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:41,146):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:42,441):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:42,441):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:42,441):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:42,441):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_gesundheit.de_15849_analysis.txt
+DEBUG(2016-11-25 08:46:42,497):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:42,503):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:42,503):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:42,504):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:42,511):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:42,512):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_gesundheit.de_15849_analysis.txt
+DEBUG(2016-11-25 08:46:42,564):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:42,570):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:42,570):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:42,571):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:42,579):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:42,579):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:42,581):db_interface.py at 111:add two addresses
+DEBUG(2016-11-25 08:46:42,582):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:42,582):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:42,582):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:42,583):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:42,583):worker.py at 112:processing job 11606
+DEBUG(2016-11-25 08:46:42,584):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_hamburg.de_15855_analysis.txt, http://www.hamburg.de/impressum, 1,2,3
+INFO(2016-11-25 08:46:42,584):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:42,584):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_hamburg.de_15855_analysis.txt
+DEBUG(2016-11-25 08:46:42,589):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:42,593):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:42,593):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:43,897):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:43,897):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:43,897):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:43,897):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_hamburg.de_15855_analysis.txt
+DEBUG(2016-11-25 08:46:43,965):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:43,973):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:43,973):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:43,975):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:43,983):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:43,983):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_hamburg.de_15855_analysis.txt
+DEBUG(2016-11-25 08:46:44,051):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:44,060):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:44,060):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:44,061):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:44,070):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:44,070):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:44,072):db_interface.py at 111:add two addresses
+DEBUG(2016-11-25 08:46:44,073):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:44,073):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:44,073):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:44,074):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:44,074):worker.py at 112:processing job 11607
+DEBUG(2016-11-25 08:46:44,074):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel.de_15843_analysis.txt, https://www.lebensmittel.de/?p=infoseiten/impressum&location_id=-1, 1,2,3
+INFO(2016-11-25 08:46:44,074):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:44,074):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel.de_15843_analysis.txt
+DEBUG(2016-11-25 08:46:44,078):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:44,081):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:44,081):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:48,676):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:48,676):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:48,676):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:48,676):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel.de_15843_analysis.txt
+DEBUG(2016-11-25 08:46:48,709):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:48,713):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:48,713):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:48,714):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:48,721):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:48,721):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel.de_15843_analysis.txt
+DEBUG(2016-11-25 08:46:48,754):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:48,758):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:48,758):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:48,759):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:48,766):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:48,766):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:48,768):db_interface.py at 111:add two addresses
+DEBUG(2016-11-25 08:46:48,769):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:48,769):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:48,769):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:48,770):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:48,770):worker.py at 112:processing job 11608
+DEBUG(2016-11-25 08:46:48,770):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel.de_15870_analysis.txt, http://www.lebensmittel.de/?p=infoseiten/impressum&location_id=-1, 1,2,3
+INFO(2016-11-25 08:46:48,770):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:48,770):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel.de_15870_analysis.txt
+DEBUG(2016-11-25 08:46:48,775):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:48,777):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:48,777):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:53,391):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:53,391):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:53,391):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:53,391):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel.de_15870_analysis.txt
+DEBUG(2016-11-25 08:46:53,424):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:53,427):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:53,428):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:53,428):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:53,435):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:53,435):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel.de_15870_analysis.txt
+DEBUG(2016-11-25 08:46:53,467):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:53,471):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:53,471):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:53,472):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:53,479):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:53,479):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:53,481):db_interface.py at 111:add two addresses
+DEBUG(2016-11-25 08:46:53,482):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:53,482):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:53,482):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:53,483):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:53,483):worker.py at 112:processing job 11609
+DEBUG(2016-11-25 08:46:53,483):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittellexikon.de_15858_analysis.txt, https://www.lebensmittellexikon.de/adm_impr.php, 1,2,3
+INFO(2016-11-25 08:46:53,483):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:53,483):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittellexikon.de_15858_analysis.txt
+DEBUG(2016-11-25 08:46:53,488):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:53,490):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:53,490):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:54,953):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:54,953):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:54,954):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:54,954):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittellexikon.de_15858_analysis.txt
+DEBUG(2016-11-25 08:46:54,986):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:54,989):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:54,989):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:54,990):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:54,999):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:54,999):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittellexikon.de_15858_analysis.txt
+DEBUG(2016-11-25 08:46:55,031):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:55,035):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:55,035):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:55,036):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:55,044):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:55,044):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:55,047):db_interface.py at 102:add one address
+DEBUG(2016-11-25 08:46:55,048):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:55,048):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:55,048):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:55,049):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:55,049):worker.py at 112:processing job 11610
+DEBUG(2016-11-25 08:46:55,049):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_rewe.de_15864_analysis.txt, https://www.rewe.de/service/impressum, 1,2,3
+INFO(2016-11-25 08:46:55,049):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:55,050):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_rewe.de_15864_analysis.txt
+DEBUG(2016-11-25 08:46:55,054):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:55,059):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:55,059):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:56,012):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:56,012):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:56,012):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:56,012):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_rewe.de_15864_analysis.txt
+DEBUG(2016-11-25 08:46:56,068):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:56,074):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:56,074):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:56,075):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:56,082):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:56,082):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_rewe.de_15864_analysis.txt
+DEBUG(2016-11-25 08:46:56,138):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:56,143):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:56,143):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:56,144):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:56,152):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:56,152):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:56,154):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:56,154):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:56,154):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:56,155):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:56,155):worker.py at 112:processing job 11611
+DEBUG(2016-11-25 08:46:56,155):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_warenkorb-pfungstadt.de_15880_analysis.txt, http://www.warenkorb-pfungstadt.de/index.php/kontakt, 1,2,3
+INFO(2016-11-25 08:46:56,155):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:56,155):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_warenkorb-pfungstadt.de_15880_analysis.txt
+DEBUG(2016-11-25 08:46:56,160):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:56,160):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:56,160):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:56,911):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:56,911):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:56,911):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:56,911):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_warenkorb-pfungstadt.de_15880_analysis.txt
+DEBUG(2016-11-25 08:46:56,961):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:56,963):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:56,963):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:56,963):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:56,968):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:56,968):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_warenkorb-pfungstadt.de_15880_analysis.txt
+DEBUG(2016-11-25 08:46:56,989):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:56,991):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:56,991):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:56,992):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:56,997):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:56,997):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:57,000):db_interface.py at 102:add one address
+DEBUG(2016-11-25 08:46:57,001):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:57,001):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:57,002):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:57,003):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:57,003):worker.py at 112:processing job 11612
+DEBUG(2016-11-25 08:46:57,003):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_alnatura-shop.de_15925_analysis.txt, http://alnatura-shop.de, 1,2,3
+INFO(2016-11-25 08:46:57,003):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:57,004):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_alnatura-shop.de_15925_analysis.txt
+DEBUG(2016-11-25 08:46:57,008):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:57,008):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:57,008):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:57,010):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:57,010):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:57,010):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:57,010):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_alnatura-shop.de_15925_analysis.txt
+DEBUG(2016-11-25 08:46:57,015):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:57,015):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:57,015):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:57,015):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:57,020):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:57,020):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_alnatura-shop.de_15925_analysis.txt
+DEBUG(2016-11-25 08:46:57,025):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:57,025):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:57,026):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:57,026):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:57,031):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:57,032):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:57,034):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:57,034):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:57,034):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:57,035):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:57,035):worker.py at 112:processing job 11613
+DEBUG(2016-11-25 08:46:57,036):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_auf-rechnung-bestellen.de_15914_analysis.txt, http://www.auf-rechnung-bestellen.de/lebensmittel, 1,2,3
+INFO(2016-11-25 08:46:57,036):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:57,036):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_auf-rechnung-bestellen.de_15914_analysis.txt
+DEBUG(2016-11-25 08:46:57,042):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:57,046):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:57,046):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:58,299):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:58,300):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:58,300):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:58,300):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_auf-rechnung-bestellen.de_15914_analysis.txt
+DEBUG(2016-11-25 08:46:58,363):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:58,369):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:58,370):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:58,371):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:58,379):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:58,379):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_auf-rechnung-bestellen.de_15914_analysis.txt
+DEBUG(2016-11-25 08:46:58,442):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:58,448):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:58,448):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:58,449):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:58,458):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:58,458):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:58,460):db_interface.py at 111:add two addresses
+DEBUG(2016-11-25 08:46:58,460):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:58,460):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:58,461):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:58,462):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:58,462):worker.py at 112:processing job 11614
+DEBUG(2016-11-25 08:46:58,462):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bmel.de_15885_analysis.txt, https://www.bmel.de/DE/Ministerium/Nachhaltigkeit/_Texte/RNEWarenkorb.html, 1,2,3
+INFO(2016-11-25 08:46:58,462):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:58,462):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bmel.de_15885_analysis.txt
+DEBUG(2016-11-25 08:46:58,466):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:58,468):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:58,469):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:46:58,942):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:46:58,942):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:46:58,942):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:46:58,942):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bmel.de_15885_analysis.txt
+DEBUG(2016-11-25 08:46:58,980):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:58,985):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:58,985):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:58,986):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:46:58,994):worker.py at 85:handling food
+DEBUG(2016-11-25 08:46:58,994):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bmel.de_15885_analysis.txt
+DEBUG(2016-11-25 08:46:59,032):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:46:59,036):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:46:59,037):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:46:59,037):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:46:59,045):worker.py at 99:done with job
+DEBUG(2016-11-25 08:46:59,046):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:46:59,049):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:46:59,049):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:46:59,049):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:46:59,050):db_interface.py at 67:returning results
+INFO(2016-11-25 08:46:59,050):worker.py at 112:processing job 11615
+DEBUG(2016-11-25 08:46:59,050):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bringmirlebensmittel.de_15917_analysis.txt, http://www.bringmirlebensmittel.de/online-supermaerkte-uebersicht, 1,2,3
+INFO(2016-11-25 08:46:59,050):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:46:59,050):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bringmirlebensmittel.de_15917_analysis.txt
+DEBUG(2016-11-25 08:46:59,055):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:46:59,063):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:46:59,064):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:47:00,945):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:47:00,945):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:47:00,945):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:47:00,945):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bringmirlebensmittel.de_15917_analysis.txt
+DEBUG(2016-11-25 08:47:01,127):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:01,149):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:01,150):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:01,153):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:47:01,164):worker.py at 85:handling food
+DEBUG(2016-11-25 08:47:01,164):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bringmirlebensmittel.de_15917_analysis.txt
+DEBUG(2016-11-25 08:47:01,342):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:01,364):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:01,365):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:01,368):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:47:01,380):worker.py at 99:done with job
+DEBUG(2016-11-25 08:47:01,380):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:47:01,382):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:47:01,382):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:47:01,382):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:47:01,383):db_interface.py at 67:returning results
+INFO(2016-11-25 08:47:01,383):worker.py at 112:processing job 11616
+DEBUG(2016-11-25 08:47:01,383):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_edeka-lebensmittel.de_15907_analysis.txt, https://www.edeka-lebensmittel.de, 1,2,3
+INFO(2016-11-25 08:47:01,383):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:47:01,384):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_edeka-lebensmittel.de_15907_analysis.txt
+DEBUG(2016-11-25 08:47:01,388):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:47:01,398):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:47:01,398):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:47:10,736):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:47:10,736):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:47:10,737):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:47:10,737):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_edeka-lebensmittel.de_15907_analysis.txt
+DEBUG(2016-11-25 08:47:10,921):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:10,945):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:10,946):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:10,949):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:47:10,962):worker.py at 85:handling food
+DEBUG(2016-11-25 08:47:10,962):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_edeka-lebensmittel.de_15907_analysis.txt
+DEBUG(2016-11-25 08:47:11,181):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:11,204):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:11,205):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:11,208):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:47:11,221):worker.py at 99:done with job
+DEBUG(2016-11-25 08:47:11,221):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:47:11,227):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:47:11,227):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:47:11,227):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:47:11,228):db_interface.py at 67:returning results
+INFO(2016-11-25 08:47:11,228):worker.py at 112:processing job 11617
+DEBUG(2016-11-25 08:47:11,229):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_edeka24.de_15891_analysis.txt, https://www.edeka24.de, 1,2,3
+INFO(2016-11-25 08:47:11,229):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:47:11,229):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_edeka24.de_15891_analysis.txt
+DEBUG(2016-11-25 08:47:11,246):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:47:11,254):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:47:11,254):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:47:11,769):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:47:11,770):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:47:11,770):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:47:11,770):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_edeka24.de_15891_analysis.txt
+DEBUG(2016-11-25 08:47:11,868):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:11,878):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:11,879):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:11,880):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:47:11,887):worker.py at 85:handling food
+DEBUG(2016-11-25 08:47:11,887):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_edeka24.de_15891_analysis.txt
+DEBUG(2016-11-25 08:47:11,986):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:11,996):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:11,997):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:11,998):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:47:12,006):worker.py at 99:done with job
+DEBUG(2016-11-25 08:47:12,006):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:47:12,008):db_interface.py at 102:add one address
+DEBUG(2016-11-25 08:47:12,009):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:47:12,009):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:47:12,009):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:47:12,010):db_interface.py at 67:returning results
+INFO(2016-11-25 08:47:12,011):worker.py at 112:processing job 11618
+DEBUG(2016-11-25 08:47:12,011):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_finden.simplora.de_15897_analysis.txt, http://finden.simplora.de, 1,2,3
+INFO(2016-11-25 08:47:12,011):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:47:12,011):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_finden.simplora.de_15897_analysis.txt
+DEBUG(2016-11-25 08:47:12,016):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:47:12,017):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:47:12,017):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:47:12,789):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:47:12,789):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:47:12,789):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:47:12,789):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_finden.simplora.de_15897_analysis.txt
+DEBUG(2016-11-25 08:47:12,816):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:12,817):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:12,817):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:12,817):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:47:12,824):worker.py at 85:handling food
+DEBUG(2016-11-25 08:47:12,824):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_finden.simplora.de_15897_analysis.txt
+DEBUG(2016-11-25 08:47:12,838):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:12,839):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:12,839):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:12,839):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:47:12,846):worker.py at 99:done with job
+DEBUG(2016-11-25 08:47:12,846):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:47:12,857):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:47:12,857):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:47:12,858):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:47:12,861):db_interface.py at 67:returning results
+INFO(2016-11-25 08:47:12,861):worker.py at 112:processing job 11619
+DEBUG(2016-11-25 08:47:12,861):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_food.de_15905_analysis.txt, https://food.de, 1,2,3
+INFO(2016-11-25 08:47:12,861):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:47:12,862):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_food.de_15905_analysis.txt
+DEBUG(2016-11-25 08:47:12,872):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:47:12,882):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:47:12,883):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:47:14,225):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:47:14,225):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:47:14,225):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:47:14,225):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_food.de_15905_analysis.txt
+DEBUG(2016-11-25 08:47:14,465):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:14,493):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:14,494):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:14,498):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:47:14,515):worker.py at 85:handling food
+DEBUG(2016-11-25 08:47:14,515):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_food.de_15905_analysis.txt
+DEBUG(2016-11-25 08:47:14,728):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:14,756):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:14,757):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:14,761):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:47:14,778):worker.py at 99:done with job
+DEBUG(2016-11-25 08:47:14,778):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:47:14,781):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:47:14,781):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:47:14,782):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:47:14,783):db_interface.py at 67:returning results
+INFO(2016-11-25 08:47:14,783):worker.py at 112:processing job 11620
+DEBUG(2016-11-25 08:47:14,783):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_haushaltstipps.com_15911_analysis.txt, http://www.haushaltstipps.com/Einkaufstipps/Lebensmittel, 1,2,3
+INFO(2016-11-25 08:47:14,783):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:47:14,784):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_haushaltstipps.com_15911_analysis.txt
+DEBUG(2016-11-25 08:47:14,788):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:47:14,790):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:47:14,790):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:47:15,420):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:47:15,421):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:47:15,421):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:47:15,421):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_haushaltstipps.com_15911_analysis.txt
+DEBUG(2016-11-25 08:47:15,437):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:15,438):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:15,438):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:15,439):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:47:15,447):worker.py at 85:handling food
+DEBUG(2016-11-25 08:47:15,447):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_haushaltstipps.com_15911_analysis.txt
+DEBUG(2016-11-25 08:47:15,464):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:15,465):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:15,466):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:15,466):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:47:15,473):worker.py at 99:done with job
+DEBUG(2016-11-25 08:47:15,473):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:47:15,476):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:47:15,476):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:47:15,476):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:47:15,477):db_interface.py at 67:returning results
+INFO(2016-11-25 08:47:15,477):worker.py at 112:processing job 11621
+DEBUG(2016-11-25 08:47:15,477):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel-versand.eu_15927_analysis.txt, https://www.lebensmittel-versand.eu, 1,2,3
+INFO(2016-11-25 08:47:15,477):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:47:15,478):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel-versand.eu_15927_analysis.txt
+DEBUG(2016-11-25 08:47:15,483):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:47:15,496):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:47:15,496):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:47:30,653):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:47:30,654):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:47:30,654):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:47:30,655):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel-versand.eu_15927_analysis.txt
+DEBUG(2016-11-25 08:47:30,929):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:30,960):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:30,961):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:30,966):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:47:30,982):worker.py at 85:handling food
+DEBUG(2016-11-25 08:47:30,982):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel-versand.eu_15927_analysis.txt
+DEBUG(2016-11-25 08:47:31,211):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:31,241):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:31,242):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:31,247):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:47:31,263):worker.py at 99:done with job
+DEBUG(2016-11-25 08:47:31,263):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:47:31,266):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:47:31,267):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:47:31,267):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:47:31,268):db_interface.py at 67:returning results
+INFO(2016-11-25 08:47:31,269):worker.py at 112:processing job 11622
+DEBUG(2016-11-25 08:47:31,269):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_mytime.de_15888_analysis.txt, http://www.mytime.de, 1,2,3
+INFO(2016-11-25 08:47:31,269):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:47:31,269):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_mytime.de_15888_analysis.txt
+DEBUG(2016-11-25 08:47:31,275):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:47:31,289):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:47:31,289):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:47:34,420):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:47:34,420):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:47:34,420):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:47:34,420):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_mytime.de_15888_analysis.txt
+DEBUG(2016-11-25 08:47:34,632):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:34,653):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:34,654):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:34,658):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:47:34,674):worker.py at 85:handling food
+DEBUG(2016-11-25 08:47:34,675):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_mytime.de_15888_analysis.txt
+DEBUG(2016-11-25 08:47:34,874):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:34,895):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:34,896):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:34,900):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:47:34,916):worker.py at 99:done with job
+DEBUG(2016-11-25 08:47:34,917):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:47:34,920):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:47:34,920):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:47:34,920):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:47:34,921):db_interface.py at 67:returning results
+INFO(2016-11-25 08:47:34,922):worker.py at 112:processing job 11623
+DEBUG(2016-11-25 08:47:34,922):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_shop.veganz.de_15921_analysis.txt, https://shop.veganz.de, 1,2,3
+INFO(2016-11-25 08:47:34,922):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:47:34,922):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_shop.veganz.de_15921_analysis.txt
+DEBUG(2016-11-25 08:47:34,926):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:47:34,931):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:47:34,931):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:47:41,801):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:47:41,802):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:47:41,802):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:47:41,802):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_shop.veganz.de_15921_analysis.txt
+DEBUG(2016-11-25 08:47:41,914):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:41,921):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:41,921):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:41,922):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:47:41,930):worker.py at 85:handling food
+DEBUG(2016-11-25 08:47:41,930):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_shop.veganz.de_15921_analysis.txt
+DEBUG(2016-11-25 08:47:41,995):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:42,002):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:42,002):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:42,003):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:47:42,011):worker.py at 99:done with job
+DEBUG(2016-11-25 08:47:42,011):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:47:42,013):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:47:42,014):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:47:42,014):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:47:42,015):db_interface.py at 67:returning results
+INFO(2016-11-25 08:47:42,015):worker.py at 112:processing job 11624
+DEBUG(2016-11-25 08:47:42,015):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_auf-rechnung-bestellen.de_15913_analysis.txt, http://www.auf-rechnung-bestellen.de, 1,2,3
+INFO(2016-11-25 08:47:42,015):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:47:42,015):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_auf-rechnung-bestellen.de_15913_analysis.txt
+DEBUG(2016-11-25 08:47:42,020):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:47:42,026):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:47:42,026):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:47:43,770):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:47:43,770):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:47:43,771):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:47:43,771):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_auf-rechnung-bestellen.de_15913_analysis.txt
+DEBUG(2016-11-25 08:47:43,852):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:43,860):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:43,860):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:43,861):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:47:43,871):worker.py at 85:handling food
+DEBUG(2016-11-25 08:47:43,871):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_auf-rechnung-bestellen.de_15913_analysis.txt
+DEBUG(2016-11-25 08:47:43,953):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:43,960):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:43,960):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:43,962):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:47:43,971):worker.py at 99:done with job
+DEBUG(2016-11-25 08:47:43,972):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:47:43,974):db_interface.py at 111:add two addresses
+DEBUG(2016-11-25 08:47:43,974):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:47:43,975):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:47:43,975):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:47:43,976):db_interface.py at 67:returning results
+INFO(2016-11-25 08:47:43,976):worker.py at 112:processing job 11625
+DEBUG(2016-11-25 08:47:43,976):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bmel.de_15884_analysis.txt, https://www.bmel.de, 1,2,3
+INFO(2016-11-25 08:47:43,976):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:47:43,976):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bmel.de_15884_analysis.txt
+DEBUG(2016-11-25 08:47:43,980):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:47:43,984):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:47:43,984):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:47:44,982):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:47:44,982):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:47:44,983):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:47:44,983):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bmel.de_15884_analysis.txt
+DEBUG(2016-11-25 08:47:45,048):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:45,055):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:45,056):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:45,057):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:47:45,067):worker.py at 85:handling food
+DEBUG(2016-11-25 08:47:45,067):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bmel.de_15884_analysis.txt
+DEBUG(2016-11-25 08:47:45,132):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:45,139):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:45,140):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:45,141):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:47:45,151):worker.py at 99:done with job
+DEBUG(2016-11-25 08:47:45,151):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:47:45,153):db_interface.py at 102:add one address
+DEBUG(2016-11-25 08:47:45,154):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:47:45,154):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:47:45,154):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:47:45,155):db_interface.py at 67:returning results
+INFO(2016-11-25 08:47:45,155):worker.py at 112:processing job 11626
+DEBUG(2016-11-25 08:47:45,155):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bringmirlebensmittel.de_15916_analysis.txt, http://www.bringmirlebensmittel.de, 1,2,3
+INFO(2016-11-25 08:47:45,155):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:47:45,156):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bringmirlebensmittel.de_15916_analysis.txt
+DEBUG(2016-11-25 08:47:45,160):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:47:45,161):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:47:45,161):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:47:45,667):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:47:45,667):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:47:45,667):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:47:45,667):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bringmirlebensmittel.de_15916_analysis.txt
+DEBUG(2016-11-25 08:47:45,688):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:45,690):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:45,690):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:45,690):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:47:45,696):worker.py at 85:handling food
+DEBUG(2016-11-25 08:47:45,696):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bringmirlebensmittel.de_15916_analysis.txt
+DEBUG(2016-11-25 08:47:45,715):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:45,717):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:45,717):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:45,717):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:47:45,723):worker.py at 99:done with job
+DEBUG(2016-11-25 08:47:45,724):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:47:45,726):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:47:45,726):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:47:45,726):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:47:45,727):db_interface.py at 67:returning results
+INFO(2016-11-25 08:47:45,727):worker.py at 112:processing job 11627
+DEBUG(2016-11-25 08:47:45,727):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_haushaltstipps.com_15910_analysis.txt, http://www.haushaltstipps.com, 1,2,3
+INFO(2016-11-25 08:47:45,727):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:47:45,727):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_haushaltstipps.com_15910_analysis.txt
+DEBUG(2016-11-25 08:47:45,732):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:47:45,733):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:47:45,733):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:47:46,161):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:47:46,162):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:47:46,162):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:47:46,162):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_haushaltstipps.com_15910_analysis.txt
+DEBUG(2016-11-25 08:47:46,199):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:46,201):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:46,201):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:46,202):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:47:46,208):worker.py at 85:handling food
+DEBUG(2016-11-25 08:47:46,208):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_haushaltstipps.com_15910_analysis.txt
+DEBUG(2016-11-25 08:47:46,229):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:46,231):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:46,231):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:46,231):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:47:46,238):worker.py at 99:done with job
+DEBUG(2016-11-25 08:47:46,238):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:47:46,702):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:47:46,702):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:47:46,702):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:47:46,705):db_interface.py at 67:returning results
+INFO(2016-11-25 08:47:46,705):worker.py at 112:processing job 11628
+DEBUG(2016-11-25 08:47:46,705):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bmel.de_15893_analysis.txt, http://www.bmel.de/DE/Servicemenue/Impressum/impressum_node.html;jsessionid=9A2FF52CD65066C25BCB98B4A3C643E8.2_cid376, 1,2,3
+INFO(2016-11-25 08:47:46,705):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:47:46,705):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bmel.de_15893_analysis.txt
+DEBUG(2016-11-25 08:47:46,718):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:47:46,722):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:47:46,722):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:47:47,252):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:47:47,253):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:47:47,253):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:47:47,253):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bmel.de_15893_analysis.txt
+DEBUG(2016-11-25 08:47:47,290):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:47,293):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:47,294):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:47,294):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:47:47,302):worker.py at 85:handling food
+DEBUG(2016-11-25 08:47:47,302):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bmel.de_15893_analysis.txt
+DEBUG(2016-11-25 08:47:47,338):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:47,342):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:47,342):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:47,343):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:47:47,351):worker.py at 99:done with job
+DEBUG(2016-11-25 08:47:47,351):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:47:47,353):db_interface.py at 111:add two addresses
+DEBUG(2016-11-25 08:47:47,354):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:47:47,355):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:47:47,355):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:47:47,356):db_interface.py at 67:returning results
+INFO(2016-11-25 08:47:47,356):worker.py at 112:processing job 11629
+DEBUG(2016-11-25 08:47:47,356):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bringmirlebensmittel.de_15918_analysis.txt, http://www.bringmirlebensmittel.de/inhalt/impressum, 1,2,3
+INFO(2016-11-25 08:47:47,356):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:47:47,356):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bringmirlebensmittel.de_15918_analysis.txt
+DEBUG(2016-11-25 08:47:47,363):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:47:47,364):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:47:47,364):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:47:48,077):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:47:48,077):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:47:48,077):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:47:48,077):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bringmirlebensmittel.de_15918_analysis.txt
+DEBUG(2016-11-25 08:47:48,101):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:48,103):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:48,103):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:48,103):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:47:48,109):worker.py at 85:handling food
+DEBUG(2016-11-25 08:47:48,110):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_bringmirlebensmittel.de_15918_analysis.txt
+DEBUG(2016-11-25 08:47:48,130):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:48,132):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:48,132):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:48,132):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:47:48,138):worker.py at 99:done with job
+DEBUG(2016-11-25 08:47:48,138):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:47:48,142):db_interface.py at 102:add one address
+DEBUG(2016-11-25 08:47:48,143):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:47:48,143):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:47:48,143):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:47:48,144):db_interface.py at 67:returning results
+INFO(2016-11-25 08:47:48,144):worker.py at 112:processing job 11630
+DEBUG(2016-11-25 08:47:48,145):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_edeka-lebensmittel.de_15909_analysis.txt, https://www.edeka-lebensmittel.de/webshop/impressum, 1,2,3
+INFO(2016-11-25 08:47:48,145):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:47:48,145):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_edeka-lebensmittel.de_15909_analysis.txt
+DEBUG(2016-11-25 08:47:48,151):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:47:48,157):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:47:48,157):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:47:53,335):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:47:53,335):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:47:53,335):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:47:53,335):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_edeka-lebensmittel.de_15909_analysis.txt
+DEBUG(2016-11-25 08:47:53,443):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:53,457):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:53,458):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:53,460):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:47:53,470):worker.py at 85:handling food
+DEBUG(2016-11-25 08:47:53,470):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_edeka-lebensmittel.de_15909_analysis.txt
+DEBUG(2016-11-25 08:47:53,579):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:53,594):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:53,594):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:53,596):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:47:53,607):worker.py at 99:done with job
+DEBUG(2016-11-25 08:47:53,607):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:47:53,609):db_interface.py at 102:add one address
+DEBUG(2016-11-25 08:47:53,610):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:47:53,610):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:47:53,610):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:47:53,611):db_interface.py at 67:returning results
+INFO(2016-11-25 08:47:53,611):worker.py at 112:processing job 11631
+DEBUG(2016-11-25 08:47:53,611):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_edeka24.de_15894_analysis.txt, https://www.edeka24.de/Impressum/?force_sid=jdmcqu2mugl7ujac5qe7ehm6l0, 1,2,3
+INFO(2016-11-25 08:47:53,611):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:47:53,611):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_edeka24.de_15894_analysis.txt
+DEBUG(2016-11-25 08:47:53,616):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:47:53,622):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:47:53,623):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:47:54,233):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:47:54,233):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:47:54,233):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:47:54,233):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_edeka24.de_15894_analysis.txt
+DEBUG(2016-11-25 08:47:54,318):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:54,328):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:54,328):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:54,329):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:47:54,336):worker.py at 85:handling food
+DEBUG(2016-11-25 08:47:54,336):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_edeka24.de_15894_analysis.txt
+DEBUG(2016-11-25 08:47:54,461):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:54,470):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:54,470):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:54,471):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:47:54,478):worker.py at 99:done with job
+DEBUG(2016-11-25 08:47:54,479):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:47:54,480):db_interface.py at 102:add one address
+DEBUG(2016-11-25 08:47:54,481):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:47:54,481):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:47:54,482):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:47:54,482):db_interface.py at 67:returning results
+INFO(2016-11-25 08:47:54,483):worker.py at 112:processing job 11632
+DEBUG(2016-11-25 08:47:54,483):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_food.de_15919_analysis.txt, https://food.de/impressum, 1,2,3
+INFO(2016-11-25 08:47:54,483):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:47:54,483):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_food.de_15919_analysis.txt
+DEBUG(2016-11-25 08:47:54,487):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:47:54,496):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:47:54,497):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:47:55,415):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:47:55,415):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:47:55,415):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:47:55,415):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_food.de_15919_analysis.txt
+DEBUG(2016-11-25 08:47:55,620):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:55,647):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:55,648):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:55,652):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:47:55,667):worker.py at 85:handling food
+DEBUG(2016-11-25 08:47:55,668):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_food.de_15919_analysis.txt
+DEBUG(2016-11-25 08:47:55,870):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:55,897):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:55,898):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:55,902):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:47:55,918):worker.py at 99:done with job
+DEBUG(2016-11-25 08:47:55,918):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:47:55,920):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:47:55,920):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:47:55,920):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:47:55,921):db_interface.py at 67:returning results
+INFO(2016-11-25 08:47:55,922):worker.py at 112:processing job 11633
+DEBUG(2016-11-25 08:47:55,922):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_haushaltstipps.com_15912_analysis.txt, http://www.haushaltstipps.com/Impressum, 1,2,3
+INFO(2016-11-25 08:47:55,922):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:47:55,922):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_haushaltstipps.com_15912_analysis.txt
+DEBUG(2016-11-25 08:47:55,926):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:47:55,927):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:47:55,927):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:47:56,067):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:47:56,067):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:47:56,067):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:47:56,067):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_haushaltstipps.com_15912_analysis.txt
+DEBUG(2016-11-25 08:47:56,082):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:56,083):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:56,083):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:56,083):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:47:56,089):worker.py at 85:handling food
+DEBUG(2016-11-25 08:47:56,089):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_haushaltstipps.com_15912_analysis.txt
+DEBUG(2016-11-25 08:47:56,102):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:47:56,103):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:47:56,103):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:47:56,104):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:47:56,109):worker.py at 99:done with job
+DEBUG(2016-11-25 08:47:56,110):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:47:56,116):db_interface.py at 102:add one address
+DEBUG(2016-11-25 08:47:56,118):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:47:56,118):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:47:56,118):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:47:56,122):db_interface.py at 67:returning results
+INFO(2016-11-25 08:47:56,122):worker.py at 112:processing job 11634
+DEBUG(2016-11-25 08:47:56,122):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel-versand.eu_15929_analysis.txt, https://www.lebensmittel-versand.eu/infos/impressum, 1,2,3
+INFO(2016-11-25 08:47:56,122):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:47:56,122):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel-versand.eu_15929_analysis.txt
+DEBUG(2016-11-25 08:47:56,130):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:47:56,142):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:47:56,142):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:48:05,097):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:48:05,097):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:48:05,097):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:48:05,098):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel-versand.eu_15929_analysis.txt
+DEBUG(2016-11-25 08:48:05,293):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:48:05,318):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:48:05,319):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:48:05,323):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:48:05,339):worker.py at 85:handling food
+DEBUG(2016-11-25 08:48:05,339):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_lebensmittel-versand.eu_15929_analysis.txt
+DEBUG(2016-11-25 08:48:05,574):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:48:05,600):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:48:05,601):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:48:05,605):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:48:05,620):worker.py at 99:done with job
+DEBUG(2016-11-25 08:48:05,620):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:48:05,623):db_interface.py at 102:add one address
+DEBUG(2016-11-25 08:48:05,625):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:48:05,625):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:48:05,625):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:48:05,626):db_interface.py at 67:returning results
+INFO(2016-11-25 08:48:05,626):worker.py at 112:processing job 11635
+DEBUG(2016-11-25 08:48:05,626):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_mytime.de_15890_analysis.txt, http://www.mytime.de/#, 1,2,3
+INFO(2016-11-25 08:48:05,626):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:48:05,626):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_mytime.de_15890_analysis.txt
+DEBUG(2016-11-25 08:48:05,631):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:48:05,646):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:48:05,646):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:48:08,773):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:48:08,773):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:48:08,774):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:48:08,774):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_mytime.de_15890_analysis.txt
+DEBUG(2016-11-25 08:48:08,976):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:48:08,996):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:48:08,997):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:48:09,000):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:48:09,017):worker.py at 85:handling food
+DEBUG(2016-11-25 08:48:09,017):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_mytime.de_15890_analysis.txt
+DEBUG(2016-11-25 08:48:09,216):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:48:09,236):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:48:09,237):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:48:09,241):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:48:09,257):worker.py at 99:done with job
+DEBUG(2016-11-25 08:48:09,258):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:48:09,260):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:48:09,260):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:48:09,260):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:48:09,261):db_interface.py at 67:returning results
+INFO(2016-11-25 08:48:09,261):worker.py at 112:processing job 11636
+DEBUG(2016-11-25 08:48:09,262):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_shop.veganz.de_15923_analysis.txt, https://shop.veganz.de/seite/3/impressum, 1,2,3
+INFO(2016-11-25 08:48:09,262):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:48:09,262):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_shop.veganz.de_15923_analysis.txt
+DEBUG(2016-11-25 08:48:09,266):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:48:09,269):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:48:09,269):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:48:15,981):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:48:15,981):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:48:15,981):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:48:15,981):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_shop.veganz.de_15923_analysis.txt
+DEBUG(2016-11-25 08:48:16,020):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:48:16,023):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:48:16,024):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:48:16,024):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:48:16,032):worker.py at 85:handling food
+DEBUG(2016-11-25 08:48:16,032):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_shop.veganz.de_15923_analysis.txt
+DEBUG(2016-11-25 08:48:16,070):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:48:16,074):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:48:16,074):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:48:16,075):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:48:16,082):worker.py at 99:done with job
+DEBUG(2016-11-25 08:48:16,082):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:48:16,084):db_interface.py at 111:add two addresses
+DEBUG(2016-11-25 08:48:16,085):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:48:16,085):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:48:16,085):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:48:16,086):db_interface.py at 67:returning results
+INFO(2016-11-25 08:48:16,087):worker.py at 112:processing job 11637
+DEBUG(2016-11-25 08:48:16,087):worker.py at 55:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_simplora.de_15899_analysis.txt, https://www.simplora.de/info/impressum, 1,2,3
+INFO(2016-11-25 08:48:16,087):worker.py at 62:handling impressum
+DEBUG(2016-11-25 08:48:16,087):preprocess.py at 73:open and read http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_simplora.de_15899_analysis.txt
+DEBUG(2016-11-25 08:48:16,091):preprocess.py at 75:remove html-tags with re
+DEBUG(2016-11-25 08:48:16,092):preprocess.py at 84:done with preprocessing
+DEBUG(2016-11-25 08:48:16,092):impressum.py at 31:searching hits of regex
+DEBUG(2016-11-25 08:48:16,536):impressum.py at 45:remove duplicates from the addresses
+DEBUG(2016-11-25 08:48:16,536):impressum.py at 52:returning set of addresses
+INFO(2016-11-25 08:48:16,536):worker.py at 74:handling shop
+DEBUG(2016-11-25 08:48:16,536):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_simplora.de_15899_analysis.txt
+DEBUG(2016-11-25 08:48:16,554):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:48:16,556):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:48:16,556):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:48:16,556):preprocess.py at 56:done with preprocessing
+INFO(2016-11-25 08:48:16,562):worker.py at 85:handling food
+DEBUG(2016-11-25 08:48:16,562):preprocess.py at 27:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/5/2016-11-23_simplora.de_15899_analysis.txt
+DEBUG(2016-11-25 08:48:16,579):preprocess.py at 36:extracting text
+DEBUG(2016-11-25 08:48:16,581):preprocess.py at 40:pretify text
+DEBUG(2016-11-25 08:48:16,581):preprocess.py at 48:get all links and add them
+DEBUG(2016-11-25 08:48:16,581):preprocess.py at 56:done with preprocessing
+DEBUG(2016-11-25 08:48:16,587):worker.py at 99:done with job
+DEBUG(2016-11-25 08:48:16,587):db_interface.py at 74:updating the results for a job
+DEBUG(2016-11-25 08:48:16,589):db_interface.py at 102:add one address
+DEBUG(2016-11-25 08:48:16,590):db_interface.py at 125:updated the database
+DEBUG(2016-11-25 08:48:16,590):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:48:16,590):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:48:16,590):worker.py at 121:found no job
+DEBUG(2016-11-25 08:52:16,592):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:52:16,592):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:52:16,594):worker.py at 121:found no job
+DEBUG(2016-11-25 08:56:16,694):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 08:56:16,695):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 08:56:16,696):worker.py at 121:found no job
+DEBUG(2016-11-25 09:00:16,770):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 09:00:16,770):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 09:00:16,771):worker.py at 121:found no job
+DEBUG(2016-11-25 09:04:16,814):worker.py at 108:get job from database and process
+DEBUG(2016-11-25 09:04:16,815):db_interface.py at 53:selecting NOT thread-safe one job from database
+DEBUG(2016-11-25 09:04:16,816):worker.py at 121:found no job
+DEBUG(2016-11-25 09:08:16,874):worker.py at 129:shutting down
+DEBUG(2016-11-25 09:08:16,875):worker.py at 131:shutted down

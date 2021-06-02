@@ -1,0 +1,27 @@
+DEBUG(2018-04-20 13:25:18,017):worker.py at 89:initializing worker
+DEBUG(2018-04-20 13:25:18,017):db_interface.py at 45:initializing database-interface
+DEBUG(2018-04-20 13:25:18,017):db_interface.py at 66:connecting to database with user config
+DEBUG(2018-04-20 13:25:18,020):db_interface.py at 48:initialized database-interface
+DEBUG(2018-04-20 13:25:18,020):classifier.py at 82:initializing classifier
+DEBUG(2018-04-20 13:25:18,020):classifier.py at 86:loading classifier
+DEBUG(2018-04-20 13:25:23,582):probability.py at 91:initializing probability object
+DEBUG(2018-04-20 13:25:23,582):probability.py at 93:loading the variables
+DEBUG(2018-04-20 13:25:23,582):probability.py at 95:initialized probability object
+DEBUG(2018-04-20 13:25:23,582):classifier.py at 97:initialized classifier
+DEBUG(2018-04-20 13:25:23,582):classifier.py at 82:initializing classifier
+DEBUG(2018-04-20 13:25:23,582):classifier.py at 86:loading classifier
+DEBUG(2018-04-20 13:25:23,618):probability.py at 91:initializing probability object
+DEBUG(2018-04-20 13:25:23,618):probability.py at 93:loading the variables
+DEBUG(2018-04-20 13:25:23,618):probability.py at 95:initialized probability object
+DEBUG(2018-04-20 13:25:23,618):classifier.py at 97:initialized classifier
+DEBUG(2018-04-20 13:25:23,618):classifier.py at 82:initializing classifier
+DEBUG(2018-04-20 13:25:23,618):classifier.py at 86:loading classifier
+DEBUG(2018-04-20 13:25:27,325):probability.py at 91:initializing probability object
+DEBUG(2018-04-20 13:25:27,325):probability.py at 93:loading the variables
+DEBUG(2018-04-20 13:25:27,325):probability.py at 95:initialized probability object
+DEBUG(2018-04-20 13:25:27,325):classifier.py at 97:initialized classifier
+DEBUG(2018-04-20 13:25:28,509):worker.py at 110:initialized worker
+DEBUG(2018-04-20 13:25:28,509):worker.py at 581:started schedule with -1 tries, 3600 delay and 4 checks per day
+DEBUG(2018-04-20 13:25:28,509):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 13:25:28,509):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 13:25:28,604):worker.py at 463:found no job

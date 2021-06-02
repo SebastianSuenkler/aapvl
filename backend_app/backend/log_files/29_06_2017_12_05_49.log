@@ -1,0 +1,1555 @@
+DEBUG(2017-06-29 12:05:49,624):worker.py at 43:initializing worker
+DEBUG(2017-06-29 12:05:49,624):db_interface.py at 23:initializing database-interface
+DEBUG(2017-06-29 12:05:49,624):db_interface.py at 44:connecting to database with user config
+DEBUG(2017-06-29 12:05:49,628):db_interface.py at 26:initialized database-interface
+DEBUG(2017-06-29 12:05:49,628):classifier.py at 42:initializing classifier
+DEBUG(2017-06-29 12:05:49,628):classifier.py at 46:loading classifier
+DEBUG(2017-06-29 12:05:58,134):probability.py at 66:initializing probability object
+DEBUG(2017-06-29 12:05:58,135):probability.py at 68:loading the variables
+DEBUG(2017-06-29 12:05:58,135):probability.py at 70:initialized probability object
+DEBUG(2017-06-29 12:05:58,135):classifier.py at 57:initialized classifier
+DEBUG(2017-06-29 12:05:58,135):classifier.py at 42:initializing classifier
+DEBUG(2017-06-29 12:05:58,135):classifier.py at 46:loading classifier
+DEBUG(2017-06-29 12:05:58,189):probability.py at 66:initializing probability object
+DEBUG(2017-06-29 12:05:58,190):probability.py at 68:loading the variables
+DEBUG(2017-06-29 12:05:58,190):probability.py at 70:initialized probability object
+DEBUG(2017-06-29 12:05:58,190):classifier.py at 57:initialized classifier
+DEBUG(2017-06-29 12:05:58,190):classifier.py at 42:initializing classifier
+DEBUG(2017-06-29 12:05:58,190):classifier.py at 46:loading classifier
+DEBUG(2017-06-29 12:06:03,704):probability.py at 66:initializing probability object
+DEBUG(2017-06-29 12:06:03,704):probability.py at 68:loading the variables
+DEBUG(2017-06-29 12:06:03,705):probability.py at 70:initialized probability object
+DEBUG(2017-06-29 12:06:03,705):classifier.py at 57:initialized classifier
+DEBUG(2017-06-29 12:06:03,902):worker.py at 58:initialized worker
+DEBUG(2017-06-29 12:06:03,902):worker.py at 263:started schedule with 5 tries and 240 delay
+DEBUG(2017-06-29 12:06:03,902):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:03,902):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:03,904):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:03,904):worker.py at 215:processing job 322
+DEBUG(2017-06-29 12:06:03,904):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/stylight.de_2017-06-28_337.txt, 2,3
+DEBUG(2017-06-29 12:06:03,904):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/stylight.de_2017-06-28_337.txt
+DEBUG(2017-06-29 12:06:03,918):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:03,918):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:03,918):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:03,918):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:03,919):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:05,623):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:05,624):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:05,624):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:05,626):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:05,626):worker.py at 170:update for toplevel domain None with site 337
+DEBUG(2017-06-29 12:06:05,626):worker.py at 174:fk_resources for parent: 337
+DEBUG(2017-06-29 12:06:05,627):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:05,627):db_interface.py at 97:selecting results for 337
+DEBUG(2017-06-29 12:06:05,629):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:05,629):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:05,630):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:05,630):db_interface.py at 112:updating the results for pk: 976
+DEBUG(2017-06-29 12:06:05,631):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:05,632):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:05,632):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:05,632):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:05,634):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:05,634):worker.py at 215:processing job 323
+DEBUG(2017-06-29 12:06:05,635):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/stylight.de_2017-06-28_338.txt, 2,3
+DEBUG(2017-06-29 12:06:05,635):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/stylight.de_2017-06-28_338.txt
+DEBUG(2017-06-29 12:06:05,641):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:05,642):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:05,642):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:05,642):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:05,643):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:07,310):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:07,312):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:07,312):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:07,314):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:07,314):worker.py at 170:update for toplevel domain 337 with site 338
+DEBUG(2017-06-29 12:06:07,314):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:07,314):db_interface.py at 97:selecting results for 337
+DEBUG(2017-06-29 12:06:07,315):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:07,316):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:07,316):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:07,316):db_interface.py at 112:updating the results for pk: 976
+DEBUG(2017-06-29 12:06:07,317):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:07,318):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:07,318):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:07,318):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:07,320):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:07,320):worker.py at 215:processing job 558
+DEBUG(2017-06-29 12:06:07,320):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_610.txt, 2,3
+DEBUG(2017-06-29 12:06:07,320):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_610.txt
+DEBUG(2017-06-29 12:06:07,324):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:07,325):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:07,325):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:07,325):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:07,325):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:08,982):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:08,983):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:08,984):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:08,985):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:08,985):worker.py at 170:update for toplevel domain None with site 610
+DEBUG(2017-06-29 12:06:08,986):worker.py at 174:fk_resources for parent: 610
+DEBUG(2017-06-29 12:06:08,986):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:08,986):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:08,987):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:08,987):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:08,988):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:08,988):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:08,990):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:08,990):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:08,991):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:08,991):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:08,993):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:08,993):worker.py at 215:processing job 559
+DEBUG(2017-06-29 12:06:08,993):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_611.txt, 2,3
+DEBUG(2017-06-29 12:06:08,993):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_611.txt
+DEBUG(2017-06-29 12:06:08,997):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:08,998):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:08,998):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:08,998):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:08,998):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:10,656):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:10,657):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:10,657):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:10,659):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:10,659):worker.py at 170:update for toplevel domain 610 with site 611
+DEBUG(2017-06-29 12:06:10,659):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:10,659):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:10,660):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:10,661):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:10,661):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:10,661):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:10,662):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:10,663):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:10,663):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:10,663):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:10,664):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:10,665):worker.py at 215:processing job 560
+DEBUG(2017-06-29 12:06:10,665):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_613.txt, 2,3
+DEBUG(2017-06-29 12:06:10,665):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_613.txt
+DEBUG(2017-06-29 12:06:10,669):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:10,670):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:10,670):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:10,670):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:10,670):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:12,328):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:12,329):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:12,330):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:12,331):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:12,331):worker.py at 170:update for toplevel domain 610 with site 613
+DEBUG(2017-06-29 12:06:12,332):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:12,332):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:12,333):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:12,333):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:12,333):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:12,334):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:12,335):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:12,335):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:12,335):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:12,335):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:12,337):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:12,337):worker.py at 215:processing job 563
+DEBUG(2017-06-29 12:06:12,337):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_620.txt, 2,3
+DEBUG(2017-06-29 12:06:12,337):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_620.txt
+DEBUG(2017-06-29 12:06:12,341):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:12,342):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:12,342):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:12,342):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:12,343):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:14,012):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:14,013):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:14,014):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:14,016):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:14,016):worker.py at 170:update for toplevel domain 610 with site 620
+DEBUG(2017-06-29 12:06:14,016):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:14,016):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:14,017):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:14,018):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:14,018):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:14,018):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:14,019):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:14,020):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:14,020):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:14,020):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:14,021):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:14,022):worker.py at 215:processing job 590
+DEBUG(2017-06-29 12:06:14,022):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_663.txt, 2,3
+DEBUG(2017-06-29 12:06:14,022):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_663.txt
+DEBUG(2017-06-29 12:06:14,026):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:14,026):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:14,027):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:14,027):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:14,027):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:15,676):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:15,677):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:15,677):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:15,678):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:15,678):worker.py at 170:update for toplevel domain 610 with site 663
+DEBUG(2017-06-29 12:06:15,678):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:15,679):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:15,679):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:15,679):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:15,680):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:15,680):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:15,681):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:15,681):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:15,681):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:15,681):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:15,682):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:15,682):worker.py at 215:processing job 599
+DEBUG(2017-06-29 12:06:15,682):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_678.txt, 2,3
+DEBUG(2017-06-29 12:06:15,683):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_678.txt
+DEBUG(2017-06-29 12:06:15,686):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:15,687):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:15,687):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:15,687):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:15,688):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:17,349):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:17,350):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:17,350):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:17,352):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:17,352):worker.py at 170:update for toplevel domain 610 with site 678
+DEBUG(2017-06-29 12:06:17,352):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:17,352):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:17,353):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:17,353):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:17,353):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:17,353):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:17,354):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:17,354):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:17,354):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:17,354):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:17,355):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:17,356):worker.py at 215:processing job 624
+DEBUG(2017-06-29 12:06:17,356):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_710.txt, 2,3
+DEBUG(2017-06-29 12:06:17,356):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_710.txt
+DEBUG(2017-06-29 12:06:17,359):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:17,360):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:17,360):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:17,360):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:17,361):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:19,017):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:19,018):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:19,019):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:19,020):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:19,020):worker.py at 170:update for toplevel domain 610 with site 710
+DEBUG(2017-06-29 12:06:19,020):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:19,020):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:19,021):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:19,021):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:19,021):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:19,021):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:19,022):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:19,023):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:19,023):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:19,023):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:19,024):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:19,024):worker.py at 215:processing job 630
+DEBUG(2017-06-29 12:06:19,024):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_720.txt, 2,3
+DEBUG(2017-06-29 12:06:19,024):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_720.txt
+DEBUG(2017-06-29 12:06:19,028):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:19,028):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:19,029):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:19,029):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:19,029):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:20,709):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:20,711):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:20,711):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:20,712):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:20,713):worker.py at 170:update for toplevel domain 610 with site 720
+DEBUG(2017-06-29 12:06:20,713):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:20,713):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:20,715):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:20,715):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:20,715):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:20,715):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:20,716):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:20,716):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:20,716):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:20,716):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:20,718):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:20,718):worker.py at 215:processing job 634
+DEBUG(2017-06-29 12:06:20,718):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_730.txt, 2,3
+DEBUG(2017-06-29 12:06:20,718):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_730.txt
+DEBUG(2017-06-29 12:06:20,722):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:20,722):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:20,722):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:20,723):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:20,723):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:22,387):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:22,388):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:22,388):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:22,389):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:22,389):worker.py at 170:update for toplevel domain 610 with site 730
+DEBUG(2017-06-29 12:06:22,390):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:22,390):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:22,390):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:22,391):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:22,391):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:22,391):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:22,392):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:22,392):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:22,392):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:22,392):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:22,393):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:22,393):worker.py at 215:processing job 643
+DEBUG(2017-06-29 12:06:22,393):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_747.txt, 2,3
+DEBUG(2017-06-29 12:06:22,393):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_747.txt
+DEBUG(2017-06-29 12:06:22,397):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:22,398):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:22,398):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:22,398):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:22,398):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:24,055):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:24,057):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:24,057):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:24,059):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:24,059):worker.py at 170:update for toplevel domain 610 with site 747
+DEBUG(2017-06-29 12:06:24,059):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:24,059):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:24,060):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:24,060):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:24,060):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:24,060):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:24,061):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:24,061):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:24,061):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:24,062):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:24,068):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:24,068):worker.py at 215:processing job 654
+DEBUG(2017-06-29 12:06:24,068):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_761.txt, 2,3
+DEBUG(2017-06-29 12:06:24,068):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_761.txt
+DEBUG(2017-06-29 12:06:24,072):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:24,072):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:24,072):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:24,073):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:24,073):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:25,731):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:25,732):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:25,733):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:25,734):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:25,734):worker.py at 170:update for toplevel domain 610 with site 761
+DEBUG(2017-06-29 12:06:25,734):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:25,734):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:25,735):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:25,735):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:25,736):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:25,736):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:25,737):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:25,737):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:25,737):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:25,737):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:25,738):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:25,738):worker.py at 215:processing job 666
+DEBUG(2017-06-29 12:06:25,739):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_777.txt, 2,3
+DEBUG(2017-06-29 12:06:25,739):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_777.txt
+DEBUG(2017-06-29 12:06:25,743):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:25,743):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:25,744):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:25,744):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:25,744):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:27,396):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:27,397):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:27,397):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:27,399):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:27,399):worker.py at 170:update for toplevel domain 610 with site 777
+DEBUG(2017-06-29 12:06:27,399):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:27,399):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:27,400):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:27,400):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:27,400):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:27,400):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:27,401):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:27,401):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:27,402):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:27,402):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:27,403):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:27,403):worker.py at 215:processing job 667
+DEBUG(2017-06-29 12:06:27,403):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_779.txt, 2,3
+DEBUG(2017-06-29 12:06:27,403):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_779.txt
+DEBUG(2017-06-29 12:06:27,407):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:27,407):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:27,408):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:27,408):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:27,408):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:29,080):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:29,081):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:29,081):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:29,083):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:29,083):worker.py at 170:update for toplevel domain 610 with site 779
+DEBUG(2017-06-29 12:06:29,083):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:29,083):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:29,084):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:29,084):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:29,084):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:29,084):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:29,085):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:29,085):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:29,085):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:29,086):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:29,087):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:29,087):worker.py at 215:processing job 671
+DEBUG(2017-06-29 12:06:29,087):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_785.txt, 2,3
+DEBUG(2017-06-29 12:06:29,087):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_785.txt
+DEBUG(2017-06-29 12:06:29,091):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:29,091):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:29,091):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:29,092):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:29,092):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:30,765):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:30,767):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:30,767):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:30,769):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:30,769):worker.py at 170:update for toplevel domain 610 with site 785
+DEBUG(2017-06-29 12:06:30,769):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:30,769):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:30,770):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:30,770):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:30,770):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:30,770):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:30,771):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:30,771):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:30,771):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:30,771):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:30,773):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:30,773):worker.py at 215:processing job 674
+DEBUG(2017-06-29 12:06:30,773):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_790.txt, 2,3
+DEBUG(2017-06-29 12:06:30,773):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_790.txt
+DEBUG(2017-06-29 12:06:30,777):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:30,777):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:30,777):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:30,778):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:30,778):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:32,443):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:32,444):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:32,444):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:32,462):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:32,462):worker.py at 170:update for toplevel domain 610 with site 790
+DEBUG(2017-06-29 12:06:32,462):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:32,463):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:32,464):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:32,464):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:32,464):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:32,464):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:32,465):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:32,466):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:32,466):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:32,466):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:32,467):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:32,468):worker.py at 215:processing job 680
+DEBUG(2017-06-29 12:06:32,468):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_801.txt, 2,3
+DEBUG(2017-06-29 12:06:32,468):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_801.txt
+DEBUG(2017-06-29 12:06:32,472):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:32,473):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:32,473):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:32,473):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:32,473):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:34,126):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:34,127):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:34,128):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:34,129):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:34,129):worker.py at 170:update for toplevel domain 610 with site 801
+DEBUG(2017-06-29 12:06:34,129):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:34,129):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:34,130):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:34,130):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:34,130):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:34,130):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:34,131):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:34,131):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:34,132):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:34,132):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:34,133):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:34,133):worker.py at 215:processing job 682
+DEBUG(2017-06-29 12:06:34,133):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_807.txt, 2,3
+DEBUG(2017-06-29 12:06:34,133):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_807.txt
+DEBUG(2017-06-29 12:06:34,137):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:34,138):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:34,138):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:34,138):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:34,139):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:35,804):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:35,805):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:35,806):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:35,818):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:35,818):worker.py at 170:update for toplevel domain 610 with site 807
+DEBUG(2017-06-29 12:06:35,818):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:35,818):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:35,820):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:35,820):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:35,820):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:35,820):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:35,821):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:35,821):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:35,821):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:35,821):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:35,822):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:35,823):worker.py at 215:processing job 704
+DEBUG(2017-06-29 12:06:35,823):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_838.txt, 2,3
+DEBUG(2017-06-29 12:06:35,823):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_838.txt
+DEBUG(2017-06-29 12:06:35,827):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:35,827):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:35,828):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:35,828):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:35,828):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:37,500):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:37,502):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:37,502):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:37,504):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:37,504):worker.py at 170:update for toplevel domain 610 with site 838
+DEBUG(2017-06-29 12:06:37,504):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:37,504):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:37,505):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:37,505):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:37,505):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:37,505):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:37,506):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:37,506):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:37,506):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:37,507):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:37,508):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:37,508):worker.py at 215:processing job 705
+DEBUG(2017-06-29 12:06:37,508):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_841.txt, 2,3
+DEBUG(2017-06-29 12:06:37,508):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_841.txt
+DEBUG(2017-06-29 12:06:37,512):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:37,512):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:37,513):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:37,513):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:37,513):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:39,191):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:39,193):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:39,193):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:39,195):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:39,195):worker.py at 170:update for toplevel domain 610 with site 841
+DEBUG(2017-06-29 12:06:39,195):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:39,195):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:39,196):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:39,196):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:39,196):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:39,196):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:39,197):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:39,198):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:39,198):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:39,198):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:39,199):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:39,199):worker.py at 215:processing job 707
+DEBUG(2017-06-29 12:06:39,200):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_844.txt, 2,3
+DEBUG(2017-06-29 12:06:39,200):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_844.txt
+DEBUG(2017-06-29 12:06:39,204):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:39,204):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:39,204):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:39,205):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:39,205):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:40,872):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:40,873):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:40,873):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:40,875):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:40,875):worker.py at 170:update for toplevel domain 610 with site 844
+DEBUG(2017-06-29 12:06:40,875):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:40,875):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:40,876):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:40,876):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:40,876):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:40,876):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:40,877):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:40,878):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:40,878):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:40,878):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:40,879):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:40,879):worker.py at 215:processing job 712
+DEBUG(2017-06-29 12:06:40,879):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_853.txt, 2,3
+DEBUG(2017-06-29 12:06:40,879):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_853.txt
+DEBUG(2017-06-29 12:06:40,883):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:40,884):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:40,884):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:40,884):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:40,884):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:42,579):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:42,580):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:42,580):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:42,582):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:42,582):worker.py at 170:update for toplevel domain 610 with site 853
+DEBUG(2017-06-29 12:06:42,582):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:42,582):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:42,583):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:42,583):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:42,584):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:42,584):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:42,585):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:42,585):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:42,585):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:42,585):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:42,587):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:42,587):worker.py at 215:processing job 714
+DEBUG(2017-06-29 12:06:42,587):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_856.txt, 2,3
+DEBUG(2017-06-29 12:06:42,587):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_856.txt
+DEBUG(2017-06-29 12:06:42,591):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:42,591):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:42,591):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:42,592):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:42,592):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:44,289):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:44,291):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:44,291):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:44,292):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:44,292):worker.py at 170:update for toplevel domain 610 with site 856
+DEBUG(2017-06-29 12:06:44,292):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:44,292):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:44,293):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:44,293):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:44,293):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:44,293):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:44,294):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:44,294):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:44,295):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:44,295):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:44,296):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:44,296):worker.py at 215:processing job 715
+DEBUG(2017-06-29 12:06:44,296):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_858.txt, 2,3
+DEBUG(2017-06-29 12:06:44,296):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_858.txt
+DEBUG(2017-06-29 12:06:44,301):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:44,301):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:44,302):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:44,302):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:44,303):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:45,978):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:45,979):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:45,980):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:45,981):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:45,981):worker.py at 170:update for toplevel domain 610 with site 858
+DEBUG(2017-06-29 12:06:45,981):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:45,982):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:45,982):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:45,983):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:45,983):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:45,983):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:45,984):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:45,984):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:45,984):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:45,984):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:45,985):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:45,985):worker.py at 215:processing job 716
+DEBUG(2017-06-29 12:06:45,985):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_860.txt, 2,3
+DEBUG(2017-06-29 12:06:45,986):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_860.txt
+DEBUG(2017-06-29 12:06:45,989):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:45,990):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:45,990):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:45,990):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:45,991):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:47,687):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:47,689):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:47,689):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:47,691):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:47,691):worker.py at 170:update for toplevel domain 610 with site 860
+DEBUG(2017-06-29 12:06:47,691):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:47,691):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:47,693):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:47,693):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:47,693):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:47,693):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:47,694):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:47,695):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:47,695):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:47,695):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:47,696):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:47,697):worker.py at 215:processing job 733
+DEBUG(2017-06-29 12:06:47,697):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_886.txt, 2,3
+DEBUG(2017-06-29 12:06:47,697):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_886.txt
+DEBUG(2017-06-29 12:06:47,701):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:47,702):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:47,702):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:47,702):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:47,703):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:49,401):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:49,402):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:49,403):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:49,404):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:49,404):worker.py at 170:update for toplevel domain 610 with site 886
+DEBUG(2017-06-29 12:06:49,404):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:49,404):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:49,405):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:49,405):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:49,406):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:49,406):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:49,407):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:49,407):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:49,407):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:49,407):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:49,408):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:49,408):worker.py at 215:processing job 734
+DEBUG(2017-06-29 12:06:49,408):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_888.txt, 2,3
+DEBUG(2017-06-29 12:06:49,409):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_888.txt
+DEBUG(2017-06-29 12:06:49,412):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:49,413):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:49,413):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:49,413):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:49,414):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:51,108):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:51,109):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:51,109):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:51,111):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:51,111):worker.py at 170:update for toplevel domain 610 with site 888
+DEBUG(2017-06-29 12:06:51,111):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:51,111):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:51,112):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:51,112):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:51,112):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:51,112):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:51,113):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:51,114):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:51,114):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:51,114):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:51,115):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:51,115):worker.py at 215:processing job 735
+DEBUG(2017-06-29 12:06:51,115):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_890.txt, 2,3
+DEBUG(2017-06-29 12:06:51,115):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_890.txt
+DEBUG(2017-06-29 12:06:51,119):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:51,119):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:51,120):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:51,120):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:51,120):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:52,793):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:52,794):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:52,794):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:52,810):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:52,810):worker.py at 170:update for toplevel domain 610 with site 890
+DEBUG(2017-06-29 12:06:52,810):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:52,810):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:52,811):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:52,811):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:52,811):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:52,811):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:52,812):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:52,812):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:52,812):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:52,812):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:52,814):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:52,814):worker.py at 215:processing job 736
+DEBUG(2017-06-29 12:06:52,814):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_892.txt, 2,3
+DEBUG(2017-06-29 12:06:52,814):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_892.txt
+DEBUG(2017-06-29 12:06:52,818):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:52,818):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:52,818):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:52,818):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:52,819):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:54,502):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:54,504):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:54,504):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:54,506):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:54,506):worker.py at 170:update for toplevel domain 610 with site 892
+DEBUG(2017-06-29 12:06:54,506):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:54,506):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:54,507):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:54,507):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:54,507):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:54,507):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:54,508):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:54,508):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:54,508):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:54,508):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:54,509):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:54,509):worker.py at 215:processing job 740
+DEBUG(2017-06-29 12:06:54,510):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_900.txt, 2,3
+DEBUG(2017-06-29 12:06:54,510):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_900.txt
+DEBUG(2017-06-29 12:06:54,513):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:54,514):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:54,514):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:54,514):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:54,515):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:56,209):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:56,210):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:56,210):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:56,212):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:56,212):worker.py at 170:update for toplevel domain 610 with site 900
+DEBUG(2017-06-29 12:06:56,212):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:56,212):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:56,213):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:56,213):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:56,213):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:56,213):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:56,214):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:56,214):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:56,215):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:56,215):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:56,216):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:56,216):worker.py at 215:processing job 741
+DEBUG(2017-06-29 12:06:56,216):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_902.txt, 2,3
+DEBUG(2017-06-29 12:06:56,216):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_902.txt
+DEBUG(2017-06-29 12:06:56,220):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:56,221):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:56,221):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:56,221):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:56,222):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:57,895):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:57,897):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:57,897):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:57,899):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:57,899):worker.py at 170:update for toplevel domain 610 with site 902
+DEBUG(2017-06-29 12:06:57,899):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:57,899):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:57,900):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:57,900):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:57,900):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:57,900):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:57,901):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:57,901):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:57,902):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:57,902):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:57,903):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:57,903):worker.py at 215:processing job 749
+DEBUG(2017-06-29 12:06:57,903):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_916.txt, 2,3
+DEBUG(2017-06-29 12:06:57,903):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_916.txt
+DEBUG(2017-06-29 12:06:57,907):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:57,907):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:57,908):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:57,908):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:57,908):worker.py at 90:handling shop
+INFO(2017-06-29 12:06:59,581):worker.py at 101:handling food
+DEBUG(2017-06-29 12:06:59,582):worker.py at 135:done with job
+DEBUG(2017-06-29 12:06:59,583):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:06:59,584):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:06:59,584):worker.py at 170:update for toplevel domain 610 with site 916
+DEBUG(2017-06-29 12:06:59,584):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:06:59,584):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:06:59,585):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:06:59,585):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:06:59,586):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:06:59,586):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:06:59,586):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:06:59,587):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:06:59,587):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:06:59,587):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:06:59,588):db_interface.py at 72:returning results
+INFO(2017-06-29 12:06:59,588):worker.py at 215:processing job 750
+DEBUG(2017-06-29 12:06:59,588):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_919.txt, 2,3
+DEBUG(2017-06-29 12:06:59,588):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_919.txt
+DEBUG(2017-06-29 12:06:59,592):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:06:59,592):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:06:59,593):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:06:59,593):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:06:59,593):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:01,268):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:01,269):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:01,270):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:01,271):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:01,271):worker.py at 170:update for toplevel domain 610 with site 919
+DEBUG(2017-06-29 12:07:01,271):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:01,272):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:01,272):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:01,272):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:01,273):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:01,273):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:01,274):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:01,274):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:01,274):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:01,274):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:01,275):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:01,275):worker.py at 215:processing job 753
+DEBUG(2017-06-29 12:07:01,275):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_923.txt, 2,3
+DEBUG(2017-06-29 12:07:01,276):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_923.txt
+DEBUG(2017-06-29 12:07:01,279):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:01,280):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:01,280):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:01,280):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:01,281):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:02,955):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:02,956):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:02,956):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:02,958):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:02,958):worker.py at 170:update for toplevel domain 610 with site 923
+DEBUG(2017-06-29 12:07:02,958):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:02,958):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:02,959):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:02,959):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:02,959):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:02,959):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:02,960):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:02,960):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:02,960):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:02,960):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:02,962):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:02,962):worker.py at 215:processing job 758
+DEBUG(2017-06-29 12:07:02,962):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_931.txt, 2,3
+DEBUG(2017-06-29 12:07:02,962):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_931.txt
+DEBUG(2017-06-29 12:07:02,967):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:02,967):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:02,967):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:02,967):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:02,968):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:04,613):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:04,615):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:04,615):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:04,616):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:04,617):worker.py at 170:update for toplevel domain 610 with site 931
+DEBUG(2017-06-29 12:07:04,617):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:04,617):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:04,618):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:04,618):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:04,618):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:04,618):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:04,619):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:04,619):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:04,619):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:04,619):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:04,621):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:04,621):worker.py at 215:processing job 762
+DEBUG(2017-06-29 12:07:04,621):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_936.txt, 2,3
+DEBUG(2017-06-29 12:07:04,621):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_936.txt
+DEBUG(2017-06-29 12:07:04,627):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:04,627):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:04,627):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:04,628):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:04,628):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:06,324):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:06,325):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:06,325):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:06,327):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:06,327):worker.py at 170:update for toplevel domain 610 with site 936
+DEBUG(2017-06-29 12:07:06,327):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:06,327):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:06,328):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:06,328):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:06,328):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:06,328):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:06,341):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:06,341):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:06,341):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:06,342):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:06,343):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:06,343):worker.py at 215:processing job 769
+DEBUG(2017-06-29 12:07:06,343):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_945.txt, 2,3
+DEBUG(2017-06-29 12:07:06,343):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_945.txt
+DEBUG(2017-06-29 12:07:06,347):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:06,347):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:06,348):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:06,348):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:06,348):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:07,999):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:08,000):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:08,000):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:08,001):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:08,002):worker.py at 170:update for toplevel domain 610 with site 945
+DEBUG(2017-06-29 12:07:08,002):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:08,002):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:08,003):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:08,003):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:08,003):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:08,003):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:08,004):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:08,004):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:08,004):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:08,004):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:08,005):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:08,005):worker.py at 215:processing job 770
+DEBUG(2017-06-29 12:07:08,005):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_947.txt, 2,3
+DEBUG(2017-06-29 12:07:08,006):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_947.txt
+DEBUG(2017-06-29 12:07:08,009):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:08,010):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:08,010):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:08,010):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:08,011):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:09,677):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:09,679):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:09,679):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:09,680):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:09,680):worker.py at 170:update for toplevel domain 610 with site 947
+DEBUG(2017-06-29 12:07:09,680):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:09,681):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:09,681):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:09,682):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:09,682):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:09,682):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:09,683):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:09,683):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:09,684):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:09,684):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:09,685):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:09,685):worker.py at 215:processing job 789
+DEBUG(2017-06-29 12:07:09,685):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_974.txt, 2,3
+DEBUG(2017-06-29 12:07:09,685):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_974.txt
+DEBUG(2017-06-29 12:07:09,689):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:09,689):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:09,690):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:09,690):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:09,690):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:11,354):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:11,355):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:11,355):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:11,357):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:11,357):worker.py at 170:update for toplevel domain 610 with site 974
+DEBUG(2017-06-29 12:07:11,357):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:11,357):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:11,358):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:11,358):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:11,358):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:11,358):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:11,359):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:11,359):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:11,359):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:11,359):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:11,361):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:11,361):worker.py at 215:processing job 794
+DEBUG(2017-06-29 12:07:11,361):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_981.txt, 2,3
+DEBUG(2017-06-29 12:07:11,361):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_981.txt
+DEBUG(2017-06-29 12:07:11,365):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:11,365):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:11,365):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:11,365):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:11,366):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:13,026):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:13,028):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:13,028):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:13,030):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:13,030):worker.py at 170:update for toplevel domain 610 with site 981
+DEBUG(2017-06-29 12:07:13,030):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:13,030):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:13,031):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:13,031):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:13,031):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:13,031):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:13,032):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:13,032):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:13,032):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:13,032):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:13,034):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:13,034):worker.py at 215:processing job 799
+DEBUG(2017-06-29 12:07:13,034):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_987.txt, 2,3
+DEBUG(2017-06-29 12:07:13,034):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_987.txt
+DEBUG(2017-06-29 12:07:13,038):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:13,038):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:13,038):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:13,039):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:13,039):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:14,696):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:14,697):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:14,698):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:14,699):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:14,699):worker.py at 170:update for toplevel domain 610 with site 987
+DEBUG(2017-06-29 12:07:14,700):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:14,700):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:14,701):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:14,701):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:14,701):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:14,701):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:14,702):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:14,702):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:14,702):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:14,702):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:14,703):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:14,704):worker.py at 215:processing job 804
+DEBUG(2017-06-29 12:07:14,704):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_994.txt, 2,3
+DEBUG(2017-06-29 12:07:14,704):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_994.txt
+DEBUG(2017-06-29 12:07:14,708):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:14,708):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:14,708):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:14,709):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:14,709):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:16,386):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:16,387):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:16,387):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:16,389):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:16,389):worker.py at 170:update for toplevel domain 610 with site 994
+DEBUG(2017-06-29 12:07:16,389):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:16,389):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:16,390):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:16,390):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:16,390):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:16,390):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:16,391):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:16,391):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:16,391):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:16,391):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:16,393):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:16,393):worker.py at 215:processing job 810
+DEBUG(2017-06-29 12:07:16,393):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1001.txt, 2,3
+DEBUG(2017-06-29 12:07:16,393):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1001.txt
+DEBUG(2017-06-29 12:07:16,397):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:16,397):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:16,397):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:16,398):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:16,398):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:18,064):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:18,066):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:18,066):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:18,067):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:18,068):worker.py at 170:update for toplevel domain 610 with site 1001
+DEBUG(2017-06-29 12:07:18,068):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:18,068):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:18,069):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:18,069):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:18,069):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:18,069):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:18,070):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:18,070):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:18,070):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:18,070):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:18,072):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:18,072):worker.py at 215:processing job 823
+DEBUG(2017-06-29 12:07:18,072):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1020.txt, 2,3
+DEBUG(2017-06-29 12:07:18,072):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1020.txt
+DEBUG(2017-06-29 12:07:18,076):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:18,076):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:18,077):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:18,077):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:18,077):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:19,734):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:19,735):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:19,735):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:19,737):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:19,737):worker.py at 170:update for toplevel domain 610 with site 1020
+DEBUG(2017-06-29 12:07:19,737):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:19,738):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:19,739):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:19,739):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:19,739):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:19,740):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:19,749):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:19,750):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:19,750):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:19,750):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:19,752):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:19,752):worker.py at 215:processing job 824
+DEBUG(2017-06-29 12:07:19,752):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1023.txt, 2,3
+DEBUG(2017-06-29 12:07:19,752):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1023.txt
+DEBUG(2017-06-29 12:07:19,757):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:19,757):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:19,757):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:19,757):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:19,757):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:21,438):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:21,439):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:21,439):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:21,441):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:21,441):worker.py at 170:update for toplevel domain 610 with site 1023
+DEBUG(2017-06-29 12:07:21,441):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:21,441):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:21,442):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:21,443):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:21,443):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:21,443):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:21,444):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:21,445):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:21,445):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:21,445):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:21,447):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:21,447):worker.py at 215:processing job 826
+DEBUG(2017-06-29 12:07:21,447):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1026.txt, 2,3
+DEBUG(2017-06-29 12:07:21,448):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1026.txt
+DEBUG(2017-06-29 12:07:21,452):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:21,452):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:21,452):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:21,452):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:21,453):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:23,112):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:23,113):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:23,114):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:23,115):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:23,115):worker.py at 170:update for toplevel domain 610 with site 1026
+DEBUG(2017-06-29 12:07:23,115):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:23,116):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:23,117):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:23,117):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:23,117):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:23,117):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:23,118):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:23,119):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:23,119):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:23,119):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:23,121):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:23,121):worker.py at 215:processing job 831
+DEBUG(2017-06-29 12:07:23,121):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1033.txt, 2,3
+DEBUG(2017-06-29 12:07:23,121):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1033.txt
+DEBUG(2017-06-29 12:07:23,126):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:23,126):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:23,126):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:23,126):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:23,126):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:24,790):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:24,791):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:24,792):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:24,793):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:24,793):worker.py at 170:update for toplevel domain 610 with site 1033
+DEBUG(2017-06-29 12:07:24,793):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:24,793):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:24,794):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:24,794):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:24,795):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:24,795):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:24,796):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:24,796):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:24,796):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:24,796):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:24,797):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:24,798):worker.py at 215:processing job 832
+DEBUG(2017-06-29 12:07:24,798):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1035.txt, 2,3
+DEBUG(2017-06-29 12:07:24,798):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1035.txt
+DEBUG(2017-06-29 12:07:24,802):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:24,802):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:24,802):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:24,802):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:24,802):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:26,479):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:26,480):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:26,480):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:26,481):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:26,481):worker.py at 170:update for toplevel domain 610 with site 1035
+DEBUG(2017-06-29 12:07:26,482):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:26,482):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:26,483):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:26,483):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:26,483):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:26,483):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:26,484):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:26,484):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:26,484):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:26,484):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:26,485):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:26,486):worker.py at 215:processing job 848
+DEBUG(2017-06-29 12:07:26,486):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/mykita.com_2017-06-28_1060.txt, 2,3
+DEBUG(2017-06-29 12:07:26,486):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/mykita.com_2017-06-28_1060.txt
+DEBUG(2017-06-29 12:07:26,549):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:26,555):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:26,556):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:26,557):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:26,558):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:28,222):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:28,224):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:28,224):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:28,225):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:28,226):worker.py at 170:update for toplevel domain 1037 with site 1060
+DEBUG(2017-06-29 12:07:28,226):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:28,226):db_interface.py at 97:selecting results for 1037
+DEBUG(2017-06-29 12:07:28,227):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:28,227):db_interface.py at 125:setting error state for job
+ERROR(2017-06-29 12:07:28,228):worker.py at 243:error while processing job 848: list index out of range
+DEBUG(2017-06-29 12:07:28,228):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:28,228):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:28,229):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:28,229):worker.py at 215:processing job 849
+DEBUG(2017-06-29 12:07:28,229):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/mykita.com_2017-06-28_1061.txt, 1,2,3
+DEBUG(2017-06-29 12:07:28,229):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/mykita.com_2017-06-28_1061.txt
+DEBUG(2017-06-29 12:07:28,283):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:28,289):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:28,289):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:28,290):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:28,292):worker.py at 80:handling impressum
+DEBUG(2017-06-29 12:07:28,292):impressum.py at 62: Merkliste ( 0 ) Suche Warenkorb ( 0 ) Merkliste ( 0 ) Suche Impressum MYKITA GmbH, Ritterstrasse 9, 10969 Berlin, Germany Tel: +49 30 204566333
+DEBUG(2017-06-29 12:07:28,294):impressum.py at 101:defaultdict(<type 'str'>, {'Kreis': u'Friedrichshain-Kreuzberg', 'Land': u'Germany ', 'Ort': u'Berlin, ', 'PLZ': u'10969 ', 'Bundesland': u'Berlin', 'Unternehmen': u'MYKITA GmbH, ', 'Strasse': u'Ritterstrasse 9, '})
+DEBUG(2017-06-29 12:07:28,294):impressum.py at 62: mail@mykita.com Geschäftsführer: Franz Koch, Moritz Krueger. Amtsgericht Berlin Charlottenburg: HRB 91586 B, VAT No./Ust.IdNr: DE813901260
+INFO(2017-06-29 12:07:28,295):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:29,948):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:29,950):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:29,950):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:29,952):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:29,952):worker.py at 170:update for toplevel domain 1037 with site 1061
+DEBUG(2017-06-29 12:07:29,952):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:29,952):db_interface.py at 97:selecting results for 1037
+DEBUG(2017-06-29 12:07:29,953):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:29,953):db_interface.py at 125:setting error state for job
+ERROR(2017-06-29 12:07:29,954):worker.py at 243:error while processing job 849: list index out of range
+DEBUG(2017-06-29 12:07:29,954):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:29,954):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:29,956):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:29,956):worker.py at 215:processing job 862
+DEBUG(2017-06-29 12:07:29,956):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1077.txt, 2,3
+DEBUG(2017-06-29 12:07:29,956):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1077.txt
+DEBUG(2017-06-29 12:07:29,961):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:29,961):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:29,961):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:29,961):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:29,961):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:31,646):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:31,647):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:31,647):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:31,649):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:31,649):worker.py at 170:update for toplevel domain 610 with site 1077
+DEBUG(2017-06-29 12:07:31,649):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:31,649):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:31,650):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:31,650):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:31,650):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:31,650):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:31,651):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:31,651):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:31,651):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:31,651):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:31,653):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:31,653):worker.py at 215:processing job 871
+DEBUG(2017-06-29 12:07:31,653):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1090.txt, 2,3
+DEBUG(2017-06-29 12:07:31,653):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1090.txt
+DEBUG(2017-06-29 12:07:31,657):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:31,657):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:31,657):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:31,657):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:31,658):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:33,325):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:33,326):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:33,327):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:33,328):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:33,328):worker.py at 170:update for toplevel domain 610 with site 1090
+DEBUG(2017-06-29 12:07:33,328):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:33,328):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:33,329):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:33,329):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:33,329):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:33,329):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:33,330):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:33,330):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:33,330):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:33,331):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:33,332):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:33,332):worker.py at 215:processing job 875
+DEBUG(2017-06-29 12:07:33,332):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1095.txt, 2,3
+DEBUG(2017-06-29 12:07:33,332):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1095.txt
+DEBUG(2017-06-29 12:07:33,336):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:33,336):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:33,336):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:33,336):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:33,337):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:35,019):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:35,020):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:35,020):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:35,022):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:35,022):worker.py at 170:update for toplevel domain 610 with site 1095
+DEBUG(2017-06-29 12:07:35,022):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:35,022):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:35,023):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:35,023):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:35,023):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:35,023):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:35,024):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:35,024):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:35,024):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:35,024):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:35,026):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:35,026):worker.py at 215:processing job 876
+DEBUG(2017-06-29 12:07:35,026):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1097.txt, 2,3
+DEBUG(2017-06-29 12:07:35,026):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1097.txt
+DEBUG(2017-06-29 12:07:35,030):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:35,030):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:35,030):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:35,030):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:35,031):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:36,713):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:36,714):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:36,714):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:36,715):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:36,715):worker.py at 170:update for toplevel domain 610 with site 1097
+DEBUG(2017-06-29 12:07:36,716):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:36,716):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:36,717):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:36,717):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:36,717):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:36,717):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:36,718):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:36,718):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:36,718):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:36,718):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:36,720):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:36,720):worker.py at 215:processing job 908
+DEBUG(2017-06-29 12:07:36,720):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1140.txt, 2,3
+DEBUG(2017-06-29 12:07:36,720):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1140.txt
+DEBUG(2017-06-29 12:07:36,724):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:36,724):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:36,724):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:36,724):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:36,724):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:38,412):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:38,413):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:38,413):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:38,415):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:38,415):worker.py at 170:update for toplevel domain 610 with site 1140
+DEBUG(2017-06-29 12:07:38,415):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:38,415):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:38,416):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:38,416):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:38,416):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:38,416):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:38,417):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:38,417):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:38,417):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:38,418):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:38,419):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:38,419):worker.py at 215:processing job 913
+DEBUG(2017-06-29 12:07:38,419):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1149.txt, 2,3
+DEBUG(2017-06-29 12:07:38,419):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1149.txt
+DEBUG(2017-06-29 12:07:38,423):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:38,423):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:38,423):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:38,424):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:38,424):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:40,103):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:40,104):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:40,104):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:40,105):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:40,105):worker.py at 170:update for toplevel domain 610 with site 1149
+DEBUG(2017-06-29 12:07:40,106):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:40,106):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:40,107):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:40,107):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:40,107):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:40,107):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:40,108):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:40,108):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:40,108):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:40,108):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:40,110):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:40,110):worker.py at 215:processing job 915
+DEBUG(2017-06-29 12:07:40,110):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1153.txt, 2,3
+DEBUG(2017-06-29 12:07:40,110):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1153.txt
+DEBUG(2017-06-29 12:07:40,183):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:40,187):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:40,187):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:40,189):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:40,189):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:41,887):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:41,894):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:41,894):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:41,895):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:41,895):worker.py at 170:update for toplevel domain 610 with site 1153
+DEBUG(2017-06-29 12:07:41,896):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:41,896):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:41,897):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:41,897):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:41,897):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:41,897):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:41,898):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:41,898):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:41,898):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:41,898):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:41,899):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:41,900):worker.py at 215:processing job 916
+DEBUG(2017-06-29 12:07:41,900):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1154.txt, 1,2,3
+DEBUG(2017-06-29 12:07:41,900):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1154.txt
+DEBUG(2017-06-29 12:07:41,948):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:41,952):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:41,952):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:41,953):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:41,953):worker.py at 80:handling impressum
+INFO(2017-06-29 12:07:41,955):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:43,645):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:43,651):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:43,651):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:43,653):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:43,653):worker.py at 170:update for toplevel domain 610 with site 1154
+DEBUG(2017-06-29 12:07:43,653):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:43,653):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:43,654):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:43,654):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:43,654):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:43,654):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:43,655):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:43,655):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:43,655):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:43,655):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:43,657):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:43,657):worker.py at 215:processing job 917
+DEBUG(2017-06-29 12:07:43,657):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1155.txt, 2,3
+DEBUG(2017-06-29 12:07:43,657):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1155.txt
+DEBUG(2017-06-29 12:07:43,789):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:43,801):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:43,802):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:43,804):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:43,804):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:45,526):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:45,533):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:45,533):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:45,534):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:45,534):worker.py at 170:update for toplevel domain 610 with site 1155
+DEBUG(2017-06-29 12:07:45,534):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:45,534):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:45,536):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:45,536):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:45,536):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:45,536):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:45,537):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:45,537):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:45,537):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:45,537):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:45,539):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:45,539):worker.py at 215:processing job 919
+DEBUG(2017-06-29 12:07:45,539):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1157.txt, 2,3
+DEBUG(2017-06-29 12:07:45,539):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1157.txt
+DEBUG(2017-06-29 12:07:45,543):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:45,543):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:45,543):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:45,543):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:45,544):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:47,266):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:47,267):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:47,267):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:47,268):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:47,268):worker.py at 170:update for toplevel domain 610 with site 1157
+DEBUG(2017-06-29 12:07:47,268):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:47,268):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:47,269):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:47,270):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:47,270):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:47,270):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:47,271):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:47,271):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:47,271):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:47,271):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:47,273):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:47,273):worker.py at 215:processing job 922
+DEBUG(2017-06-29 12:07:47,273):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1161.txt, 2,3
+DEBUG(2017-06-29 12:07:47,273):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1161.txt
+DEBUG(2017-06-29 12:07:47,381):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:47,393):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:47,393):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:47,395):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:47,396):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:49,105):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:49,112):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:49,112):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:49,113):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:49,113):worker.py at 170:update for toplevel domain 610 with site 1161
+DEBUG(2017-06-29 12:07:49,113):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:49,113):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:49,115):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:49,115):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:49,115):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:49,115):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:49,116):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:49,116):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:49,116):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:49,116):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:49,118):db_interface.py at 72:returning results
+INFO(2017-06-29 12:07:49,118):worker.py at 215:processing job 923
+DEBUG(2017-06-29 12:07:49,118):worker.py at 74:processing job with http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1162.txt, 2,3
+DEBUG(2017-06-29 12:07:49,118):preprocess.py at 28:opening and reading url http://aapvl01.gnet.haw-hamburg.de/resources/15/html/api.smartredirect.de_2017-06-28_1162.txt
+DEBUG(2017-06-29 12:07:49,122):preprocess.py at 41:extracting text
+DEBUG(2017-06-29 12:07:49,122):preprocess.py at 45:pretify text
+DEBUG(2017-06-29 12:07:49,122):preprocess.py at 57:get all links and add them
+DEBUG(2017-06-29 12:07:49,122):preprocess.py at 64:done with preprocessing
+INFO(2017-06-29 12:07:49,123):worker.py at 90:handling shop
+INFO(2017-06-29 12:07:50,841):worker.py at 101:handling food
+DEBUG(2017-06-29 12:07:50,842):worker.py at 135:done with job
+DEBUG(2017-06-29 12:07:50,842):db_interface.py at 79:updating the results for a job
+DEBUG(2017-06-29 12:07:50,843):db_interface.py at 94:updated the database
+DEBUG(2017-06-29 12:07:50,843):worker.py at 170:update for toplevel domain 610 with site 1162
+DEBUG(2017-06-29 12:07:50,843):worker.py at 175:getting old results
+DEBUG(2017-06-29 12:07:50,844):db_interface.py at 97:selecting results for 610
+DEBUG(2017-06-29 12:07:50,845):db_interface.py at 108:returning results
+DEBUG(2017-06-29 12:07:50,845):worker.py at 177:calculating new results
+DEBUG(2017-06-29 12:07:50,845):worker.py at 199:writing new results to database
+DEBUG(2017-06-29 12:07:50,845):db_interface.py at 112:updating the results for pk: 978
+DEBUG(2017-06-29 12:07:50,846):db_interface.py at 120:updated the database
+DEBUG(2017-06-29 12:07:50,846):worker.py at 201:finished writing new results
+DEBUG(2017-06-29 12:07:50,846):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:07:50,846):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:07:50,847):worker.py at 238:found no job
+DEBUG(2017-06-29 12:11:50,948):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:11:50,948):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:11:50,949):worker.py at 238:found no job
+DEBUG(2017-06-29 12:15:51,050):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:15:51,050):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:15:51,051):worker.py at 238:found no job
+DEBUG(2017-06-29 12:19:51,152):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:19:51,152):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:19:51,153):worker.py at 238:found no job
+DEBUG(2017-06-29 12:23:51,199):worker.py at 209:get job from database and process
+DEBUG(2017-06-29 12:23:51,200):db_interface.py at 56:selecting NOT thread-safe one job from database
+DEBUG(2017-06-29 12:23:51,201):worker.py at 238:found no job
+DEBUG(2017-06-29 12:27:51,301):worker.py at 269:reached 5 tries. had 5 max_tries
+DEBUG(2017-06-29 12:27:51,302):worker.py at 252:shutting down
+DEBUG(2017-06-29 12:27:51,302):worker.py at 254:shutted down

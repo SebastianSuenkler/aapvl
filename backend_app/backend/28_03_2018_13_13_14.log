@@ -1,0 +1,303 @@
+DEBUG(2018-03-28 13:13:14,756):worker.py at 89:initializing worker
+DEBUG(2018-03-28 13:13:14,757):db_interface.py at 45:initializing database-interface
+DEBUG(2018-03-28 13:13:14,757):db_interface.py at 66:connecting to database with user config
+DEBUG(2018-03-28 13:13:14,761):db_interface.py at 48:initialized database-interface
+DEBUG(2018-03-28 13:13:14,761):classifier.py at 82:initializing classifier
+DEBUG(2018-03-28 13:13:14,761):classifier.py at 86:loading classifier
+DEBUG(2018-03-28 13:13:20,480):probability.py at 91:initializing probability object
+DEBUG(2018-03-28 13:13:20,480):probability.py at 93:loading the variables
+DEBUG(2018-03-28 13:13:20,481):probability.py at 95:initialized probability object
+DEBUG(2018-03-28 13:13:20,481):classifier.py at 97:initialized classifier
+DEBUG(2018-03-28 13:13:20,481):classifier.py at 82:initializing classifier
+DEBUG(2018-03-28 13:13:20,481):classifier.py at 86:loading classifier
+DEBUG(2018-03-28 13:13:20,517):probability.py at 91:initializing probability object
+DEBUG(2018-03-28 13:13:20,518):probability.py at 93:loading the variables
+DEBUG(2018-03-28 13:13:20,518):probability.py at 95:initialized probability object
+DEBUG(2018-03-28 13:13:20,518):classifier.py at 97:initialized classifier
+DEBUG(2018-03-28 13:13:20,518):classifier.py at 82:initializing classifier
+DEBUG(2018-03-28 13:13:20,518):classifier.py at 86:loading classifier
+DEBUG(2018-03-28 13:13:24,353):probability.py at 91:initializing probability object
+DEBUG(2018-03-28 13:13:24,354):probability.py at 93:loading the variables
+DEBUG(2018-03-28 13:13:24,354):probability.py at 95:initialized probability object
+DEBUG(2018-03-28 13:13:24,354):classifier.py at 97:initialized classifier
+DEBUG(2018-03-28 13:13:25,550):worker.py at 110:initialized worker
+DEBUG(2018-03-28 13:13:25,550):worker.py at 581:started schedule with -1 tries, 3600 delay and 4 checks per day
+DEBUG(2018-03-28 13:13:25,550):worker.py at 432:get job from database and process
+DEBUG(2018-03-28 13:13:25,550):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-03-28 13:13:25,639):worker.py at 463:found no job
+DEBUG(2018-03-28 19:13:25,662):worker.py at 432:get job from database and process
+DEBUG(2018-03-28 19:13:25,665):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-03-28 19:13:25,762):worker.py at 463:found no job
+DEBUG(2018-03-29 01:13:25,863):worker.py at 432:get job from database and process
+DEBUG(2018-03-29 01:13:25,863):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-03-29 01:13:25,942):worker.py at 463:found no job
+DEBUG(2018-03-29 07:13:25,975):worker.py at 432:get job from database and process
+DEBUG(2018-03-29 07:13:25,975):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-03-29 07:13:26,054):worker.py at 463:found no job
+DEBUG(2018-03-29 13:13:26,155):worker.py at 432:get job from database and process
+DEBUG(2018-03-29 13:13:26,156):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-03-29 13:13:26,243):worker.py at 463:found no job
+DEBUG(2018-03-29 19:13:26,344):worker.py at 432:get job from database and process
+DEBUG(2018-03-29 19:13:26,347):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-03-29 19:13:26,425):worker.py at 463:found no job
+DEBUG(2018-03-30 01:13:26,524):worker.py at 432:get job from database and process
+DEBUG(2018-03-30 01:13:26,526):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-03-30 01:13:26,610):worker.py at 463:found no job
+DEBUG(2018-03-30 07:13:26,689):worker.py at 432:get job from database and process
+DEBUG(2018-03-30 07:13:26,690):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-03-30 07:13:26,772):worker.py at 463:found no job
+DEBUG(2018-03-30 13:13:26,872):worker.py at 432:get job from database and process
+DEBUG(2018-03-30 13:13:26,873):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-03-30 13:13:26,965):worker.py at 463:found no job
+DEBUG(2018-03-30 19:13:27,027):worker.py at 432:get job from database and process
+DEBUG(2018-03-30 19:13:27,028):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-03-30 19:13:27,109):worker.py at 463:found no job
+DEBUG(2018-03-31 01:13:27,207):worker.py at 432:get job from database and process
+DEBUG(2018-03-31 01:13:27,208):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-03-31 01:13:27,281):worker.py at 463:found no job
+DEBUG(2018-03-31 07:13:27,333):worker.py at 432:get job from database and process
+DEBUG(2018-03-31 07:13:27,333):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-03-31 07:13:27,408):worker.py at 463:found no job
+DEBUG(2018-03-31 13:13:27,510):worker.py at 432:get job from database and process
+DEBUG(2018-03-31 13:13:27,511):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-03-31 13:13:27,585):worker.py at 463:found no job
+DEBUG(2018-03-31 19:13:27,664):worker.py at 432:get job from database and process
+DEBUG(2018-03-31 19:13:27,665):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-03-31 19:13:27,743):worker.py at 463:found no job
+DEBUG(2018-04-01 01:13:27,771):worker.py at 432:get job from database and process
+DEBUG(2018-04-01 01:13:27,771):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-01 01:13:27,847):worker.py at 463:found no job
+DEBUG(2018-04-01 07:13:27,854):worker.py at 432:get job from database and process
+DEBUG(2018-04-01 07:13:27,855):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-01 07:13:27,936):worker.py at 463:found no job
+DEBUG(2018-04-01 13:13:28,035):worker.py at 432:get job from database and process
+DEBUG(2018-04-01 13:13:28,035):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-01 13:13:28,111):worker.py at 463:found no job
+DEBUG(2018-04-01 19:13:28,183):worker.py at 432:get job from database and process
+DEBUG(2018-04-01 19:13:28,184):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-01 19:13:28,265):worker.py at 463:found no job
+DEBUG(2018-04-02 01:13:28,365):worker.py at 432:get job from database and process
+DEBUG(2018-04-02 01:13:28,366):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-02 01:13:28,442):worker.py at 463:found no job
+DEBUG(2018-04-02 07:13:28,449):worker.py at 432:get job from database and process
+DEBUG(2018-04-02 07:13:28,450):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-02 07:13:28,525):worker.py at 463:found no job
+DEBUG(2018-04-02 13:13:28,592):worker.py at 432:get job from database and process
+DEBUG(2018-04-02 13:13:28,593):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-02 13:13:28,669):worker.py at 463:found no job
+DEBUG(2018-04-02 19:13:28,714):worker.py at 432:get job from database and process
+DEBUG(2018-04-02 19:13:28,715):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-02 19:13:28,796):worker.py at 463:found no job
+DEBUG(2018-04-03 01:13:28,898):worker.py at 432:get job from database and process
+DEBUG(2018-04-03 01:13:28,900):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-03 01:13:28,978):worker.py at 463:found no job
+DEBUG(2018-04-03 07:13:29,042):worker.py at 432:get job from database and process
+DEBUG(2018-04-03 07:13:29,043):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-03 07:13:29,122):worker.py at 463:found no job
+DEBUG(2018-04-03 13:13:29,181):worker.py at 432:get job from database and process
+DEBUG(2018-04-03 13:13:29,182):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-03 13:13:29,258):worker.py at 463:found no job
+DEBUG(2018-04-03 19:13:29,359):worker.py at 432:get job from database and process
+DEBUG(2018-04-03 19:13:29,359):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-03 19:13:29,436):worker.py at 463:found no job
+DEBUG(2018-04-04 01:13:29,537):worker.py at 432:get job from database and process
+DEBUG(2018-04-04 01:13:29,537):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-04 01:13:29,617):worker.py at 463:found no job
+DEBUG(2018-04-04 07:13:29,659):worker.py at 432:get job from database and process
+DEBUG(2018-04-04 07:13:29,661):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-04 07:13:29,738):worker.py at 463:found no job
+DEBUG(2018-04-04 13:13:29,867):worker.py at 432:get job from database and process
+DEBUG(2018-04-04 13:13:29,912):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-04 13:13:30,027):worker.py at 463:found no job
+INFO(2018-04-04 13:13:30,663):worker.py at 484:no manually labeled data to retrain from
+DEBUG(2018-04-04 19:13:30,752):worker.py at 432:get job from database and process
+DEBUG(2018-04-04 19:13:30,753):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-04 19:13:30,996):worker.py at 463:found no job
+DEBUG(2018-04-05 01:13:31,021):worker.py at 432:get job from database and process
+DEBUG(2018-04-05 01:13:31,022):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-05 01:13:31,101):worker.py at 463:found no job
+DEBUG(2018-04-05 07:13:31,122):worker.py at 432:get job from database and process
+DEBUG(2018-04-05 07:13:31,122):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-05 07:13:31,217):worker.py at 463:found no job
+DEBUG(2018-04-05 13:13:31,267):worker.py at 432:get job from database and process
+DEBUG(2018-04-05 13:13:31,267):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-05 13:13:31,360):worker.py at 463:found no job
+DEBUG(2018-04-05 19:13:31,449):worker.py at 432:get job from database and process
+DEBUG(2018-04-05 19:13:31,450):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-05 19:13:31,526):worker.py at 463:found no job
+DEBUG(2018-04-06 01:13:31,627):worker.py at 432:get job from database and process
+DEBUG(2018-04-06 01:13:31,628):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-06 01:13:31,701):worker.py at 463:found no job
+DEBUG(2018-04-06 07:13:31,771):worker.py at 432:get job from database and process
+DEBUG(2018-04-06 07:13:31,774):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-06 07:13:31,866):worker.py at 463:found no job
+DEBUG(2018-04-06 13:13:31,892):worker.py at 432:get job from database and process
+DEBUG(2018-04-06 13:13:31,893):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-06 13:13:31,977):worker.py at 463:found no job
+DEBUG(2018-04-06 19:13:32,075):worker.py at 432:get job from database and process
+DEBUG(2018-04-06 19:13:32,076):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-06 19:13:32,163):worker.py at 463:found no job
+DEBUG(2018-04-07 01:13:35,193):worker.py at 432:get job from database and process
+DEBUG(2018-04-07 01:13:35,193):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-07 01:13:35,271):worker.py at 463:found no job
+DEBUG(2018-04-07 07:13:35,280):worker.py at 432:get job from database and process
+DEBUG(2018-04-07 07:13:35,281):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-07 07:13:35,358):worker.py at 463:found no job
+DEBUG(2018-04-07 13:13:35,459):worker.py at 432:get job from database and process
+DEBUG(2018-04-07 13:13:35,460):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-07 13:13:35,543):worker.py at 463:found no job
+DEBUG(2018-04-07 19:13:35,643):worker.py at 432:get job from database and process
+DEBUG(2018-04-07 19:13:35,644):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-07 19:13:35,720):worker.py at 463:found no job
+DEBUG(2018-04-08 01:13:37,731):worker.py at 432:get job from database and process
+DEBUG(2018-04-08 01:13:37,734):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-08 01:13:37,813):worker.py at 463:found no job
+DEBUG(2018-04-08 07:13:37,879):worker.py at 432:get job from database and process
+DEBUG(2018-04-08 07:13:37,879):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-08 07:13:37,957):worker.py at 463:found no job
+DEBUG(2018-04-08 13:13:38,002):worker.py at 432:get job from database and process
+DEBUG(2018-04-08 13:13:38,003):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-08 13:13:38,087):worker.py at 463:found no job
+DEBUG(2018-04-08 19:13:38,188):worker.py at 432:get job from database and process
+DEBUG(2018-04-08 19:13:38,188):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-08 19:13:38,264):worker.py at 463:found no job
+DEBUG(2018-04-09 01:13:40,338):worker.py at 432:get job from database and process
+DEBUG(2018-04-09 01:13:40,339):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-09 01:13:40,414):worker.py at 463:found no job
+DEBUG(2018-04-09 07:13:40,512):worker.py at 432:get job from database and process
+DEBUG(2018-04-09 07:13:40,513):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-09 07:13:40,590):worker.py at 463:found no job
+DEBUG(2018-04-09 13:13:40,624):worker.py at 432:get job from database and process
+DEBUG(2018-04-09 13:13:40,625):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-09 13:13:40,702):worker.py at 463:found no job
+DEBUG(2018-04-09 19:13:40,801):worker.py at 432:get job from database and process
+DEBUG(2018-04-09 19:13:40,802):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-09 19:13:40,882):worker.py at 463:found no job
+DEBUG(2018-04-10 01:13:42,990):worker.py at 432:get job from database and process
+DEBUG(2018-04-10 01:13:42,990):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-10 01:13:43,094):worker.py at 463:found no job
+DEBUG(2018-04-10 07:13:43,119):worker.py at 432:get job from database and process
+DEBUG(2018-04-10 07:13:43,119):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-10 07:13:43,193):worker.py at 463:found no job
+DEBUG(2018-04-10 13:13:43,294):worker.py at 432:get job from database and process
+DEBUG(2018-04-10 13:13:43,294):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-10 13:13:43,384):worker.py at 463:found no job
+DEBUG(2018-04-10 19:13:43,485):worker.py at 432:get job from database and process
+DEBUG(2018-04-10 19:13:43,485):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-10 19:13:43,559):worker.py at 463:found no job
+DEBUG(2018-04-11 01:13:45,659):worker.py at 432:get job from database and process
+DEBUG(2018-04-11 01:13:45,659):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-11 01:13:45,734):worker.py at 463:found no job
+DEBUG(2018-04-11 07:13:45,753):worker.py at 432:get job from database and process
+DEBUG(2018-04-11 07:13:45,754):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-11 07:13:45,834):worker.py at 463:found no job
+DEBUG(2018-04-11 13:13:45,935):worker.py at 432:get job from database and process
+DEBUG(2018-04-11 13:13:45,936):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-11 13:13:46,026):worker.py at 463:found no job
+INFO(2018-04-11 13:13:46,363):worker.py at 484:no manually labeled data to retrain from
+DEBUG(2018-04-11 19:13:46,403):worker.py at 432:get job from database and process
+DEBUG(2018-04-11 19:13:46,404):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-11 19:13:46,518):worker.py at 463:found no job
+DEBUG(2018-04-12 01:13:48,609):worker.py at 432:get job from database and process
+DEBUG(2018-04-12 01:13:48,611):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-12 01:13:48,714):worker.py at 463:found no job
+DEBUG(2018-04-12 07:13:48,735):worker.py at 432:get job from database and process
+DEBUG(2018-04-12 07:13:48,736):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-12 07:13:48,808):worker.py at 463:found no job
+DEBUG(2018-04-12 13:13:48,843):worker.py at 432:get job from database and process
+DEBUG(2018-04-12 13:13:48,845):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-12 13:13:48,927):worker.py at 463:found no job
+DEBUG(2018-04-12 19:13:48,937):worker.py at 432:get job from database and process
+DEBUG(2018-04-12 19:13:48,939):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-12 19:13:49,039):worker.py at 463:found no job
+DEBUG(2018-04-13 01:13:51,094):worker.py at 432:get job from database and process
+DEBUG(2018-04-13 01:13:51,094):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-13 01:13:51,170):worker.py at 463:found no job
+DEBUG(2018-04-13 07:13:51,184):worker.py at 432:get job from database and process
+DEBUG(2018-04-13 07:13:51,185):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-13 07:13:51,265):worker.py at 463:found no job
+DEBUG(2018-04-13 13:13:51,275):worker.py at 432:get job from database and process
+DEBUG(2018-04-13 13:13:51,276):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-13 13:13:51,373):worker.py at 463:found no job
+DEBUG(2018-04-13 19:13:51,475):worker.py at 432:get job from database and process
+DEBUG(2018-04-13 19:13:51,476):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-13 19:13:51,552):worker.py at 463:found no job
+DEBUG(2018-04-14 01:13:53,686):worker.py at 432:get job from database and process
+DEBUG(2018-04-14 01:13:53,687):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-14 01:13:53,779):worker.py at 463:found no job
+DEBUG(2018-04-14 07:13:53,881):worker.py at 432:get job from database and process
+DEBUG(2018-04-14 07:13:53,883):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-14 07:13:53,962):worker.py at 463:found no job
+DEBUG(2018-04-14 13:13:54,054):worker.py at 432:get job from database and process
+DEBUG(2018-04-14 13:13:54,056):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-14 13:13:54,136):worker.py at 463:found no job
+DEBUG(2018-04-14 19:13:54,191):worker.py at 432:get job from database and process
+DEBUG(2018-04-14 19:13:54,193):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-14 19:13:54,280):worker.py at 463:found no job
+DEBUG(2018-04-15 01:13:56,369):worker.py at 432:get job from database and process
+DEBUG(2018-04-15 01:13:56,370):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-15 01:13:56,444):worker.py at 463:found no job
+DEBUG(2018-04-15 07:13:56,454):worker.py at 432:get job from database and process
+DEBUG(2018-04-15 07:13:56,454):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-15 07:13:56,527):worker.py at 463:found no job
+DEBUG(2018-04-15 13:13:56,614):worker.py at 432:get job from database and process
+DEBUG(2018-04-15 13:13:56,615):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-15 13:13:56,699):worker.py at 463:found no job
+DEBUG(2018-04-15 19:13:56,769):worker.py at 432:get job from database and process
+DEBUG(2018-04-15 19:13:56,770):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-15 19:13:56,848):worker.py at 463:found no job
+DEBUG(2018-04-16 01:13:58,962):worker.py at 432:get job from database and process
+DEBUG(2018-04-16 01:13:58,964):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-16 01:13:59,039):worker.py at 463:found no job
+DEBUG(2018-04-16 07:13:59,118):worker.py at 432:get job from database and process
+DEBUG(2018-04-16 07:13:59,120):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-16 07:13:59,196):worker.py at 463:found no job
+DEBUG(2018-04-16 13:13:59,292):worker.py at 432:get job from database and process
+DEBUG(2018-04-16 13:13:59,293):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-16 13:13:59,380):worker.py at 463:found no job
+DEBUG(2018-04-16 19:13:59,454):worker.py at 432:get job from database and process
+DEBUG(2018-04-16 19:13:59,455):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-16 19:13:59,535):worker.py at 463:found no job
+DEBUG(2018-04-17 01:14:01,636):worker.py at 432:get job from database and process
+DEBUG(2018-04-17 01:14:01,636):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-17 01:14:01,717):worker.py at 463:found no job
+DEBUG(2018-04-17 07:14:01,818):worker.py at 432:get job from database and process
+DEBUG(2018-04-17 07:14:01,820):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-17 07:14:01,895):worker.py at 463:found no job
+DEBUG(2018-04-17 13:14:01,997):worker.py at 432:get job from database and process
+DEBUG(2018-04-17 13:14:01,999):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-17 13:14:02,085):worker.py at 463:found no job
+DEBUG(2018-04-17 19:14:02,129):worker.py at 432:get job from database and process
+DEBUG(2018-04-17 19:14:02,131):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-17 19:14:02,225):worker.py at 463:found no job
+DEBUG(2018-04-18 01:14:04,353):worker.py at 432:get job from database and process
+DEBUG(2018-04-18 01:14:04,354):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-18 01:14:04,428):worker.py at 463:found no job
+DEBUG(2018-04-18 07:14:04,530):worker.py at 432:get job from database and process
+DEBUG(2018-04-18 07:14:04,531):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-18 07:14:04,604):worker.py at 463:found no job
+DEBUG(2018-04-18 13:14:04,688):worker.py at 432:get job from database and process
+DEBUG(2018-04-18 13:14:04,690):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-18 13:14:04,777):worker.py at 463:found no job
+INFO(2018-04-18 13:14:05,108):worker.py at 484:no manually labeled data to retrain from
+DEBUG(2018-04-18 19:14:05,209):worker.py at 432:get job from database and process
+DEBUG(2018-04-18 19:14:05,210):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-18 19:14:05,312):worker.py at 463:found no job
+DEBUG(2018-04-19 01:14:07,383):worker.py at 432:get job from database and process
+DEBUG(2018-04-19 01:14:07,383):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-19 01:14:07,456):worker.py at 463:found no job
+DEBUG(2018-04-19 07:14:07,557):worker.py at 432:get job from database and process
+DEBUG(2018-04-19 07:14:07,559):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-19 07:14:07,635):worker.py at 463:found no job
+DEBUG(2018-04-19 13:14:07,736):worker.py at 432:get job from database and process
+DEBUG(2018-04-19 13:14:07,737):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-19 13:14:07,815):worker.py at 463:found no job
+DEBUG(2018-04-19 19:14:07,906):worker.py at 432:get job from database and process
+DEBUG(2018-04-19 19:14:07,907):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-19 19:14:07,986):worker.py at 463:found no job
+DEBUG(2018-04-20 01:14:10,089):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 01:14:10,090):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 01:14:10,166):worker.py at 463:found no job
+DEBUG(2018-04-20 07:14:10,264):worker.py at 432:get job from database and process
+DEBUG(2018-04-20 07:14:10,265):db_interface.py at 80:selecting NOT thread-safe one job from database
+DEBUG(2018-04-20 07:14:10,344):worker.py at 463:found no job
