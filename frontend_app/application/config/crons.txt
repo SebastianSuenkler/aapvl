@@ -1,0 +1,10 @@
+/** Template file for the cronjobs to run background processes for the AAPVL Tool http://xxx has to replaced by the actual URL of the application. The curl library is mandatory.
+* @param string /jobs/urls = method to handle URL lists (saving URLs to the database)
+* @param string /jobs/scraping = method to handle Scraping Jobs (saving scraped search results to the database)
+* @param string jobs/reset_scraper_jobs = method to reset failed scraping jobs
+*/
+
+# m h  dom mon dow   command
+*/10 * * * * curl http://aapvl01.gnet.haw-hamburg.de/jobs/urls
+*/10 * * * * curl http://aapvl01.gnet.haw-hamburg.de/jobs/scraping
+0 */8 * * *  curl http://aapvl01.gnet.haw-hamburg.de/jobs/reset_scraper_jobs
